@@ -1,0 +1,44 @@
+Title: YC Founder Firesides: Mutiny on AI and the next era of company growth
+Author: Y Combinator
+URL: https://www.ycombinator.com/blog/yc-founder-firesides-mutiny-on-ai-and-the-next-era-of-company-growth
+
+YC Founder Firesides: Mutiny on AI and the next era of company growth
+October 24, 2022·by Y Combinator
+Mutiny (YC S18) uses AI and data to convert website visitors into customers. Today, the fastest growing B2B companies such as Notion and Snowflake use Mutiny to identify ideal customers, determine sections of websites that will increase conversion, and produce copy that converts visitors into customers. 
+YC’s Anu Hariharan sat down with Mutiny co-founder and CEO Jaleh Rezaei to talk about their recent acquisition of Intellipse, an AI marketing platform, as well as how AI will impact the next era of growth. Throughout, Jaleh shares advice about acquisitions as a growth strategy and evolving your product with AI. 
+You can listen here or on Spotify, Apple Podcasts, and Twitter.
+YC Founder Firesides: Mutiny on AI and the next era of company growth
+1:35 - What is the founding story of Mutiny? 
+There are two levers of growth: demand and conversion. Often companies improve their conversion rate by hiring a dedicated growth team – but it is difficult to build a system from scratch and hire the engineers to do so. Jaleh and her co-founder decided to create a no code platform and serve as the world’s growth team. 
+4:25 - Jaleh elaborates on the challenges growth teams face in conversion optimization. 
+Teams first source and use data to understand the part of the funnel to prioritize. Then they estimate revenue improvements and brainstorm tactics to improve conversion. (The time invested compared to impact is taken into consideration.) Finally, the engineers build a measurement system to capture the impact of those changes. The entire process takes months. With Mutiny, this process takes minutes even for people who aren’t technical and has a massive impact on teams’ ability to launch new experiences and optimize conversion. 
+9:00 - When should a startup use Mutiny? 
+There are use cases for pre-product market fit companies (as long as you know the customers you want to go after) and post-product market fit.
+Example 1: Notion drives 60% more leads through paid marketing
+Example 2: Snowflake builds an ABM and enterprise marketing program
+12:50 - You recently shared that with data and AI, Mutiny transforms conversion from a niche A/B testing tool to a platform that every go-to-market team can use to drive efficient growth at scale. What does that mean, and how have you leveraged the advances in AI over the last four years? 
+When you can give the entire go-to-market team x-ray vision into every visitor and how they are converting – and then pair that insight with the ability to change the website for different segments – every team will make the website a core part of their strategy to drive more revenue. Mutiny uses AI to give teams this insight and answer questions like: What segments should I prioritize? What parts of the website should I change? What copy will resonate? Where should I focus? 
+17:00 - At Mutiny when looking at data, when do you know the right questions to ask and when do you say these are not questions we need to optimize now?
+In the early days, one of the most valuable things we did was follow our customers’ growth teams. We would attend team meetings, watch them use our product, and ask questions. It became clear what we should build for our customers. 
+20:30 - Since you started Mutiny, what are some of the advances in AI that you’ve leveraged? 
+We did things that didn't scale in the early days to solve customers’ problems. As our customers grew, our data set grew and we used AI models and inputs to improve our recommendation engines and service a broader customer base. Today, we can build models that tell a user where on the website they should make changes and write personalized copy leveraging GPT-3. 
+29:10 - Did you have moments when you felt Mutiny could be doing more with the advances being made in AI? 
+We saw an opportunity to marry our proprietary data set with GPT-3 to produce highly personalized copy. 
+32:15 - GPT-3 was an inflection point for Munity. What is the next inflection point? 
+There are a lot of opportunities with DALL-E, as visuals are important in marketing.
+36:30 - Do you have cautionary advice on how to think about using technologies like GPT-3 and DALL-E for founders dabbling in AI? 
+Think through the ultimate long-term vision of the product and the long-term defensibility of the business. And launch fast, as technology develops quickly. 
+38:40 - What advice do you have for founders in terms of leveraging OpenAI, GPT-3, etc. while focusing on the long-term vision? 
+Your vision and long-term view is separate from your day-to-day execution. Your long-term vision (i.e. the opportunity and what you’re trying to create over the course of a decade) provides clarity around where you’re trying to go and brings other people along with you, like your investors and employees. Day-to-day, you’re focused and executing quickly – and not always thinking about the ten year vision when you’re building V1.
+43:45 - You decided to grow your team by acquiring Intellipse. And now, Mutiny has one of the larger engineering teams with production experience in modern marketing AI technologies. Why did you decide to pursue an acquisition? 
+Founders have to look for inflection points where something happens in the market leading to the “old way” no longer being as good. And as a result, a much larger portion of the market is open to a new and better way. We’re in a recession, and this is an inflection point for Mutiny. Companies need to convert every dollar to a customer, and Mutiny has built a product that makes marketing dollars more efficient. We can accelerate our road map with the acquisition of Intellipse
+46:40 - How did you know you wanted to work with the Intellipse team so much that you had to go through an acquisition?
+We were interested in the Intellipse team and the skills the team had developed. Their CTO and senior engineers had a unique experience with marketing AI and newer technologies, like GPT-3.
+The personality and values of the founder spreads in an organization and becomes the company culture. After getting to know the founder and the free am, it was evident the two companies had a similar culture and shared values – and we’d be able to bring this team in and enhance our culture.
+50:15 - How long did it take to assess the culture? 
+We spent the same amount of time with each individual as if we were hiring them onto the team through our typical recruiting process.
+51:30 - Do you expect to acquire more companies in the future? And how should founders and CEOs determine whether this strategy is right for their company? 
+Be clear about your goals and why an acquisition is the right way to achieve those goals. When a company is working toward a similar goal – building something we would have done ourselves – it is a successful acquisition. With Intellipse, the team shared similar goals and company culture, and could accelerate our timing.
+We want to hire founders onto our product team who are user focused and move quickly. Founders can focus their entrepreneurial energy on building a product and growing that business area within Mutiny. 
+54:55 - What are your thoughts about how AI will impact the next ten years? 
+There has been enough productization of backend AI technologies that as a founder you can tap into AI to accelerate the product you want to build and the value you give to customers. From a user and growth perspective, AI enables us to automate many of the tasks no one wants to do. And for those who aren’t technical – but understand what they are trying to do – they can now be self sufficient.

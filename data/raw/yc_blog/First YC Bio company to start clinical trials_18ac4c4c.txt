@@ -1,0 +1,20 @@
+Title: First YC Bio company to start clinical trials
+Author: Jared Friedman
+URL: https://www.ycombinator.com/blog/shasqi-first-in-human-clinical-trials
+
+First YC Bio company to start clinical trials
+October 14, 2020·by Jared Friedman
+Shasqi is the first YC Bio company to start first-in-human clinical trials for a drug.
+We’re very excited to share the news that Shasqi is the first YC Bio company to have a drug enter first-in-human clinical trials1. Shasqi is developing a novel therapy for cancer that allows a chemotherapy drug to be delivered much more precisely to the tumor. They dosed two cancer patients over the last couple of weeks and their Phase 1 trial’s enrollment is progressing well.
+Shasqi is the first therapeutics company YC funded, back in 2015 when we launched YC Bio.
+We started YC Bio because we believed that there were brilliant scientists who wanted to start life science companies, but struggled to find investors who would fund them to get started. We didn’t know him yet, but José Mejia Oneto, the founder of Shasqi, is exactly the kind of scientist we had in mind.
+José has an unusual background: he is both a PhD in organic chemistry and trained in orthopaedic surgery. The idea behind Shasqi draws on both fields, which is probably why Jose was uniquely positioned to see it.
+In 2014, José had just left his medical residency to pursue the idea for Shasqi. To learn the basics of starting a company, he watched YC’s Startup School talks. When he heard that YC had started funding biotech startups, he applied.
+During the YC program, José made incredibly rapid progress. In just three months, he was able to show in a breast cancer mouse model that his new treatment approach outperformed conventional chemo. Since then, we’ve watched Shasqi continue to operate at impressive speed, closing a seed round and then a Series A, and moving rapidly through preclinical studies.
+As exciting as it is for their first drug to enter clinical testing, Shasqi’s vision goes much further. Its core technology, Click Chemistry Activated Protodrug Against Cancer (CAPAC), is a true platform can be used beyond chemotherapies and small molecules, into peptides, antibodies, cytokines, and other types of cancer therapies – anytime you want a cancer drug at a specific area of the body. It is based on click chemistry, a powerful technique that is used widely in the lab but has not been used in humans before. In the future, Shasqi’s technology could underlie dozens of approved drugs.
+We couldn’t be more proud to have gotten to play a small role in helping Shasqi get started.
+Notes
+1. To be specific, other YC Bio companies have had drugs in human clinical trials through research IND’s and expanded access IND’s. Shasqi is the first to have a commercial IND, which is what is required to get a drug approved for general use.↩
+Author
+Jared Friedman
+Jared is Managing Director, Software and Group Partner at YC. He was cofounder of Scribd, which was funded by Y Combinator in 2006 and grew to be one of the top 100 sites on the web.

@@ -1,0 +1,47 @@
+Title: 2021 — YC Year in Review
+Author: WorldRemit
+URL: https://www.ycombinator.com/blog/2021-yc-year-in-review
+
+2021 — YC Year in Review
+In June, I wrote a blog post comparing YC to CRISPR. When a founder is accepted into YC, we modify the startup’s DNA, edit it, to include key alleles that make success more likely. In the end, however, the secret to success of any startup lies squarely with the founders — their vision and their execution. We simply help those founders discover the very best versions of themselves.
+In 2021, many YC founders led their companies to achieve outstanding results, and we are honored to be part of these companies’ history. This year presented an exceptional challenge to startups and established companies alike as the world struggled through a full year in the grip of the COVID-19 pandemic. As we all stayed remote and worked to operate effectively without offices, the startup environment thrived. Seed funding grew 56 percent year over year and totaled $29.4 billion in 2021, per Crunchbase data, with more than 17,000 startups around the world raising funding at seed.
+Of course, YC itself remained remote during 2021, as did all of our programs. Like most of the world, there were ups and downs. Some of us fell ill, but thankfully none seriously. We believed towards the end of 2021 that the pandemic was entering an easier phase, only to be confronted, like everyone else, with Omicron. Despite this unique macro environment, there were many notable liquidity events for YC companies.
+Prior to 2021 a total of four companies we funded had entered the public markets. In 2021 an extraordinary ten YC companies went public.
+In February, Lucira Health (W15), a company focused on the development and commercialization of infectious disease test kits, went public. Their COVID-19 test kit has received OTC authorization in the U.S. and Canada and has started aiding in testing programs that enable safe reopening.
+In April, Coinbase (S12) went public. We reminisced about our early impression of co-founder and CEO Brian Armstrong, and reflected on the company’s excellent execution.
+In July, Matterport (W12), the spatial data company, went public. In one year, they more than doubled their subscriber count to 439,000 subscribers and have brought 6.2 million buildings and spaces online.
+In August, Momentus (S18), a space company that plans to offer transportation and other in-space infrastructure services, went public. Since then, they have completed the initial assembly and initial system-level functional testing of their Vigoride 3, which is designed to be capable of launching on most large, mid-sized, and small rockets.
+In September, Amplitude (W12) went public. We reflected on the founders’ going through multiple pivots before landing on the perfect idea for them: mobile analytics.
+In September, Ginkgo Bioworks (S14), the first biotech company YC funded, went public. We told the story of how Ginkgo Bioworks ended up in YC, and their journey as YC’s first biotech startup.
+In October, GitLab (W15) was our first open-source company to IPO, as well as the first alum of the Growth Program to start trading publicly. We shared details that show the team at GitLab embodies the open-source mindset, not just in technology, but in culture and spirit.
+In November, Weave (W14) went public. We spoke to the epic ups and downs that the founders pushed through — and ultimately, Weave became fundamental to how offices run.
+In November, Embark Trucks (W16) went public. We reflected on the young team's passion, energy, and commitment, and how the initial idea shifted to focus on a different market.
+In December, Pardes Biosciences (S20), a clinical-stage biopharmaceutical company developing PBI-0451 as a novel direct-acting, oral antiviral drug candidate designed to treat SARS-CoV-2 infections, went public. PBI-0451 is currently in Phase I clinical study with early results showing potential for an unboosted oral regimen against COVID-19.
+Also, in 2021 there were a number of companies that had significant exits via an acquisition. Here are highlights:
+Sendwave (W12) was acquired by WorldRemit.
+Clever (S12) was acquired by Kahoot!.
+Caper (W16) was acquired by Instacart (S12).
+Sqreen (W18) was acquired by Datadog.
+Bear Flag Robotics (W18) was acquired by John Deere.
+OpenInvest (S15) was acquired by JPMorgan Chase.
+Modern Fertility (S17) was acquired by Roman Health Ventures.
+Paystack (W16) was acquired by Stripe (S09).
+DrChrono (W11) was acquired by EverCommerce.
+Chargehound (W14) was acquired by PayPal.
+Truebill (W16) was acquired by Rocket Companies.
+Our batch program funded 750 companies in 2021 — the most ever in a year. The YC admissions team sifted through tens of thousands of applications and the selection team, including all of our Group Partners, reviewed thousands of apps until our eyes blurred. And then we sat for thousands of virtual interviews for each batch. In the end, we funded 350 companies in the Winter 2021 batch and 402 companies in the Summer 2021 batch. Demo Day for both batches remained completely virtual of course, but it was remarkably successful as more than 3,000 investors attended and YC companies raised record amounts of seed funding.
+YC’s Continuity funds are now maturing. We launched the first YCC fund over six years ago and in 2021, YC participated in the funding of several of our most successful companies.
+Coinbase and Gitlab, key investments in YCC’s portfolio, went public in 2021.
+11 YC companies were added to the YCC portfolio, including Deel, Fivetran, OpenSea, Pave, Posthog, Razorpay, RevenueCat, Vanta, Whatnot, Zepto, and one not yet announced.
+We increased our investments in top companies like Brex, Faire, Groww, Lob, Podium, and others.
+Valuations of YC companies have continued to soar and today 150 companies are valued at $150 million or more and 60 companies are valued at $1 billion or more.
+I would be remiss not to mention that YC wouldn’t function without the people that make up this organization. At YC, we are founders, operators, and experts; we’re building the programs that we wished we had as founders and working as experts and operators alongside our companies. We are growing our team to support these programs, and in 2021, we welcomed 30 people to YC. Key additions in our software, legal, and finance teams helped those teams scale to meet the needs of an ever expanding number of founders, companies, and deals to manage. And in 2021 our Outreach team helped launch hundreds of companies and organized dozens of YC events at schools around the world.
+A few program highlights:
+Startup School, our free online program and community to help aspiring founders learn about startups, build a product, and track growth, signed up over 100,000 founders and aspiring founders and launched co-founder matching, which led to new YC companies.
+Work at a Startup, our platform for candidates to apply to top YC startups with a single profile, helped 600 people find jobs and ran six hiring events, including our first Women in Engineering series and Crypto Tech Talks.
+The Series A Program, our program that prepares YC founders for raising their Series A, helped nearly 200 YC companies raise $3.5B+ from more than 150 investors, like Accel, A16Z, Benchmark, Coatue, Founders Fund, General Catalyst, Khosla Ventures, Ribbit, Sequoia, Tiger Global, and more.
+The Post-A Program, our program that teaches best practices for managing this stage company, and the Growth Program, our program and community for CEOs of YC’s fastest-growing companies, nearly doubled the number of companies served compared to 2020.
+If you made it this far, well I am impressed. Thank you! I’ll just end here by pointing out that, like our companies, Y Combinator is always evolving and never stagnant. We have big plans for 2022 and will continue to iterate to provide the best founders in the world with the best programs and tools to improve their chances of outsize success.
+Author
+Geoff Ralston
+Geoff Ralston is the former President of Y Combinator and has been with YC since 2011. Prior to YC, he built one of the first web mail services, RocketMail which became Yahoo Mail in 1997.

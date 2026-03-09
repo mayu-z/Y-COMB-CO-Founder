@@ -1,0 +1,27 @@
+Title: New year, new company - 10 additional spots in W24 for late applicants
+Author: Y Combinator
+URL: https://www.ycombinator.com/blog/new-year-new-company
+
+New year, new company - 10 additional spots in W24 for late applicants
+December 7, 2023·by Y Combinator
+The end of the year is a time of reflection and when many founders decide it's time to make a change and get serious about their startup. 
+Even though the official YC W24 application deadline was in October, we know there are founders that haven't already applied but are interested in being a part of the batch. These founders have decided now is the time to get serious about their startup. We didn’t want those people to miss out on the chance to participate in the W24 batch.
+Thus, we are opening up at least 10 additional spots in the W24 batch for companies that apply now via a special application process. 
+Here are the details on this process:
+To apply for these late W24 interviews, just start a regular application on our website. In your answer to the question “If you have a referral code”, include the string: NYW24
+The deadline to apply is December 13 at 5pm Pacific Time.
+Founders that participate in this process will hear back from YC by December 20th. (Yes, that’s a 7 day turnaround time)
+This is for founders that did not already apply for the W24 batch at some point in the past. 
+
+p.s. For those founders who are doing ML and need GPU resources for training ML models, in addition to YC’s standard deal investment of $500,000, we’ve put together new deals worth over $1,000,000+ that can be used to access GPU compute resources with Microsoft Azure and AWS.
+FAQ
+What if I already applied to W24?
+Unfortunately, you won’t be eligible. This is only for founders who did not already apply for W24, since we already sent out notifications for our regular application cycle.
+What if I apply before December 13th?
+That's fine. You’ll hear back from us by December 20th.
+Am I too early to apply to YC if all I have is just an idea? Should I wait until I have more traction?
+No, if you have at least one co-founder and you are all excited to do a startup, it would be a mistake to wait to apply. On average, 40% of the companies we fund in each batch are just an idea. 
+Who is this for?
+For founders that did not already apply for the W24 batch but recently decided they are ready to do YC.
+If I don’t get selected for an interview, what happens?
+If we don’t select you for an interview, we will notify you by December 20th

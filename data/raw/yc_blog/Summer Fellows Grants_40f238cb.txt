@@ -1,0 +1,39 @@
+Title: Summer Fellows Grants
+Author: Harj Taggar
+URL: https://www.ycombinator.com/blog/summer-fellows
+
+Summer Fellows Grants | Y Combinator
+February 17, 2025·by Harj Taggar
+This summer, YC will be giving grants to college students to work on their own technical projects. We’re calling these the Summer Fellows Grants.
+We hope this will encourage the smartest students to indulge their intellectual curiosity this summer instead of doing intern grunt work. Now is the best time ever to do this — AI models keep pushing the limits of what's possible to build, and AI tools are rapidly making programmers more productive. The returns from spending a summer building things at the edge of your programming ability have never been higher.
+The grants will be $20,000 in cash and $90,000 in compute credits from Amazon AWS, Microsoft Azure, and Google GCP. Summer Fellows will also be invited to YC's AI Startup School June 16 - 17, and we’ll also hold some special events:
+June 15: Kickoff dinner with the other Fellows and guests
+June 18 - 20: We’ll host you to co-work from the YC office.
+Aug 20 - 22: Co-working again from the YC office.
+Aug 22: Present what you’ve built to everyone at Demo Day.
+Apply For A Summer Fellows Grant 
+We’re most interested in funding technical projects using AI in new ways, but we’re happy to fund anything that smart programmers find interesting. We’re not expecting the projects to be commercial or make money, though it’d be fine if they did.
+If this sounds interesting, you can apply here. The next step will be a 15 minute online video interview at the end of March, after which we'll make our decisions.
+The following YC companies are also offering credits to Summer Fellows: Fly.io ($50k), Supabase ($10k), Replicate ($10k) and Resend ($3k).
+FAQ
+Who is eligible to apply for the grants?
+Any undergraduate computer science or engineering college student, including freshmen and students outside the US.
+Can I apply with a team?
+We’re giving the grants to individuals. If you plan on working with someone else, you should each apply individually and let us know in the application that you’ll be working together.
+What does a successful project look like?
+We’ll consider anything that smart programmers would be impressed by as a successful project. This might be a developer tool you built for yourself or contributions to open source. Building something with users would be cool but we’re not expecting that.
+Will there be classes and programs to attend?
+No. Our goal is to let you work on your own projects independently and meet some other smart students. YC partners will be available for advice and we’ll create an online workspace for you to talk with us and with the other Summer Fellows throughout the summer.
+How many grants will you be giving out?
+We don’t know yet. We’d guess it’d be at least 20 and no more than 50.
+Will you provide working space?
+We’ll set you up for co-working at the YC office for three days at the start of summer in June and three days at the end in August. You’ll need to find your own space outside those times.
+Do I have to move to the Bay Area?
+You can work from anywhere but we’d strongly encourage you to move to the Bay Area during the summer. AI is rapidly changing how software is built and engineers here get to see it first. If you really can’t move here, we’ll fly you out for the co-working days at the YC office.
+Can I still work an internship this summer?
+We’d prefer to fund students working full time on their project but we’ll still consider students working part time because they have an internship. We think the most ambitious students will find it more interesting to work on their own project though.
+Do I need to setup a company to receive the grant?
+No, the grants are given to you personally, you don’t need a company or business setup to receive them.
+Author
+Harj Taggar
+Harj Taggar is a Managing Partner at YC. He was previously founder and CEO of Triplebyte (YC S15) and Auctomatic (YC W07), which was acquired by Live Current Media in 2008.

@@ -1,0 +1,19 @@
+Title: Last chance to apply for YC’s S24 batch
+Author: Y Combinator
+URL: https://www.ycombinator.com/blog/apply-ycs24
+
+Last chance to apply for YC’s S24 batch
+June 5, 2024·by Y Combinator
+We’ve almost finished selecting the S24 batch, but we’ve still got time to accept a few more companies.
+Usually by June we would be done with selecting the batch, but starting this year, we’ve pushed the summer batch a month later so it runs from July to September. With the new schedule, we have a couple of extra weeks to read last-minute applications before the batch starts.
+So, if you were interested in applying for S24 but thought it was too late, it’s not. If you apply by June 13, we’ll still have time to look at your application. If you apply by June 13, we’ll get back to you by June 20.
+Apply Now 
+FAQ
+What if I’ve already applied for S24, should I reapply?
+Probably not. If you think something radical has changed since you last applied, use your best judgment.
+Are there special instructions for these applications?
+No, just go to the website and apply.
+I’ve already applied for YC and am waiting to hear back. What do I need to do?
+Nothing. We’re working through all late applications now, and you’ll hear back by June 20. If in doubt, you can always check the status of your application at https://apply.ycombinator.com. 
+Why did YC move the summer batch a month later?
+If you’re curious, here’s the story. YC has typically had the winter batch run from January to March and the summer batch run from June to August. The problem with that schedule is that it’s asymmetric. Because we use the time between batches to select the next batch, this gave us only 2 months to select the summer batch, versus 4 months to select the winter batch. Moving the summer batch one month later equalizes it.

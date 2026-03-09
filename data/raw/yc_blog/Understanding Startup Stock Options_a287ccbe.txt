@@ -1,0 +1,31 @@
+Title: Understanding Startup Stock Options
+Author: the most recent
+URL: https://www.ycombinator.com/blog/understanding-startup-stock-options-berbix
+
+Understanding Startup Stock Options | Y Combinator
+Benjamin Beltzer is an early engineer at Berbix (S18), a startup building identity verification and fraud deterrence as a service. He previously founded his own company and worked at both Apple and other startups.
+Ben wrote a great resource on understanding and evaluating stock options. With his permission, we’ve shared an excerpt from his piece covering the basics. If you want to learn more about stock options — including valuing them, questions to ask your employer and more. Read the full article on his Medium.
+Find Ben on Twitter @benbeltzer7, and work with him at Berbix.
+Disclaimer: This is not legal or tax advice. Consult your own professionals before making any decisions.
+If you’ve recently received stock options at a startup, are thinking about joining a startup, or are currently negotiating an offer, you’ve come to the right place. Equity can be a huge incentive for joining a startup early, but knowing when to exercise your options, how to get paid out, how much you’ll make, and how much you’ll get taxed is not at all obvious. It’s important to have a solid understanding of how options work, because the way you use them can have huge financial consequences.
+What is a Stock Option?
+A stock option is a contract that gives you the right, but not obligation, to buy a stock at an agreed-upon price and date. The price at which you can purchase the stock is called the exercise price, or strike price. So if your employer grants you 100 options, you do not own 100 shares. Rather, you have the option to buy 100 shares at the aforementioned strike price. Doing so is called exercising your option.
+Most startups give employees Incentive Stock Options (ISOs), though some use Non-qualified Stock Options (NSOs). For this post we’ll assume that we’re only dealing with ISOs, but you can read about the difference here.
+Understanding the Equity Component of an Offer
+There are a few key components to an equity offer that you should always look for.
+Number of Options. The number of shares you have the right to purchase.
+Percentage Ownership. Your percentage ownership of the company’s total outstanding equity, assuming that you exercise all of your options. This is calculated as (number of options) / (total outstanding shares issued by the company).
+Strike Price. The per-share price that you pay to exercise your options.
+Vesting Schedule. Typically your equity grant will be subject to vesting, which means that you don’t receive all your options right away, but that you’ll receive them over time. A typical vesting schedule is four years with a one-year cliff. This means that if you leave the company within your first year, you’ll walk away with nothing. If you stay, 1/4th of your shares will vest on your one-year anniversary, after which 1/48th of your shares will vest monthly. There are plenty of other vesting schedules too. Some companies have a five-year vest with a six month cliff. At Amazon, 5% of your shares vest after year one, 15% after year two, then 40% after years three and four.
+Post-Termination Exercise (PTE) Window. If you leave your job, you’ll often have just 90 days to decide if you want to exercise your options. Once those 90 days are up you forfeit all your options, causing many employees to find themselves in “golden handcuffs”. Luckily, some companies like Pinterest and Asana are starting to do 5, 7, or 10 year PTE windows. Be aware, though, that even if your PTE window is more than 90 days, your ISOs will convert into NSOs after 90 days.
+When should I exercise my options?
+Exercising your options can be expensive, so deciding when to exercise is going to depend on your personal financial situation. However, it’s important to understand all possibilities and the enormous tax implications that come with each one. After explaining each scenario, I’ll go through a set of examples.
+Exercising one year before IPO
+One of the best times to exercise your options is one year before the IPO, as described by Wealthfront here. If you exercise your options one year before selling and your grant date was at least two years prior to the date you sell, you’ll only have to pay long term capital gains tax on your profit, rather than the much higher typical income tax rate.
+If the fair market value (determined by the most recent 409a valuation) of your company’s shares has risen above your strike price, you may also have to pay Alternative Minimum Tax (AMT) at the time you exercise your options. The federal AMT rate is 28% of the spread between the fair market value of your shares and the value of your shares at your strike price.
+The problem preventing many people from using this approach is that it often requires fronting a significant amount of cash to exercise your options. If that’s the case, you can wait until after the IPO to exercise your options.
+Exercising and Selling Post-IPO
+If you can’t afford to exercise your stock options, but your company has already gone public, you can arrange a cashless exercise. In a cashless exercise, your employer or a brokerage firm will give you a loan to exercise the options, then sell the stock at market price immediately. You then use the proceeds from the sale to repay the loan. This is quite common at startups where employees can’t afford to exercise their options. Typically the mechanics of the process of receiving the loan, selling the stock, and repaying the loan is hidden from the employee, and he or she will simply receive the proceeds after the whole transaction is complete. The downside to this approach is that your gain from selling the stock will be taxed as ordinary income because you’ve held the stock for less than a year.
+Early Exercising
+Many startups allow their employees to exercise their options before they’ve vested, which is referred to as early exercising. Early exercising is a good idea when you either have high confidence that the company will have a successful exit or the total cost to exercise is affordable. This approach has 2 major advantages:
+Read the Ben’s full article Medium.

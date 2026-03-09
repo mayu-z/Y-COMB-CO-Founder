@@ -1,0 +1,60 @@
+Title: Y Combinator Top Companies — 2021
+Author: Y Combinator
+URL: https://www.ycombinator.com/blog/yc-top-companies-2021
+
+Y Combinator Top Companies — 2021
+January 12, 2021·by Y Combinator
+We’re excited to share the newest YC Top Companies list. We put this list together to help potential employees, partners, and late stage investors get to know a wider set of YC companies. If you’re looking for a job at one of our top companies, you can hit the Jobs button to be taken to their careers page.
+The companies in this list are sorted by valuation as of January 2021, including YC companies that have been acquired or gone public.1 Why do we use valuation? We have always said that valuation is a poor way to measure a company’s value in the short term, and we still believe this to be the case. We consistently warn our companies not to over-optimize their fundraising for a high valuation. That said, it’s the most commonly available metric to compare companies in the startup world. Other metrics, like revenue, are more often kept private. We have a number of impressive companies who would appear on the list or rank even higher if we counted other metrics (revenue, revenue/employee, secondary valuation, etc).
+Another thing to note is that this is not an exhaustive list of the top YC companies. We allowed companies to opt out of being listed for any reason. To see a full list of YC companies, go to the YC Startup Directory.
+Here are some interesting stats about this year’s list:
+We now have more than 125 companies valued at $150M+ and more than 25 companies at $1B+.
+64% of the companies are headquartered in the Bay Area. 15% of the companies are headquartered in the U.S. but outside of the Bay Area. 14% of the companies are headquartered outside of the U.S. 7% of the companies are remote. 
+39 of the companies on the list went through the YC Growth Program. This program is designed for founder-CEOs who are leading rapidly growing companies approaching 50 employees. The program focuses on specific issues that every startup has to overcome in order to scale successfully. Read more about the YC Growth Program here.
+Here’s a sector breakdown of the companies on the list: 
+B2B Software and Services
+	
+47%
+	
+Financial Technology and Services
+	
+15%
+	
+Consumer
+	
+13%
+	
+Healthcare
+	
+9%
+	
+Real Estate
+	
+4%
+	
+Aerospace
+	
+3%
+	
+Automotive
+	
+3%
+	
+Education
+	
+3%
+	
+Industrials
+	
+2%
+	
+Construction
+	
+1%
+	
+We are thrilled to have worked with the founders behind these companies and be part of their stories.
+Notes
+1. Top Exits: For acquisitions we counted only the money that went to the cap table at the time of acquisition. We did not include retention bonuses or the value founders and investors received from an acquiring company’s stock post-liquidation event. For public companies, we used the company’s market cap as of December 31, 2020. ↩
+Author
+Y Combinator
+Y Combinator created a new model for funding early stage startups. Twice a year we invest a small amount of money ($150k) in a large number of startups (recently 200). The startups move to Silicon

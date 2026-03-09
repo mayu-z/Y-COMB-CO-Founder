@@ -1,0 +1,14 @@
+Title: Safes are not bad for entrepreneurs
+Author: Jon Levy
+URL: https://www.ycombinator.com/blog/safes-are-not-bad-for-entrepreneurs
+
+Safes are not bad for entrepreneurs
+July 11, 2017·by Jon Levy
+Pascal Levensohn and Andrew Krowne recently published an article: “Why Safe Notes are not safe for entrepreneurs.” The authors were critical of the safe, describing it (as the click-bait title suggests), as bad for entrepreneurs. But the authors make an important point –- which was clarified by Levensohn in a follow-up post — with which we don’t disagree: both investors and entrepreneurs need to understand the way that convertible securities convert, and they need to understand dilution.
+The safe and its predecessor, the convertible note, have almost identical conversion features. So not understanding the effects of conversion is not a new problem that the safe specifically created. Rather, the ubiquity of using low-resolution fund-raising documents has created a larger universe of people (investors, founders, lawyers) grappling with conversion language.
+We agree that every party should understand how safes (and other convertible securities) convert. At Y Combinator, our CFO Kirsty Nathoo and other members of the finance team meet with founders each session to run through dilution examples and explain how safes convert. In addition, Y Combinator partner Geoff Ralston published an article and created a public tool to help any entrepreneur better understand dilution from safes: https://angelcalc.com/.
+The authors’ point may be that they believe priced equity rounds are preferable to using safes because all parties better understand how dilution works. Unfortunately, priced rounds are not as simple and fast a funding mechanism as safes (or other convertible securities). The transaction costs of a Series A round average $60,000 dollars, and the industry standard is that companies pay for BOTH their own legal counsel and the investor’s legal fees1. That standard practice is not safe for entrepreneurs. There are several other non-obvious pitfalls for founders when doing priced rounds (including potential loss of board control, the consequences of which may be even more poorly anticipated than dilution), and priced rounds take longer. We believe that, more often than not, the trade-offs make the safe a better choice for early stage startups.
+1. I would rather the authors argue for a simplified, standard equity process for equity rounds rather than take aim at the Safe. Fortunately, there are developing startups like Justin Kan’s Atrium that are focused on solving the problem of complicated equity rounds.
+Author
+Jon Levy
+Jon is Managing Director, Partnerships at Y Combinator. He previously counseled public and private technology companies as an attorney for Wilson Sonsini Goodrich and Rosati.

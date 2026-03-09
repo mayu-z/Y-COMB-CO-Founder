@@ -1,0 +1,23 @@
+Title: Women Engineers in Startups: Tess's Story
+Author: Y Combinator
+URL: https://www.ycombinator.com/blog/women-engineers-in-startups-tess
+
+Women Engineers in Startups: Tess's Story
+September 29, 2022·by Y Combinator
+Last year we launched the first *Women Engineers in Startups series, and our goal was to encourage more women to consider working at high-growth startups.
+Why?
+At YC, most of us have worked at or started startups, and they’ve changed our lives for the better. We’ve seen, firsthand, the impact they can have on one’s life and career. The amount you learn is immense, and a lot of early startup employees go on to start their own companies. 
+We believe the opportunity should be explored by every hard working, ambitious person.
+Yet, when we spoke to our founders, we learned that very few women engineers apply for jobs at YC companies. We wondered whether there were misconceptions about startups that we could help clear up, or whether there were resources we could build to connect more women to startup opportunities. 
+So, we brought together a cohort of women engineers and introduced them to YC founders, engineering managers, recruiters and women who had joined YC startups as early engineers. They came together for three weeks, learned about what startups are looking for, what the work/life balance was like at various companies, and what they should think about and ask when considering companies and roles. 
+At the end of the first session, we were delighted to see a few women from that first cohort accept roles at YC companies. 
+One participant in that first cohort, Tess Huelskamp, accepted a role at Middesk (YC W19), a fast-growing company that helps b2b financial services companies verify business customers. She shared her experience and advice for thinking about joining a startup here: 
+Prior to working at my startup Middesk, I worked for a few years on Dropbox's Sharing team on a lot of backend changes to make it easier to share files and folders within Dropbox. 
+After a few years at Dropbox, I had learned a lot about how to build and ship code, but my learning was slowing. I always knew that I wanted to work at a startup before I moved home to the Midwest, and I figured this was the time to do it.
+Before participating in the YC Women Eng in Startup series I didn't know a lot about the startup lifecycle. I didn't know what "pre-" vs. "post-seed" meant and I didn't know what type of work startups do as they move from trying to find product-market fit to scaling up their company. It helped me better identify the stage and type of company I wanted to work at.
+When I started my job search, I knew I wanted to work at a post-Series A company that had a great culture, healthy work-life balance, and an interesting product. I found Middesk through the Work at a Startup job board and took an informational call to learn more. As I was interviewing, I got a great vibe from the team at Middesk and respected all of the people I talked to.
+I've been happily surprised with the breadth of work I've been able to do at an earlier stage company.
+Established companies already have a lot of key features built, so the impact you can have is limited to improving an already existing feature. At an earlier stage company, I've been able to have a huge impact on my company by scaling, improving core business flows and also building multiple features from the ground up.
+Earlier in my career, I was scared to move to a startup because I didn't think that I knew enough about engineering to be able to contribute to a startup. If I were to do my career over again, I would've left a larger company as soon as I felt my growth stalling out, because I could've easily handled working at a startup once I had learned how to ship projects at a larger company.
+Apply Now 
+* We use an inclusive definition of “women” and welcome trans women as well as genderqueer and non-binary people who identify as women or femme in any way to attend this event.

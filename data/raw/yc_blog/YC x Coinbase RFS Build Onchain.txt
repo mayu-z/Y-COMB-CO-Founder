@@ -1,0 +1,60 @@
+Title: YC x Coinbase RFS: Build Onchain
+Author: Harj Taggar
+Date: Tue, 23 Sep 2025 15:00:58 GMT
+URL: https://www.ycombinator.com/blog/build-onchain/
+---
+
+We believe that it’s time to build onchain. The tools have been maturing over the last decade, but with low-cost chains, globally adopted stablecoins, easy-to-use wallets, and growing consumer adoption, the infrastructure is finally ready. And we are already seeing a number of large trends that have huge opportunity for builders around the world.
+It starts with the fact that we are at the beginning of a new era in financial technology: Fintech 3.0.
+Fintech 1.0 was the initial digitization of finance in the 90s, driven by companies like PayPal. The key unlock here was that consumers became comfortable paying for things online.
+Fintech 2.0, which occurred over the last decade and was driven by companies like Stripe, Plaid, Brex, and Chime, involved building APIs on top of the existing financial system. The key unlock here were banking-as-a-service (BaaS) providers that made it possible for startups to build on top of the legacy financial system.
+Now, we are entering the era of Fintech 3.0. This era will be about building a new financial system with code. A system where payments settle instantly, anywhere in the world, 24/7. A system where users store their assets in digital wallets, which they have full control and custody over, rather than banks.
+For years, the main obstacle to building Fintech 3.0 has been regulatory uncertainty. With the passage of the GENIUS Act—and potentially, the CLARITY Act—we now have a clear crypto regulatory framework in the US that will let founders build generational companies onchain, with confidence. This is the most significant opportunity for crypto startups in years, and at YC and Coinbase, we want to fund and support you to seize it.
+Below, we discuss a few areas we’re particularly excited to fund, though this is by no means exhaustive.
+Stablecoins
+Stablecoins are the first major success story for Fintech 3.0.
+Stablecoins are an onchain asset whose value is pegged to another asset, like fiat currency or gold, designed to maintain a stable price. Stablecoins are ideal for payments, and offer clear benefits over traditional financial transactions, especially when moving money across borders. Anyone can send a stablecoin anywhere in the world 24/7, for less than 1 cent and in under 1 second, with no foreign exchange fees. This isn’t theoretical; trillions of dollars of stablecoin payments have already been settled.
+People are already building stablecoin apps with millions of users. YC alumni like
+Kontigo
+,
+DolarApp
+, and
+Aspora
+are powering instant, low-cost payments and remittances for millions of users across Latin America and South Asia. Coinbase Ventures-backed company El Dorado, a marketplace for sending and receiving stablecoins in Latin America, has processed $200 million for nearly 1 million users in the past year—evidence of the region’s growing demand for crypto as a hedge against currency devaluation.
+And it’s not just startups: Coinbase just launched its open-source
+Commerce Payments Protocol
+with Shopify, which enables any traditional online commerce and acceptance flows onchain with stablecoins—providing all of the benefits of crypto payments (lightning fast settlements, near-zero transaction fees) with the security and scale of typical e-commerce features (delayed capture, tax finalization, and refunds).
+The fact that stablecoins have succeeded despite regulatory headwinds speaks to just how strong market demand for them is. Now, their adoption in the US is set to explode after the successful passage of the GENIUS Act, which creates a comprehensive federal regulatory system for stablecoins that mirrors the system for banks. Since the GENIUS Act went into effect, the total market capitalization of stablecoins has grown by over $30 billion and major companies like Amazon and Walmart have expressed interest in launching their own stablecoins.
+There are lots of areas to build in the stablecoin space, but we’re particularly interested in:
+Stablecoins integrated everywhere: Platforms that process payments, lending, and other financial services can get massive efficiency gains from stablecoins. Enabling businesses and consumers to transact seamlessly across the platform will unlock massive value.
+Local currency stablecoins: Stablecoins pegged to local currencies that let people in inflationary economies capture the benefits of crypto without relying solely on the dollar. Governments and consumers wary of dollarization could adopt these as the foundation for local payments, savings, and lending.
+Crypto-native commerce businesses: With the emergence of the Commerce Payments Protocol and other tools, there’s an opportunity to enable merchants, lenders, and consumers to handle acceptance, credit, and payments natively in crypto. Based on the global nature of the platform, there’s an opportunity to serve customers in a new way.
+Tokenization and Trading
+The same rails that make stablecoins work can be used for any asset. This is where Fintech 3.0 gets really interesting. With tokenization, we can radically change what an asset is and who can own it.
+Tokenization means representing real-world assets, like a government bond, a share in a startup, a piece of art, or a loan, as a digital token on a blockchain. The value here is that assets that have historically been illiquid and locked behind layers of middlemen can now be owned, traded, and used by anyone, anywhere.
+In practice, this could mean:
+Instead of waiting a month for a dividend check, you could receive your share of a building's rental income paid out to your wallet every second.
+Instead of complex paperwork to exercise your startup stock options, you could have a "live cap table" where your equity is a programmable token you truly own and can sell on an open market.
+Instead of needing millions to invest in private credit, you could buy a token representing a fraction of a diversified loan portfolio.
+This is already starting to happen. Major institutions like J.P. Morgan are bringing their own
+deposit tokens
+onchain, and startups like Courtyard are tokenizing physical collectibles. We’re also seeing the emergence of new, onchain native assets like creator and content coins being tokenized on
+Zora
+and Pump.fun.
+And all of this is leading to a lot of new trading: businesses like YC alumni
+Axiom
+are some of the fastest-growing YC companies that we’ve ever seen.
+The core infrastructure is here. We’re looking for founders to build the products that will bring every other asset class online.
+We’re especially interested in:
+New credit markets: Lending protocols that use onchain identity and reputation to offer undercollateralized loans, providing capital to people and businesses that the traditional system overlooks.
+Onchain capital formation: Tools for startups to raise money directly from their users and manage their cap table with programmable tokens instead of spreadsheets and lawyers.
+New trading interfaces: With the explosion of assets, there are new opportunities to help consumers and businesses trade and invest.
+Apps and Agents
+Onchain also opens up a new frontier for apps and agents that were not possible on yesterday’s internet. One way to think about chains is as a new kind of operating system: a global, shared platform that’s 10x better for building apps, that no single company owns, and on which anyone can build without asking permission. And with money-as-software, agents are natively equipped to participate in this new economy.
+We think this will lead to an explosion of new apps. Social, finance, collaboration, games—everything. We’re already seeing this happen on platforms like Base, where you can use apps to do just about anything: from getting a loan in seconds, to playing a game and making money, to supporting your favorite creators in a way where you earn, too.
+And we think that many of these apps will also show up in chat, as agents. AI agents with wallets are superpowered, and will help people navigate and participate in the rapidly growing global economy. They’ll simplify and improve user experiences, just like they are doing in other business sectors across the world.
+We are so excited to see what you build onchain. If you are building for this new reality—or have an even bigger vision for what this new era unlocks—we want to hear from you. Together, YC, Base, and Coinbase Ventures are excited to support developers building onchain.
+
+
+Apply here for the next YC batch
+.

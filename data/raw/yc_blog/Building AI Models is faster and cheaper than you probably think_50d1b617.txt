@@ -1,0 +1,36 @@
+Title: Building AI Models is faster and cheaper than you probably think
+Author: applying industry specific insights
+URL: https://www.ycombinator.com/blog/building-ai-models
+
+Building AI Models is faster and cheaper than you probably think
+If you read articles about companies like OpenAI and Anthropic training foundation models, the press tends to focus on the huge amount of money and computation involved. It would be natural to assume that if you don’t have a billion dollars or the resources of a large company, you can’t build AI models of your own.
+At YC, we’re seeing the opposite, and we wanted to highlight 25 examples of YC companies training their own foundation models or fine-tuning them. By combining the founders’ relentless resourcefulness with what YC brings ($500k funding, $1m+ in cloud credits and dedicated GPUs), many of these companies trained a model, shipped it to production, and got paying customers, all during the 3 months of the YC batch. 
+These 25 YC companies have built AI models that do things that just a couple of years ago would have been impossible. These companies have built models that generate professional-quality music, design novel proteins, accurately predict the weather, and let robots navigate the world.
+To move this quickly, these companies figured out smart technical tricks that reduce computation with creative model architectures or use less data by applying industry specific insights. 
+We talk about many of these companies and the feats they’ve achieved in the most recent episode of the Lightcone podcast:
+We hope this list inspires more founders to realize that they have the ability to build their own models and advance the field of artificial intelligence in new directions.
+Atmo: AI-powered meteorology for countries, militaries, and enterprises, promising weather predictions that are considerably more accurate yet cheaper to produce than the existing state of the art. 
+Can of Soup: Can of Soup is an app where you can use AI to create photos of you and your friends in imaginary situations. They built and launched the first model that can do this during the YC batch.
+Deepgram: APIs for ultra-fast speech-to-text transcription and natural sounding text-to-speech. 
+Diffuse Bio: Building foundation models in biology that design new proteins for vaccines and therapeutics. 
+Draftaid: AI to help engineers and designers create CAD drawings, turning 3D models into the highly detailed fabrication drawings that manufacturers expect.
+Edgetrace: Takes a huge video dataset and allows you to search through it in plain English. Example: digging through hours of traffic footage to find when a specific car appears with just its description (e.g. “red prius with a golden wheel cap turning right”). One of the founders worked on AI at Cruise; the other built drones for mapping construction sites. 
+EzDubs: Dubs videos into different languages in real-time while preserving the speaker’s voice. 
+Exa: A search engine/API for AI and AI developers. Searches for things by meaning rather than keywords, allowing developers to run queries like “a short article about the early days of Google” or “news about the latest advancements in AI” and integrate the results into the answers their products give. 
+Guide Labs: Typically foundation models are black boxes that cannot describe how they arrive at answers. They solve this with foundation models that are interpretable that can explain the reasoning behind their output, and clarify which parts of the training data and the prompt influenced that output. The team previously worked at Google Brain and Meta Research and were key developers of Captum.
+Infinity AI: Working on a “script-to-movie” model: you tell it what the on-screen characters say and do and it’ll generate a video accordingly. Their first product creates “talking-head” style clips from a provided script. 
+K-Scale: Building the infrastructure for enabling robotics foundation models and ultimately solving the problem of real-world embodied intelligence.
+Linum: Building models and tools that allow you to make animated videos from prompts. 
+Metalware: AI tools to help firmware engineers build faster, like a specialized copilot for low-level programming or a PDF Reader that can crunch through a pile of data sheets and answer questions way faster than manual searching. The co-founders helped build the firmware for Starlink’s antennas.
+Navier AI: A physics-ML solver that can simulate computational fluid dynamics in real time, an essential need for aerospace and automotive engineering.
+Osium AI: Helps R&D engineers design new materials faster, using AI to predict the physical properties of a material and speed up otherwise arduous microscopic image analysis.
+Phind: A conversational search engine built for developers, with a VS Code extension to tie it into your existing codebase. Ask it a question and it can generate an answer using your code as context. Stuck on an error/warning? It can offer up code to fix it. 
+Piramidal: A foundation model for understanding brain activity, trained on a “colossal and diverse corpus” of brainwave data. Their first product is a copilot for neurologists evaluating potential epilepsy diagnoses. They’ve been able to train a large model with lower computational costs by reducing the memory footprint by dividing sequential EEG data into chunks.
+Playground: A powerful AI-based image editor. Create new images from prompts, merge real/synthetic images into new pieces, or modify existing images with just a few words (like “make it winter”, or “give the boy a cape.”) 
+PlayHT: Highly expressive, AI-generated voices for media and content creators. Can be trained on a new voice with about 10 minutes of sample recordings. You can hear some samples here.
+SevnAI: Building foundation models for graphic design. Current diffusion models output images that are hard to edit. They are able to generate SVGs that users can easily edit with a model that has a custom architecture for spatial reasoning.
+Sonauto: AI music creation. Give it lyrics, describe your song (e.g. “pop track that features vibrant synthesizers and an upbeat tempo”), and hit “Generate” — out pops a brand new tune. Here’s a power metal track about YC that Jared Friedman generated with Sonauto.
+Sync Labs: They’ve built a model that lets you re-sync the lips of someone in a video to match up with new audio — allowing you to change the spoken language of a video in a way that looks natural, for example. They’re working towards doing this in real time for uses like live lip-synced translation in video calls. 
+Tavus: Record one video, have it automatically personalized for each and every one of your viewers — swapping in the viewer’s name, company, etc where appropriate. The company recently released a public beta of a tool that lets you create a “human-like replica” of yourself with 2 minutes of footage.
+Yoneda Labs: Helps chemists figure out the best temperature, concentration, and catalysts to optimize their chemical reactions. 
+Yondu: Building foundation models for robots to autonomously navigate the world.

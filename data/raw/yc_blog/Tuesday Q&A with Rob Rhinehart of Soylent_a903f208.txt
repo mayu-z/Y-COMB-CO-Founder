@@ -1,0 +1,36 @@
+Title: Tuesday Q&A with Rob Rhinehart of Soylent
+Author: Craig Cannon
+URL: https://www.ycombinator.com/blog/tuesday-qa-with-rob-rhinehart-of-soylent
+
+Tuesday Q&A with Rob Rhinehart of Soylent
+January 27, 2017·by Craig Cannon
+During the batch we invite a speaker in for every Tuesday dinner. Rob Rhinehart of Soylent joined us during the W17 batch.
+Other speakers this batch are: Tracy Young and Ralph Gootee of PlanGrid; Mike Maples of Floodgate; Ron Conway of SV Angel; Patrick Collison of Stripe; Brian Chesky, Joe Gebbia, and Nathan Blecharczyk of Airbnb; Tobi Lutke of Shopify; and others.
+If you have specific questions for a speaker, send them to Macro@YCombinator.com.
+How do you describe Soylent?
+Healthy fast food.
+What’s a common misconception about Soylent you’d like to clarify?
+People are often pleasantly surprised that it can taste good and be nutritious, especially our new flavors. Also Soylent is not a commitment. You don’t need to give up regular food to use it. It’s just another option when you want something fast and filling.
+What’s the hardest part about making a food product vs electronics?
+There is more variation in biological ingredients than electronics, but we still manage to make a consistent product. Also the safety and quality controls are much more strict, as they should be.
+You pivoted after YC. What were you making before?
+A wireless network for small connected devices.
+Why did you pivot?
+Functional food meets a universal basic need and has more potential for repeat customers.
+How have you found the fundraising process for a food product?
+Fundraising is the worst.
+What were the most meaningful learnings you’ve had while working on Soylent?
+Better is a friendship based on business than a business based on friendship
+What’s the most impactful thing you’ve done in terms of selling Soylent?
+Write.
+If you weren’t working on Soylent, what would you be working on?
+Affordable housing.
+Any advice for people?
+Always take the high road.
+Last question. What books do you recommend?
+The End of Eternity by Isaac Asimov
+How to Be Rich by J Paul Getty
+Meditations by Marcus Aurelius
+Author
+Craig Cannon
+Craig is the Director of Content at YC.

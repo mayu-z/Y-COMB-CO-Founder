@@ -1,0 +1,17 @@
+Title: Partnering with CodePath and ColorStack to support future technical founders
+Author: Geoff Ralston
+URL: https://www.ycombinator.com/blog/partnering-with-codepath-and-colorstack-to-support-future-technical-founders
+
+Partnering with CodePath and ColorStack to support future technical founders
+November 19, 2020·by Geoff Ralston
+YC was founded around the idea that technologists should be at the center of tech innovation. It seems obvious today, but it wasn’t always that way. We believe that technology startups should include a technical founder because it is critical that a CTO have a seat at the table where key decisions regarding the future of the startup are made. When it comes to deciding what to do with technology, technical founders know what the options are and what kinds of problems are hard and which are easy.1 Because of this core thesis, over the years we have actively done outreach to computer science majors in order to explain the advantages of being a startup founder.
+Today, we’re getting additional help with this outreach by partnering with two nonprofits, CodePath and ColorStack. Through these partnerships, we can communicate to even more CS majors about the startup opportunities available to them — and we can better reach people who are historically underrepresented in tech.
+CodePath increases diversity in tech by transforming computer science education for underrepresented minorities and underserved populations. Used in over 70 colleges, CodePath’s open source CS courses reflect the most important technologies being used in the tech industry.
+ColorStack increases Black, Latinx, and Native American enrollment, retention, and success in CS programs through community building, academic support, and professional development.
+The partnership is more than just a financial one. Over the next few years, YC group partners will host office hours with the students — answering questions about starting a startup, speaking to the challenges, and mentoring teams. Additionally, throughout the year, YC group partners will give talks on the most essential startup advice.
+Today, the demographics of the people who start companies and get funding don’t reflect the diversity of talent that exists in the world. Talent is everywhere — but it’s clear that opportunity is not. We are thrilled to partner with CodePath and ColorStack to begin to change this.
+Notes
+1. http://www.paulgraham.com/start.html↩
+Author
+Geoff Ralston
+Geoff Ralston is the former President of Y Combinator and has been with YC since 2011. Prior to YC, he built one of the first web mail services, RocketMail which became Yahoo Mail in 1997.

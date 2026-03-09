@@ -1,0 +1,15 @@
+Title: Why would you work at a startup in an economic downturn?
+Author: Ryan Choi
+URL: https://www.ycombinator.com/blog/why-would-you-work-at-a-startup-in-an-economic-downturn
+
+Why would you work at a startup in an economic downturn?
+February 23, 2023·by Ryan Choi
+Now is as good a time as any to start a startup – especially if you get into YC. But what about joining a startup in this economy? We’re obviously biased, but we think it’s a great time to join a startup too. Here are three reasons to consider: 
+Impactful job opportunities are available at YC startups. Despite other companies pulling back on hiring in 2022, YC startups added 2.1K jobs on our hiring platform, with 410 added in January 2023 alone. The biggest categories were in engineering (35%), sales (17%), operations (15%), and marketing (13%). And more than 1,100 YC startups were active on YC’s hiring platform in January. Many of the roles are for early engineers/employees, so you’ll have a chance to shape the product, best practices and company culture early on. 
+On average, YC startups are in a better position to be hiring. YC startups raise an average $2-4M after going through the YC program. But despite this, we still tell them to “plan for the worst” – and that includes saving money and only hiring if they absolutely need to. So as a job seeker, you’ll find that YC founders are generally smarter about their cash, watch their burn closely, and have put more thought into who to hire – for their benefit and yours. (And if you don’t know these terms or want to learn how to ask, read our advice here.)
+Big tech might not offer the stability or purpose that it used to. 3.1x new job seekers joined our hiring platform (comparing June 2022 to January 2023), with a strong increase in people coming from FAANG. People tell us that they don’t equate big tech with stability anymore, and they’re looking for more personal meaning and clarity of mission in their next role. YC has been investing in a wide range of startups – from climate to collectibles to asteroid mining – so you can find one that aligns with your passions and interests. (And if you don’t find one, just email us for recommendations.)
+Maybe you’ve been playing it safe in your career, and it’s time to try something more exciting and mission driven. Or maybe you’ve had a setback given the current economic climate and want to see what’s out there. Either way, we hope you consider a startup – and particularly a YC one. There are thousands of open roles at startups (seed, growth, and even scale) on YC’s hiring platform. And our founders could use your help building new frontier tech, building their companies that will last, and making things that people want. 
+Let’s go build the future.
+Author
+Ryan Choi
+Ryan works with YC companies to find great engineers — from 2-person startups to larger ones like Airbnb, Stripe and Instacart.

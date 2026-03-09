@@ -1,0 +1,26 @@
+Title: Announcing Y Combinator's Spring 2022 Tech Hiring Event
+Author: Ryan Choi
+URL: https://www.ycombinator.com/blog/yc-spring-2022-tech-hiring-event
+
+Announcing Y Combinator's Spring 2022 Tech Hiring Event
+February 28, 2023·by Ryan Choi
+We're excited to host an in-person tech hiring event on Wednesday, March 8th at 5:30 PM at Y Combinator's San Francisco office. This will be the first in-person hiring event we're hosting at YC in over two years, and we have 9 YC-backed startups who are looking to hire engineers and technical talent.
+The event will feature brief founder & company overviews, time to network, and light food and drinks provided by YC. Spots are limited, so apply now to get on the list.
+The companies attending (and what they're hiring for) below:
+OneSignal (Growth): Engage customers through personalized omni-channel messaging (Infrastructure and Product Engineers, Product Managers)
+Memora Health (Series A): Helps healthcare organizations digitize and automate complex care workflows
+Seam (Series A): API for IoT Devices (Engineering & Sales)
+Slope (Series A): Buy Now, Pay Later for B2B (Backend & Full stack engineers; data; customer success)
+Fieldguide (Series A): Automation and collaboration software for audit and advisory firms (ML Engineer, Product Manager)
+Agave (Seed): Plaid for Construction (Founding Engineer in PHP/Typescript/React)
+Mintlify (Seed): Developer-first documentation that converts users (Full Stack Engineer)
+Replo (Seed): Visual development for React, starting with e-commerce (Engineers & Designers)
+OneShop (Seed): Operating system for reselling online (Backend, Frontend and Growth Engineers)
+If you're an engineer interested in working at a fast-growing startup, this is an opportunity to meet founders and hiring managers in person to learn about their companies and products, understand their technology stacks and challenges, and get a sense of their culture and what it's like to work there.
+This is a unique chance to engage with multiple companies at once, and to potentially find your next role at a leading tech startup. We hope you'll join us for what will be an informative and worthwhile evening.
+Apply to Join 
+Author
+Ryan Choi
+Ryan works with YC companies to find great engineers — from 2-person startups to larger ones like Airbnb, Stripe and Instacart.
+Companies Mentioned
+Other Posts

@@ -1,0 +1,43 @@
+Title: Meet YC's Newest Visiting Partners
+Author: Harj Taggar
+Date: Tue, 14 Oct 2025 17:17:44 GMT
+URL: https://www.ycombinator.com/blog/ycs-newest-visiting-partners/
+---
+
+I'm excited to announce that nine exceptional founders are joining us as Visiting Partners at YC: Matt Riley, Harshita Arora, Grey Baker, Christopher Golda, Raphael Schaad, Christina Gilbert, Francois Chaubard, Vivian Shen, and James Evans.
+Visiting Partners are former founders who are taking some time out before their next thing to help advise startups during the batch. They work closely with YC General Partners, sharing hard-won insights from building and scaling their own companies. Each of our new Visiting Partners brings a unique perspective—from design-led products and developer tools to AI infrastructure and edtech.
+
+
+Matt Riley
+Matt was the co-founder and CEO of Swiftype (YC W12), a search-as-a-service company acquired by Elastic in 2017. At Elastic, he was GVP & GM of the Search business unit, and led the product, engineering, design, and developer relations teams that brought Elasticsearch to market. He graduated from the University of Texas at Austin with BS and MS degrees in Electrical Engineering.
+Harshita Arora
+Harshita Arora grew up in India, where she discovered coding at 13 and dropped out of school at 15 to pursue it full-time. At 16, she built a crypto price tracking and portfolio management app that was featured by Apple and subsequently acquired. She then received an O-1 visa and moved to San Francisco, where she co-founded AtoB (YC S20), which builds financial infrastructure for the trucking and transportation industry. AtoB has raised over $125M in venture capital and serves 20,000+ fleets across the US. In her early 20s, Harshita is also the youngest ever visiting partner at YC.
+
+
+Grey Baker
+Grey was a co-founder of Pincites (S23) and of Dependabot, a developer tool used by over a million people that was acquired by GitHub in 2019. Previously, Grey was an early employee at GoCardless (YC S11) where he led product and engineering. He has an MPhil in Economics from the University of Cambridge, where he graduated top of his year.
+Christopher Golda
+Chris was the co-founder and CEO of BackType (YC S08), a data infrastructure & analytics company acquired by Twitter in 2011, where he subsequently launched and ran the Ad Center product, growing revenue to $1.4B. The distributed data processing work at BackType became the basis for the Lambda Architecture, and Chris helped open source Apache Storm, an early distributed real-time computation system. Post-Twitter, he has been working with founders to help them find customers and raise capital, participating in early-stage rounds of startups like Benchling, Coinbase, Stoke, and Supabase. Chris graduated from the University of Toronto and has a BASc in Electrical Engineering.
+Raphael Schaad
+Raphael is the founder and CEO of Cron (YC W20), a calendar product beloved for its craft and acquired by Notion in 2022. At Notion, he grew Calendar to millions of users and served as Head of Design for Growth and new products like Mail. Previously, he helped build Flipboard and iA Writer. Raphael holds a BS in Computer Science from Bern University of Applied Sciences and an MS in Media Arts and Sciences from MIT.
+
+
+Christina Gilbert
+Christina is the co-founder and former CEO of OneSchema (YC S21), the leading CSV ingestion platform trusted by thousands of developers to build AI-powered data pipelines. Under her leadership, OneSchema raised $10M from investors including General Catalyst, Sequoia's Alfred Lin, Elad Gil, and Contrary Capital, and was named a Forbes Cloud 100 rising star. Christina studied CS at Stanford, began her career as an Associate Product Manager at Google, and was recognized on the Forbes 30 Under 30 list in Enterprise Technology.
+
+
+Francois Chaubard
+Francois is an AI researcher and technology entrepreneur who founded Focal Systems (YC W16), the global market leader in AI applications for retail. He has built large-scale AI systems across retail, autonomous vehicles, and missile defense, and previously worked as a Computer Vision Researcher at Apple. At Stanford University, where he earned dual master's degrees in CS and EE, he created and taught some of the largest AI courses, including Machine Learning, Computer Vision, and Deep Learning for NLP. He lives in Woodside, California with his wife and two children.
+
+
+Vivian Shen
+Vivian is a founder, CEO, and angel investor who has built companies from zero to $50M+ in revenue and millions of users. She founded Acely, an AI tutoring platform that scaled from $0 to millions in ARR between 2024 and 2025, making it one of the fastest-growing AI businesses in education. Before Acely, she co-founded Juni Learning (YC W18), the online academy for kids' coding and math that helped define live, one-on-one online learning. Earlier in her career, Vivian worked as a software engineer at Google, a consultant at McKinsey, and led product at an AI commerce startup. She holds a B.S. in Computer Science with a minor in Creative Writing from Stanford University.
+
+
+James Evans
+
+
+James was the co-founder and CEO of Command AI (YC S20). Command built user assistance software, like in-site chat and messaging, and was acquired by Amplitude in October 2024. Prior to Command, James worked in private equity investing at Bain Capital and studied CS at Princeton.
+
+
+We're looking forward to having Matt, Harshita, Grey, Chris, Raphael, Christina, Francois, Vivian, and James join the YC community in this new capacity. As YC alumni who've experienced the batch firsthand, they understand both its intensity and potential. Their willingness to invest time in the next generation of founders exemplifies what makes YC special—founders helping founders build the future.

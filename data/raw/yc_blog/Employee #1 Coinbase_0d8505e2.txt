@@ -1,0 +1,142 @@
+Title: Employee #1: Coinbase
+Author: myself until we had
+URL: https://www.ycombinator.com/blog/employee-1-coinbase
+
+Employee #1: Coinbase | Y Combinator
+A conversation with Olaf Carlson-Wee, Coinbase’s first employee.
+Employee #1 is a series of interviews focused on sharing the often untold stories of early employees at tech companies.
+Olaf Carlson-Wee was the first employee at Coinbase. He currently runs Polychain Capital, a hedge fund which invests in a portfolio of blockchain-based assets. He is also an angel investor and filmmaker, based in San Francisco.
+Discussed: The Early Days of Bitcoin, Interviewing at Coinbase, Finding Employees on R/Bitcoin, Scaling Support at Coinbase, Spotting Fraud, Vetting Founders in a New Field, Launching Polychain Capital.
+You can subscribe to The Macro newsletter to receive future conversations.
+Craig : What are you currently working on?
+Olaf : I actually launched a company yesterday.
+Craig : [Laughter] Whoa, congrats.
+Olaf : Yeah, thank you. I don’t feel like celebrating quite yet because it’s just the beginning but it’s called Polychain Capital, “chain” here referring to the blockchain. It’s a hedge fund that invests in a diversified portfolio of cryptocurrencies.
+Craig : Man, that’s wild. Is it a big team at this point? Is it just you?
+Olaf : Just me.
+Craig : And how are you picking the currencies?
+Olaf : So I’m looking at things like novel uses of cryptography in the protocol. Or is the protocol attempting something that a blockchain has never done before. I’m also looking at core developer team quality, the developer ecosystem, and asking questions like are there a lot of apps being built on this, with GitHub forks, GitHub stars, and then looking at the community ecosystem. What’s the size of the forum? How often do people post relative to other forums? Is it an active community? Stuff like that. So part is core analysis of protocol, and part is quantitative metrics surrounding the use of the protocol.
+I’ve launched with five million under management so mostly right now I’m focused on operationally executing the portfolio perfectly. And then making sure that I’m tracking the space and developments at the protocol level. Keep in mind, my last day at Coinbase was eight weeks ago.
+Craig : Wow. Did you raise the five in that eight weeks?
+Olaf : Yeah, I’ve been on the phone a lot. I have this stupid headset that I wear all the time. [Laughter]
+Craig : [Laughter] You’re one of those guys?
+Olaf : Yeah. It’s really embarrassing.
+Craig : We’ll let it slide. Ok, so let’s talk about Coinbase. How did you find out about them?
+Olaf : So I wrote my undergraduate thesis about Bitcoin and the larger implications of open source finance in 2011. I was Coinbase’s 30th user and now we have four million. I literally cold emailed jobs@coinbase and said, “I love bitcoin. Here’s my thesis. I’ll do any job.”
+Craig : So you cold emailed these guys a document that was like 60 pages long?
+Olaf : Yeah, like 90 pages long. [Laughter] But, to be fair, I clipped the 30 page chapter that was specifically on Bitcoin and cryptocurrency. But yeah, I did. I emailed an annoyingly long and annoyingly academic document.
+Craig : And they responded?
+Olaf : Fred [Ehrsam] replied in five minutes and said, “Hey, can you hop on Skype?” That’s when I started learning how things work in Silicon Valley. The pace of things.
+We got on Skype and talked for 20 minutes. Then I got an email from him that said, “Okay, we wanna do an in-person interview. You’re going to come to the office tomorrow. I want you to have two finished presentations, 15 minutes each. The first should explain something complicated you know very well. The second should outline your vision for Coinbase.”
+So I got to work. At the time I was on a road trip and actually was crashing on a friend’s couch in Oakland so the scheduling worked out well.
+Craig : Did you study CS in school?
+Olaf : I majored in sociology so I’m self-taught on computer science. Though I’m not a great coder. If I’m a building a website, I’m not very good at that. But I do know cryptography pretty well and, in particular, I know game theory well, which is really important in cryptocurrency.
+Craig : Gotcha. So what were your presentations?
+Olaf : Okay. So the first one was on the pharmacological induction of lucid dreams. It is complicated, but it’s a mechanism to induce lucidity in your dreams. You can control your dream by waking up in the middle of the night and taking an over-the-counter supplement called galantamine, which increases levels of the neurotransmitter acetylcholine in the synapse. Fun fact is that I’ve been writing down my dreams for 11 years.
+The second presentation was on Coinbase and my high level strategy for the company. Coinbase had a lot of problems at that time. When I was applying, there were really bad bugs. Actually, on the first day of my work trial, there was a top Hacker News post that said, “My balance is wrong. I lost all this money.” Everything was broken.
+My strategy was to clean up PR problems but focus 100% on security. Bad customer experiences will eventually be forgotten but a security incident will not be forgotten. I basically was saying, “Listen, people want us to move faster than we can.” I mean, Brian [Armstrong] was literally building everything. I was saying to Brian, “We cannot hack something together that ends up leading to a security incident. Even though everything is on fire, let’s do this very carefully.” And I think that resonated with them.
+But Coinbase, especially in its early days, had a lot of hard tradeoffs between moving really quickly like a traditional startup and operating as a financial institution. Even then we were storing tens of millions of dollars of people’s money. And of course there were security incidents. Fraud was a big problem. People trying to buy bitcoin with stolen identities. We wanted to give good customers high limits and we we wanted to give scammers low or no limits. There are a lot of hard tradeoffs. I basically took the perspective that we need to be a security juggernaut and any bad customer experiences will long-term be forgotten.
+On the other hand, if you get hacked or you have a massive fraud incident and lose all your money, it’s catastrophic. The main thing is avoid the catastrophic events. And what’s funny is looking back, that’s really what Coinbase has done. A big way that Coinbase is the leader in the space is just that we didn’t get hacked, honestly. We did many things right. But that is honestly the number one thing.
+Craig : Ok, so you do the presentations. Is this to both of them?
+Olaf : This is just to Fred. Fred and I probably talked for 45 minutes–a long time. Then Fred gave me a really brutal mathematics problem and said, “Okay, why don’t you figure that out while I go talk to Brian?”
+So I knew I had at least on some level passed the first part. I knew he’d walk me out without meeting Brian if it definitely wasn’t working out.
+Do you want to know the problem?
+Craig : Yeah, absolutely.
+Olaf : Okay. So there are 100 lockers in a row. They’re all closed, okay? A kid goes by. He opens every single locker. A second kid goes by. Now he closes every other locker, every second locker. Third kid comes by, every third locker. If it’s open, he closes it. If it closed, he opens it. Then the fourth kid goes by. Every fourth locker, he changes the state. And now 100 kids go by. What is the state of the lockers after 100 kids go by?
+Craig : Oh man, I’d definitely need some time for that.
+Olaf : Yeah, so don’t try to figure it out because it may take a while. So I’m sitting there and thinking like, “Okay, focus Olaf. If Brian comes down and the first thing you have is the answer to this problem, this is gonna seal the deal.” At least in my head I thought that. In retrospect, that was getting ahead of things a bit much.
+To be honest, I don’t know what happened but I had this crazy flash of insight and had the answer. And when Brian came back, we started talking through it and I just figured it out way faster than I reasonably should have.
+Craig : Whoa. So what’s the answer?
+Olaf : The answer is perfect squares are open. The reason being, they’re the only numbers that have an odd number of factors. So the number of factors determines whether a locker is open or closed because that’s the number of kids that interacted with it. And so the odd number of factors means it’s open and even number of factors means it’s closed. And the only numbers that have an odd number of factors are perfect squares like 16, 25, 36.
+Craig : How long were you given to solve that?
+Olaf : Oh, probably like three minutes.
+Craig : Holy shit, okay.
+Olaf : Yeah. It was probably three minutes. I don’t believe in divine intervention or anything. But that was a time in my life when I had an uncanny flash of insight that I would never pretend I could recreate. But anyway, then Brian grilled me for another hour.
+Craig : [Laughter]
+Olaf : Brian’s questions were really intense. “What do you wanna do with your life?” “What drives you as a person?” “What’s a belief you have that is extremely unpopular?” He wanted to really know me.
+I think Fred had gone up to Brian and said, “Listen, Olaf’s at least sort of qualified for this. I talked to him. I think he could do the job. Now we need to figure out do we want to actually work with him.” And Brian went super deep on a lot of really intense questions about my life, what drove me, what mattered to me, why I wanted to do this, all that stuff. And we had a very intense conversation about what it meant to want to do things, what it meant to be a human trying to go about the world.
+Craig : Did you feel prepared to answer those questions?
+Olaf : I definitely had to think about each question but I tend to have a pretty crystallized ideology about the way I think about the world. It changes, but at any given moment, I know what it is. So yeah, I think it was pretty reasonable for me to say, “Here’s why I wanna do this.”
+Craig : Okay, and then how does it wrap up?
+Olaf : They say, “Okay, great. We’ll let you know.” And then they walk me out. I heard back, I wanna say, four days later. They said, “You should come in for work trial.” And that was a two week paid trial. I worked really hard because I knew this was the final test. At the end of those two weeks they said, “Okay. You have a formal job offer.”
+Craig : What was the actual job?
+Olaf : Customer support. Like I said, I came in and was willing to do anything. I did customer support by myself until we had 250,000 users.
+It was a marathon. It was like 12-hour days of fast replying. And, to be clear, we did not have good support during that time. I’ll say that as the person who was doing it. You would get an email. It wouldn’t necessarily come right away. It wouldn’t necessarily perfectly answer your question. But we were replying. [Laughter]
+Craig : [Laughter] Okay. So then did you become involved in hiring future people?
+Olaf : Yes. So basically what happened was we were trying to hire more customer support people, because it was not scaling with just me. We did four work trials for our customer support people to join me in San Francisco. We rejected all of them. Meanwhile the problem is getting worse and worse and worse, right?
+The delay in replies and the quality of replies is just going down in a bad way. I think at the peak, the average time to reply was five days. And this is a financial institution. It’s really inappropriate.
+So I got really desperate and I posted a Bitcoin SAT on Reddit. What this was was a test, a Bitcoin aptitude test so to speak. And it had questions like, “What is the hash of the genesis block?” That was the first question. And the idea there was if you’re asking yourself, “What does that mean?” this isn’t the job for you. If you have no idea what that is then get out of here.
+It was a bunch of Bitcoin-style brainteaser-y questions and I just posted it on Reddit’s /r/bitcoin and Bitcoin Talk and I said, “If you get a perfect score, you get an interview for remote customer support.”
+And we got like 250 people to take this test. Skip ahead maybe four months. I have 43 people reporting to me in a distributed team.
+Craig : Whoa.
+Olaf : This team covers merchant integrations, API support, anti-fraud investigations, compliance investigations, and did customer support. We now have all of these teams at Coinbase. They mostly came from this one Bitcoin SAT. It was so successful that I posted it a second time at some point and got a new round of candidates.
+It was a globally distributed team. The first person I hired was in New Caledonia. It’s weird how these things work. Skip ahead two years, he works at Coinbase in San Francisco and is the director of customer support. He’s an amazing guy. He started remote and I remember thinking when we had our first talk – he had a master’s in computer science from George Washington University – and I was like, “Why do you wanna do customer support?”
+And he said, “I’m in New Caledonia. This is the best job I could hope for and I love Bitcoin.” And I was like, “Well, you’re hired.”
+And that was when I realized that the remote structure was actually going to work really well. There were hard things about it, but I now feel very confident running remote teams. This was when we were using HipChat–before Slack. Then Slack came out and that helped a lot. And then we had Google Hangouts. Basically the tooling was good enough. Like Google Docs where we can all edit something. The tooling really was good enough, just at that moment. I think if were to try to do this distributed team two or three years before, it would’ve fallen on its face.
+Craig : So you were managing support but then you eventually ran risk, right? How does that happen?
+Olaf : Yup. So I was kind of managing what was really like the whole operational part of the company and it was really burning me out. This was a year and half of 12-hour days without any vacations. I took Sundays off. We scaled to probably 30 or 40 people in San Francisco before I hired a Director of Support and became the Head of Risk.
+So as Head of Risk the main things I focused on were account security and fraud prevention. It wasn’t like infrastructure security around preventing hackers. It’s user-facing, like they enter their password on a phishing site.
+Basically with security there are two angles: We can get your coins stolen or you can get your coins stolen.
+Craig : [Laughter] Right.
+Olaf : [Laughter] So yeah, I was responsible for the latter and anti-fraud, i.e. people buying bitcoin with stolen identities. While I was running support I had a huge part in handling all that stuff. And when fraud had gotten bad in early 2013, I designed the Risk Queue that would review people that we thought were stolen identities. At one point I would review every single buy on the website–one by one.
+Craig : Whoa.
+Olaf : These are things that absolutely don’t scale, but you can build it in one day and start working on it that day. So Brian built it and I would review every single buy. As a result I started to get an incredible eye for stolen identities. Like I had a sixth sense for whether an account was a stolen identity or not.
+Craig : Can you explain that a little bit? What are you looking for?
+Olaf : Ok, so there are a couple tiers of scammer. Let’s pretend you’re a unsophisticated scammer. You sign up. The email you use is Edward.Fitzgerald@whatever.com and the name you use is Laura Johnson. Then the bank account you use is Alexander Smith. Obviously something’s going on there. So big name mismatches are the easiest to spot.
+Then there are patterns. So, for example, scammers would buy dumps–some guy will a hack a site, he’ll get a bunch of bank account numbers and then he’ll use them all. And those dumps will often share certain traits. For example, I’d suddenly see like 20 SunTrust bank accounts get added in 20 minutes and they all share certain formatting rules or the email domain is the same, or something like that. So again, it’s basically pattern recognition.
+But then it gets way more complicated because for sophisticated scammers, their entire job hinges on me looking at something and saying, “that’s legit.”
+And it can mean massive payouts for them. Our limits at that time were 50 bitcoin a day. So, if you could sneak past me, you could buy 50 bitcoin every day until the real account holder called their bank and said, “I’m seeing all these crazy charges.”
+But yeah, I learned a lot very quickly. I learned a lot about traditional payment mechanisms. Before I knew a lot about bitcoin. Now I know a lot about credit cards. And ACH. And bank wires. And all that stuff.
+Craig : Yeah, it sounds like you’ve dug in. I assume not everyone who works at Coinbase now has the same degree of knowledge. How do you scale understanding at a company that is based around something inherently technical?
+Olaf : In the early days, everyone was a cryptocurrency fanatic. The first two engineering hires were these absolutely brilliant people who basically came to Coinbase because they wanted to work on cryptocurrency. And what’s interesting is a lot of our anti-fraud people are also super into Bitcoin. They’re not people who worked anti-fraud at Stripe. They’re Bitcoin people first.
+So yeah, we’d sort of filter for smart people that were passionate about Bitcoin. It’s my opinion that if you’re smart you can learn a new skill and all the details. But passion and innate interest cannot really be learned. We tended to hire people who said, “I love this company. I don’t quite have the experience.” Versus people that said, “I have the experience, but I’m looking at four other places and maybe I’ll pick Coinbase.”
+My belief is that the inexperienced, interested person will outperform the experienced, uninterested person over time.
+That said, when we started scaling we did have to start trading between interest in Bitcoin and domain experience. The person who runs Compliance, for example, can’t just be winging it.
+Craig : What was it that made you want to join Coinbase?
+Olaf : Before I was gonna apply, I read all about the founders. There were a bunch of competitors at the time. The massive market share was MtGox, which ended in tragedy, as you may know. And then like there were bunch of other companies that were bigger. BitInstant, Tradehill, these are all defunct. Every single one of them is dead now. But at the time, Coinbase was like the new little company.
+Craig : Okay, so the underlying question is how do you vet founders in a new field?
+Olaf : Yeah. I have pretty strong feelings on that. I’d say meet them and make sure 100% that you like them, that you could work for them, and that you will run the whole marathon with them. Running a company and scaling a startup is so much stress, so much work. And they’re gonna be sitting next to you the whole time
+If you don’t feel like they’re in it 110% and that you can work with them and be friends with them, it’s not gonna work. Especially in a very micro team. I mean, once a company is 40 people, that’s still like a startup but the founder matters for you personally a little less. It does for the company’s success but not for you personally. But if you’re joining like a sub-10-person startup you really need to make sure that the founder is gonna drive this all the way. This needs be a grand slam.
+So much of it is about personality and drive. Even if you’re technically brilliant, there are these dark times. And dark like bad things are happening. There’s always gonna be bad events.
+You have to ask, are they gonna focus in and just move forward, or are they gonna give up? And it doesn’t matter if they’re technically competent if they’re in the latter category. They could be the best person in the world at this but if at the end of the day they don’t have the drive and spirit to make this happen, it doesn’t matter. So to me the technical competency of course is vital. But if you met someone and said, “Wow, that guy is the number one expert in the world at this,” but you felt like he’s kind of flakey. Pass. Always pass.
+With Brian and Fred, they’re two of the smartest, most focused and driven people I have ever met. And I knew that after the interview. I was like, “These guys are really not fucking around.” Seriously, it really made me wanna work there.
+Craig : So to your point of the bad things always happening, what were the bad things that happened?
+Olaf : Oh, man. I think in 2013 our user base increased 100x. And the price of bitcoin went up 100x. Our volumes went up I think even more than 100x. You know when people talk about like rapid aggressive scaling? That’s exactly what it was and a tiny number of us were scaling all of it. At the beginning of that year it was two people. At the end of that year, just eight.
+Craig : Wow.
+Olaf : Brian and Fred are very careful about hiring. They only hire people that they truly think are superstars. At Coinbase one thing that gets said a lot is, “On a candidate if you’re not a ‘hell yes’, you’re a ‘no’.” If you’re like, “I like them. I think they’re smart. I think they’re great.” That’s a “no.”
+You really have to fight to keep that up. You have to feel like if this person does not get hired, we’re crazy. That’s how you have to feel for someone to get hired at Coinbase.
+And that early team was really unique individuals. Like, it was the perfect puzzle pieces. But anyway, the scaling during that time was brutal. It was absolutely brutal. And we had bugs that were really bad.
+Here’s the thing, it’s not like having bugs on Twitter where maybe something gets retweeted wrong. When you have a bug on Coinbase, balances are incorrect in what are essentially bank accounts. And transactions that are time sensitive aren’t getting sent out. The stakes are way higher yet you’re still just five people in a room making the whole thing.
+One time the ACH file we use with banks got duplicated. That’s means that if you bought $100 of Bitcoin we duplicated the transaction so you’re buying $200 of Bitcoin. When something like that happened I would get a thousand emails in 20 minutes because these are bank accounts and people definitely notice that stuff.
+The one thing that’s so lucky is we never had an incident where someone gained access to our infrastructure and pulled out Bitcoin from the hot wallet. That was just the blessing. I think even Brian would probably tell you that there were times in Coinbase’s history that were sort of coin flips. But we survived them. Other companies had incidents like that and had to shut down. We caught things fast enough.
+Craig : That’s funny. It’s exactly the same thing Aston said about Dropbox. Basically, “Shit went wrong all the time but the one thing we never did was lose a ton of files.”
+Olaf : Exactly. This is exactly Coinbase’s story. In those early days everything went wrong except the one thing that couldn’t go wrong.
+Craig : [Laughter] Exactly. So at what point were you like, “Okay. I’m ready to do something else?”
+Olaf : Yeah. So I basically saw what, for me, has been the biggest trend in the space I’ve ever seen, and I’ve been in this heads down for five years. People are doing this new behavior where they’re actually raising capital and issuing what is essentially network ownership of their network on the blockchain. So these are like bits of equity in peer-to-peer networks that are built on the blockchain.
+A crude example here is imagine if an early user of Facebook gets a thousand shares of Facebook. Now, instead of just normal network effects, there’s also monetary incentive network effects built into this protocol. And these new types of protocols are built on new blockchains or as subtokens of existing blockchains. The opportunity for me was too big to pass up. The trend was too strong. Plus I needed a new adventure. So I left to start Polychain.
+And it’s only been eight weeks but Polychain has seen a lot of interest because this trend is really strong. I think that over the next year, there’s gonna be amazing opportunities here. The alternative thing that I could’ve started is a venture fund that invests in companies built on the protocols.
+But in this new model, there’s really no place for traditional VCs because the protocol tokens themselves are the issuance of ownership. Not shares on a piece of paper. And as the company wants to raise their Series A, their Series B, their Series C, all that is them holding say 5%, 10% of the protocol tokens and those going up in value as their network becomes more valuable. And then they can sell tokens and become diluted to get liquid cash. It works very well. It’s a lot of similar mechanics to venture capital fundraising, but they can do it all with this native protocol units and crowdfunding, and there’s just no place for paper shares or VCs.
+So, instead of betting in companies built on protocol, I’m actually buying units of the protocol. I’m buying scarce blockchain tokens and creating a portfolio of those tokens. I’m basically buying ownership in all of these new 2.0 peer-to-peer protocols.
+Craig : That’s wild.
+Olaf : Yeah, that’s why Polychain is a hedge fund instead of a venture fund. Because I’m holding solely protocol tokens. To a normal person what I’m doing is extremely esoteric.
+Craig : [Laughter] Uh, yes.
+Olaf : It absolutely is. That said a lot of smart people in Silicon Valley think it’s on that edge where this is going to grow substantially over the next five years.
+Craig : You’re definitely in the right place. Ok, random question. Aside from the Bitcoin readings you recommended, what books do you recommend?
+Olaf : I have a couple that come to mind. So I love David Foster Wallace and Infinite Jest is probably my favorite book. His short stories are also amazing.
+Another book that comes to mind is House of Leaves. The premise is crazy. So the actual book is a manuscript written by an old man. With annotations by a narrator who has found and reconstructed this book. With annotations by an omnipotent editor. Who is finding the annotations of the person who reconstructed this old man’s book.
+Craig : Oh my god.
+Olaf : And now this is where it gets even crazier. The old man’s book is a analysis of a movie that doesn’t exist.
+Craig : [Laughter]
+Olaf : And the narrator who’s annotating and reconstructing this old man’s book is being driven crazy because there’s so much detail and he can’t find this movie. And it like actually doesn’t appear to exist. And the old man, all his sources are fake articles and things. It gets really weird but it’s much more of a page turner than David Foster Wallace.
+Anyway, I’d recommend both because they’re super long and once you get into them, they completely consume your brain. They’re my favorite kind of books.
+Craig : Right on. Ok, let’s end there. Thanks for your time.
+Olaf : Sure thing.
+Olaf’s Suggested Reading
+Blood Meridian by Cormac McCarthy – Probably my other favorite book along with Infinite Jest.
+Programming and Metaprogramming in the Human Biocomputer by Dr. John Lilly
+Journey to Ixtlan by Carlos Castaneda
+Steppenwolf by Herman Hesse
+Here are three posts that explain the Polychain thesis well:
+• App Coins and the dawn of the Decentralized Business Model
+• The Golden Age Of Open Protocols
+• Crypto Tokens and the Coming Age of Protocol Innovation

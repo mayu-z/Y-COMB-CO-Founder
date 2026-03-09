@@ -1,0 +1,14 @@
+Title: The YC Directory
+Author: Geoff Ralston
+URL: https://www.ycombinator.com/blog/the-yc-directory
+
+The YC Directory | Y Combinator
+September 21, 2020·by Geoff Ralston
+We recently launched the YC Directory. The directory lists 2,000+ publicly launched YC companies and makes it simple to filter by batch, industry, status, region, and company size. Potential investors and partners can use the directory to easily find and contact the companies with whom they’d like to work. The directory also has a filter for discovering YC companies that are hiring. We hope this tool helps job seekers find their next role.
+Today, we’re launching three new directory sections. In the aftermath of the recent Black Lives Matter protests, we’ve had many discussions within our community about how we can better support historically underrepresented founders. Several asked that we create pages that highlight the Black, Latinx, and women founders in our community. We loved the idea and therefore built a section of the directory dedicated to highlighting companies started by these founders.
+These pages will be updated on an ongoing basis, as founders can opt into be included once they are part of the batch. We’re also releasing new data, including the combined valuation of these YC companies and the total amount they have raised. These numbers will be refreshed annually.
+We hope this new directory becomes a resource for investors and customers who are actively seeking out Black, Latinx, and women founders to support. For prospective founders who are looking for inspiring leaders, here is a way to discover successful founders who may have had experiences that reflect your own.
+We have the strongest community of founders in the world. That strength comes not only from the success of their companies — but from the diverse experiences and backgrounds they bring to the YC community. We’re proud to share them with you.
+Author
+Geoff Ralston
+Geoff Ralston is the former President of Y Combinator and has been with YC since 2011. Prior to YC, he built one of the first web mail services, RocketMail which became Yahoo Mail in 1997.

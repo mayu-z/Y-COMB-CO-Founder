@@ -1,0 +1,347 @@
+Title: Request for Startups: Climate Tech
+Author: roughly
+URL: https://www.ycombinator.com/blog/rfs-climatetech
+
+Request for Startups: Climate Tech
+Y Combinator has funded well over 100 climate tech startups, and together they are worth over $10B.
+These startups offer commercial solutions to decarbonize society or remove carbon from the atmosphere. By doing this at speed and scale, we have a fair chance of avoiding catastrophic climate change. The financial opportunity of doing so is massive: an estimated $3-10 trillion in EBITDA will be up for grabs. As one example, Tesla has pushed the car industry to go electric while making $75B in annual revenue at a 60% annual growth rate.
+Recent legislation will also significantly accelerate the existing market trends. The Inflation Reduction Act will spend an estimated $800B in the US alone over 10 years. To put that into perspective, it is almost 10x the $90B 2008 bill that catalyzed the US solar, battery, and EV industries into existence.
+Special thanks to Gustaf Alstromer and David Rusenko for authoring this RFS, as well as Bill Clerico, Michael Wara, Ari Matusiak, Tom Ferguson, Erika Reinhardt, Paul Gross, Jonah Greenberger, and Bob Epstein for reviewing drafts and contributing ideas.
+	
+A broad spectrum of machines that use energy are being converted to electric equivalents, from vehicles to home appliances. Increasingly, the electricity they use will be generated from renewable sources like solar, wind, and geothermal, which are being deployed on a massive scale and require installation, manufacturing, and raw materials. Simply put, the main way we’ll decarbonize society is to decarbonize the grid and then electrify the majority of combustion machines. 
+The grid will need to be upgraded to cope with a higher demand for electricity, and as renewables aren’t “dispatchable”, we will need both short-term energy storage options (likely batteries), as well as longer options like green hydrogen, thermal storage, compressed air, pumped hydro, or biofuels. These new machines are often API-controllable, allowing them to better manage their use of energy to grid needs, and even give back energy to the grid when it is needed and profitable to do so. 
+In short, the entire way that we generate, transmit, consume, store, and manage our energy usage is being completely transformed in an unprecedentedly narrow window, creating a host of new needs for startups to solve. As opposed to the Science Required category, these ideas don’t require a hardtech breakthrough but are more engineering and implementation challenges. Many of the top hurdles to deployment today are “soft cost” and involve generating trust and taking friction out of the process of selling and adopting these technologies in a wide variety of non-standard applications.
+Electrify Buildings
+From residential to large commercial and everywhere in between, buildings will need to have their fossil fuel machines replaced with electric equivalents. While the speed at which this happens and the ROI dynamics will be regionally and individually dependent (e.g. fuel source used, electric rate structure, etc), the amount of transformation required is absolutely staggering; most homes will need 220v electrical rewiring work, replacement of 3-5 major appliances, and possible panel or service upgrades. There are major benefits beyond GHG emissions reductions, including providing a more comfortable and significantly healthier indoor environment. 
+Problems & Ideas:
+Financing as a service for building electrification
+Contractor enablement
+Finding ways (at scale) to add trust as well as ensure accountability
+Improving the quote lifecycle to reduce time spent (and truck rolls), automate system design, and improve installed system performance.
+Sales enablement to better equip contractors to close large ticket projects with detailed ROI and performance reports (similar to what exists for solar today).
+Marketing enablement by aggregating lots of hard-to-acquire data (e.g. building permits, county information) to predict propensity to purchase and ROIs.
+Workforce training and/or recruitment
+Home pre-wiring: Most appliances are replaced on failure, and most homes are not wired with the necessary 220v, making retrofits on failure (the most common use case) particularly difficult.
+New heat-pump technology and deployment.
+Tesla for home appliances: re-inventing home appliances (water heaters, induction stoves, clothes dryers, etc) to create better consumer experiences using specific advantages of electric technology.
+Business model innovations: For example, could you provide pre-wiring for free (leveraging incentives) in return for purchasing the appliance on failure?
+Community coordination to encourage whole-block electrification.
+Alternative energy storage systems (e.g. thermal storage).
+A marketplace to connect contractors and homeowners, with the caveat that a winning marketplace will likely provide significant electrification-specific value add due to the overwhelming complexity of projects.
+Tools to help utilities better understand and plan where and how segments of their natural gas systems can be cost-effectively eliminated via electrification.
+YC Companies: Cambio, PowerX, Greenwork, Kapacity.io, Moneytree, Bright
+Energy Management
+When we electrify our major machines – such as buildings and vehicles – we halve our total energy use but increase the amount of electricity we use by roughly 3x. And while the supply of electricity has been dispatchable in the past, many renewable sources of energy (like wind and solar) are not. The solution to this problem is twofold: first, build both short-term (e.g. battery) and long-term energy storage, and second, dispatchable demand that can better manage the use and flow of energy around times that are more convenient for the grid.
+Many modern replacement machines that generate or use electricity are “smart” in that they can be controlled via APIs – they are often referred to as Distributed Energy Resources (DERs). In the not-too-distant future, vehicles will charge when excess solar is available, could give back to the grid at sunset (V2G) and power our homes during outages (V2H), heat pumps will pre-cool our buildings by a few degrees in the late afternoon, hot water heaters will be stores of energy, and appliances will be paid to respond to grid stress events by automatically moderating their usage (demand response). 
+Problems & Ideas:
+Aggregation of APIs for DERs, including EV chargers, solar, batteries, heat pumps, thermostats, water heaters, etc.
+Tesla-like experience for home energy management: smart hub, including smart charging, load shifting, software-based load shedding for improved resiliency, and better circuit-level energy use measurement.
+Commercial energy management: Similar to residential, many commercial heating/cooling, hot water, and other appliances are API-capable but not being leveraged to their full potential.
+Physical load management to prevent the need for panel upgrades, such as load sharing between an EV charger and an induction stove.
+Electricity APIs: Carbon intensity and Rate plans of all utilities around the world.
+Behind the meter demand response and energy management platform that can compensate for actions taken (e.g. battery discharge measured at the inverter) rather than counterfactuals.
+Smarter EV charging for charging networks, fleets, and residential use cases that is price, carbon intensity, and excess solar awareness.
+Helping to balance the grid (demand response), both on an emergency basis as well as a minute-by-minute basis.
+Hardware/software to manage the use of bidirectional charging as an increasing share of EVs allow for this option - both for whole-home backup and for grid support at times of peak demand. 
+YC Companies: Enode, Evoly, inBalance, Pelm, Gaiascope
+Electric vehicle value chain
+Electric cars are winning personal transportation technology. EVs are now over 5% of new US sales and growing 60% year over year. In Europe the market share is 13% of new cars, with some countries as high as 81% (Norway). To support the transition we need a lot more charging infrastructure. We think new EV-charging infrastructure will be available in the home, at the workplace, at commercial locations, and as public infrastructure. 
+We recommend anyone who wants to understand the problems below to buy or rent an EV (especially a non-Tesla EV) and try every available form of charging. 
+Problems & Ideas:
+Smart charging software taking advantage of the greenest/cheapest rates and excess solar
+EV-charging networks for emerging markets
+Streamlining of EV-charging installations including permitting
+EV-charger installation without requiring panel upgrades
+EV-charging for trucks and commercial vehicles that avoids the need for major grid upgrades
+Software to speed up planning and deployment progress
+A company that could unlock curbside public charging (lots of permitting and deployment difficulties)
+Multi-unit residential, commercial and corporate EV charging software
+Fleet charging software
+EV-charging loyalty programs
+Software to connect chargers, cars, and utilities (Plaid for EV charging)
+Rent EVs to delivery fleets like Uber / Doordash, directly to consumers, or to commercial operations. Solve specific headaches around rented (vs owned) EVs.
+YC Companies: Statiq, HeyCharge, Coulomb AI, Zitara Technologies, AmpUp, Olympian Motors, Telematica, Nimbus, AeonCharge, Enerjazz,
+Electrify other vehicles
+The early market for passenger electric vehicles alone is already over $1T in size, and there are many other types of vehicles that rely on fossil fuels that will eventually follow a similar trajectory to passenger vehicles, and for which there are no significant technology hurdles to electrification. Electrifying these vehicles is a big carbon opportunity: while buses and trucks only represent 10% of the vehicles on the road, they generate 30 percent of the sector’s global greenhouse gas emissions. These vehicles can often be much less expensive to operate and maintain with strong ROIs if operational considerations can be addressed.
+These opportunities may not be as straightforward as they might seem. Successful companies will need founders that will be able to raise significant funding and will need successful strategies to maintain healthy margins in the early days and while scaling. Other considerations include market size, incumbent strength, founder fit with an enterprise-like sales cycle, and ability to create significantly better-electrified products faster than the incumbents can modify their existing lines and supply chains.
+Types of vehicles to electrify:
+Semi-trucks
+Transit buses
+Motor coaches & minibusses
+School buses
+Mail trucks
+Step & cargo vans
+Street cleaners
+Trash trucks
+Fire trucks
+Septic trucks
+Tow trucks
+Light duty utility vehicles (e.g. Ape trucks, tuk-tuks, etc)
+RVs
+YC Companies: SixWheel
+Batteries
+The global battery market in 2021 was $112B and is projected to grow to $424B by 2030, driven by the growth in EVs and energy storage systems. As batteries fall further down the learning curve and gain dominance in electrified machines (homes, vehicles, etc), there will be opportunities to improve efficiency and lower costs. Short-term energy storage needs are driving the adoption of residential-scale, commercial, and grid-scale energy storage systems that leverage existing battery technology to bridge the intermittency of renewables (hours or days) and support the grid during grid stress events. There are also opportunities to design new battery technology geared towards specific applications (e.g. short haul aviation and shipping).
+Problems & Ideas:
+Battery financing for small and large businesses
+Battery manufacturing improvements
+Lifecycle management
+Battery recycling
+New general-purpose battery technology
+Purpose-suited battery technology & chemistry
+Battery technology and chemistry that reduces the need for strategic minerals
+Cheaper and better batteries for short-term grid storage
+YC Companies: Advano, Posh, Milibatt, GBatteries, Moxion Power
+Long-term energy storage
+Whereas fossil fuel sources of energy are dispatchable, renewables generally are not, so there will be a need to stand up entire industries that are able to provide long-term (multi-week or seasonal) energy storage capabilities at grid scale. This is a rapidly emerging area, and there are significant inherent technology and adoption risks. The key to success for many of these ideas lies not only in efficiency and energy storage potential, but also in the real-world practicalities of deploying the technology that both meets geographical, land use, permitting, and grid constraints – this is where pumped hydro, for example, often runs into challenges.
+Promising emerging technologies:
+Green hydrogen (using renewables for electrolysis) stored in large underground salt caverns
+Advanced geothermal batteries
+Thermal storage
+Compressed air
+Pumped hydro
+Biofuels
+New battery technology for longer-term storage (e.g. much lower cost with less energy density, improvements on cycle count, or other performance characteristics)
+YC Companies: Phoenix Hydrogen, Airthium 
+Energy production
+It is estimated that new utility solar demand will grow from ~10 GW in 2022, to 50 GW per year in 2027 with wind and energy storage not far behind, and combined are projected to overtake gray natural gas by 2027. Further, the IRA manufacturing credits are projected to make US solar and wind the cheapest globally in 2025-2030, from $25/MWh in 2022 reaching lows of <$5/MWh in 2029x. Residential solar is also expected to be a large beneficiary of cost reductions in solar and battery manufacturing.
+Growth will be a function of the lowering of the cost and efficiency of deployment at scale, and startups can play an important role in helping on both fronts. While the IRA sets up the structure, there are still many problems standing in the way of large-scale deployment that represents opportunities for startups.
+Problems & Ideas:
+Interconnection is currently a large bottleneck. Total new capacity in interconnection queues has ballooned from 0.3TW in 2013 to 1.2TW in 2021, 83% of which is new utility-scale solar, wind, and battery capacity waiting to come onlinex. The root cause of these bottlenecks is transmission capacity, planning, and siting.
+Improving permitting speed. Permitting creates inefficiency in the system, and is often a very manual and one-off process. Some early consumer solutions (e.g. SolarAPP+) could be improved upon or expanded into adjacent areas (e.g. building electrification, EV charging infrastructure).
+Deployment and installation of panels. There is a staggering amount of physical installation that will be happening over the next decade, and plenty of opportunities to make this process more efficient and less expensive. For utility-scale installations, the PV panels, inverter, electrical, and structural components make up roughly 60% of project costs, while for residential installations these components only represent 36% of the project costs. Significant effort is spent on design, engineering, permitting, and labor.
+The efficiency of both solar PV and wind turbines can reduce significantly if not regularly cleaned. However, cleaning is often an expensive proposition, which currently may not always meet ROI considerations. Panels also break and identifying faulty panel maintenance today is largely a manual process.
+Transmission & Distribution systems are increasingly becoming the largest component of electricity costs. These are old, aging systems that are prone to failure (with catastrophic consequences), and that are unable to distribute energy efficiently over long distances from where renewable energy is generated to where it can be consumed. Distribution system planning - the last mile of delivery - lags far behind transmission system planning for optimizing the performance of existing infrastructure for future needs. 
+YC Companies: Bright, Nira Energy, Charge Robotics, SunFarmer, Reach Labs, Sunfolding, Kitekraft, Paces, Oolu, Aerones, Raptor Maps, SmartHelio 
+Critical minerals
+Minerals are a critical component of most clean energy sources, including solar, wind, batteries, and downstream products like EVs. Lithium, cobalt, nickel, graphite, manganese, and other rare earth metals are in increasingly short supply as demand scales up – the demand for lithium alone is estimated to grow between 13-42x by 2040. New and more diversified supply sources will need to be tapped – as well as a stronger focus on recycling – in order to meet this demand. 
+There will also be a focus on emissions from mineral production, as well as geographical provenance: the Inflation Reduction Act includes strong incentives for materials sourced from the United States or countries with a US free trade agreement.
+Problems & Ideas:
+AI & software for the discovery of new mineral deposits
+Mining & extraction innovations
+Technologies to reduce emissions during mining & processing
+Changes to battery chemistry that reduce or avoid the use of minerals whose mining is associated with geopolitical risk or ESG concerns.
+YC Companies: Impossible Metals, KorrAI, StratumAI, EARTH AI, Maverick Bioworks
+Science required
+There is a conventional wisdom that all technologies needed to decarbonize the planet have already been invented and we just need to focus on deployment. First, we don’t agree with this. Second, innovation and deployment are not at odds with each other – we need both.
+The mistake outsiders make with scientific innovation is drawing their conclusions from the v1 version. In science, the v1 versions are usually prohibitively expensive and inefficient. The compounded effects of iterations are what make it work.
+Scientific innovation can create meaningful improvements and opportunities, and there is a significant need for companies to address the areas of society that currently lack immediate solutions.
+Carbon removal & carbon capture
+Carbon removal and carbon capture are similar concepts with different technology and applications. Carbon capture refers to capturing carbon from a point source emission like a power plant, vehicle, vessel, or industrial facility. Carbon removal refers to removing existing carbon dioxide from the atmosphere. 
+Carbon capture and use or storage (CCU/S)
+These technologies remove carbon emissions from the emission source. Technologies in this field have existed for decades but market incentives have not favored deployment and as a result, progress has been slow. Today, industry players operating large trucking and shipping fleets as well as industrial emitters are a lot more incentivized and interested in pursuing carbon capture and storage. 
+Problems & Ideas:
+Trucking carbon capture
+Shipping carbon capture
+Industrial carbon capture (refining, cement, steel, chemicals, hydrogen, etc)
+Blue hydrogen - co-optimized carbon capture with hydrogen production
+Power plant carbon capture (including gas plants and bio-energy)
+Infrastructure for buying, selling, and moving captured carbon
+Infrastructure for monitoring and storing carbon underground 
+YC Companies: Remora, Seabound
+Carbon Removal
+Carbon removal is the process of removing carbon dioxide from the atmosphere and sequestering it for permanent removal or sometimes using it for products like fuel. All IPCC scenarios to reach 1.5°C or even 2°C have accounted for massive amounts of carbon removal required, but have been light on details of which technologies they recommend. Many current technologies face large-scaling challenges due to energy and/or water requirements. 
+Problems & Ideas:
+Direct air capture
+Nature-based methods
+Trees (Afforestation & Reforestation)
+Soil carbon sequestration & measurement
+Building materials that sequester carbon
+Carbon mineralization
+Enhanced weathering
+Coastal blue carbon
+New ocean measurement and reporting software (MRV)
+Marine biomass
+Increasing ocean alkalinity
+YC Companies: Noya, Airmyne, Living Carbon, Phykos, Heimdal, Holy Grail 
+Methane capture & removal
+Methane is the second biggest greenhouse gas, with 30x more warming potential than CO2 over a 100-year time frame and a staggering ~85x more warming potential over a 20-year time frame. We are likely to have a near-term gap between where the science says we need to limit warming (1.5°C) and the path we are realistically on. There are no commercial technologies that exist today for removing methane from the atmosphere – early research is ongoing – and the regulatory environment and incentives do not yet exist. While methane removal is still early, there are clear paths to commercializing technologies around methane emissions reduction.
+Problems & Ideas:
+Methane measurement and monitoring tools
+Methane emissions reduction technologies
+Reduce emissions from network infrastructure
+Reduce leakage/slip from natural gas engines
+Mitigate other non-CO2 greenhouse gas emissions like nitrous oxide
+Direct air capture of methane
+YC Companies: Alga Biosciences 
+Additional resources
+YC Carbon Removal RFS: http://carbon.ycombinator.com/
+Carbon removal knowledge gaps: https://frontiergaps.softr.app/
+	
+Renewable fuels
+Electric vehicles powered by batteries are an incredible innovation. But batteries have one major drawback – the further you want to go and the bigger the vehicle the more batteries the vehicle needs and a bigger percentage of its weight are batteries. This is a problem for sectors like international shipping, long-distance aviation, and (although debatable) freight trucking. While batteries are improving fast, it is going to take a long time to make up for the 35x energy density of jet fuel. These are big markets: just aviation and shipping, both of which are growing fast, represent 20% of all transportation emissions in the world. Another big market opportunity for renewable fuels is energy storage. And it will take many decades to phase out all gas vehicles in the world, which creates a big need for transitionary drop-in fuel replacements. 
+Renewable fuels can be categorized into two categories: Electrofuels and advanced biofuels. Both are effectively powered by the sun. 
+Problems & Ideas:
+More efficient and cheaper electrolyzers for hydrogen production
+New microorganisms for biofuels
+Infrastructure for green hydrogen storage
+Innovation to drive down costs in woody biomass-based approaches to biofuels
+Advanced biofuels
+YC Companies: Prometheus, Phoenix Hydrogen 
+Vehicle Breakthroughs
+Approximately 75% of vehicle-based emissions are in categories that have obvious paths to electrification. The remaining 25% will need to either capture the emitted carbon, use renewable fuels, or will require a breakthrough in the technology available today in order to fully convert to electric alternatives. Here is a breakdown of emissions by hard-to-electrify vehicle category:
+Aviation (11%): Difficult due to battery energy density to weight ratio. Short-haul electric aviation is currently difficult but possible, and with 45% of all global airline flights being under 500 miles, is an interesting near-term opportunity x. Long-haul aviation does not currently have a generally accepted path to electrification, and the industry plans to transition to Sustainable Aviation Fuel in order to mitigate emissions. Hydrogen is another potential alternative for long-haul aviation
+Shipping (10%): Difficult for similar reasons to aviation, including needing a staggering amount of battery storage capacity for longer routes. Also similar to aviation, there may be some possibilities for short-haul electrification. For long-haul routes, CCS or renewable fuels will likely provide emissions reductions.
+Construction vehicles (4%): Very early category with limited progress to date.
+Recreational boats (0.2%): While boats in this category “only” produce 12.5M tons of CO2e emissions, there may be other advantages to electrification in this category, such as reducing noxious fumes, noise, and the ability to fully benefit from renewable energy from solar, wind, and hydro generation.
+Ideas:
+Hybrid technologies that can reduce the majority of emissions by supplementing combustion power with electric power, without the need to fully convert or retrofit.
+Boats (passenger and recreational)
+New or retrofitted electric cargo ships
+Semi-truck electrification - both for drayage and long-haul applications.
+Electric construction vehicles
+Electric work site power
+Zero-emissions port vehicles and equipment
+YC Companies: Cruise, Heart Aerospace, SixWheel, Fleetzero, Wright Electric, Talyn Air, Prime Lightworks, Beyond Aero, H3X Technologies, REGENT, Odys Aviation, Pyka, Hypermile, Seaflight Technologies Boundry Layer 
+Advanced energy generation
+Nuclear energy has already delivered carbon-free energy grids in countries like Sweden and France. This was done in record time but for decades the nuclear industry has been challenged by regulatory pressure and increased costs which led the industry growth to a stand-still (with South Korea and China as the exceptions). But public support for nuclear power is growing again and there are a promising new set of companies creating small modular reactors (SMRs). Until we have evidence of long-term storage working for intermittent energy sources like solar and wind, nuclear will play a very important role in a decarbonized grid.
+Areas of interest:
+Small modular nuclear reactors
+Fusion
+Flexible nuclear generation technologies
+Fuel cycles that avoid or reduce nuclear waste issues
+Fuel cycles that avoid or reduce proliferation risk issues
+YC Companies: Oklo, Helion Energy 
+Agriculture
+Around 15% of the world’s greenhouse gas emissions are a result of beef production, farming, and agriculture. The majority of these are methane emissions of which beef production is its biggest contributor.
+There are several ways startups are addressing this already. You can neutralize or reduce the emissions at the source – effectively making cows burp out less methane. This is a promising technology and would have an immediate effect on planetary heating but would still not account for the land-use impact of beef production. 
+The second major area startups have been addressing these emissions is by creating a new kind of alternative meat and dairy. There are two primary categories of startups: plant-based protein and cultivated/cultured meat. Plant-based companies like Impossible Foods and Beyond Meat are already worth billions of dollars but struggle with the costs of production. On the cultivated meat side there have recently been regulatory breakthroughs giving us hope of these hitting the shelf soon. 
+Problems & Ideas:
+Cheaper ways to produce plant-based protein and cultivated meat
+Methane reduction/neutralization in beef production
+Sustainable fertilizers
+Soil carbon measurement tools (MRV) 
+YC Companies: Eclipse Foods, Rebellyous Foods, Orbillion Bio, Hedgehog, Mooji Meats, Alga Bioscience, Current Foods, C16 Biosciences, Iron Ox, Future Fields, The Good Food Institute, Shiok Meats, Micro Meat, numi foods, Brown Foods, Nobell Foods, Ten Lives 
+Construction
+The construction of buildings and infrastructure represents 13% of global emissions, with a majority of these emissions coming from the production of the raw materials required, such as concrete and steel. This will be a difficult industry to decarbonize due to challenges with inertia, low tolerance for any green premium, and lack of consumer awareness of the underlying materials used. And while there are significant challenges, construction materials is a $1T industry, so any company that can successfully solve these challenges has an opportunity for significant scale.
+Problems & Ideas:
+Low or zero emissions concrete
+Low or zero emissions steel
+Commercialization of low-carbon building materials
+Software to design buildings for lower energy and carbon footprint
+New building materials to improve building energy efficiency
+Construction vehicles & tools
+Software for cities to automate new building codes
+YC Companies: Moxion Power, Carbon Crusher, Intelline 
+Industrial heat & processes
+Industry – the way that we transform raw materials into more useful ones – accounts for a significant percentage of global emissions. Many of the processes required to transform raw materials into cement, steel, chemicals, and plastics (among others) require a large amount of process heat and produce difficult-to-remove emissions. 
+Problems & Ideas:
+Renewable fuels as an alternative source of energy for heat
+New processes that don’t produce emissions as a byproduct
+Breakthroughs to electrify industrial processes
+Infrastructure to transport and manage captured carbon
+Capture excess renewable energy generation for grid integration benefits
+YC companies: Phase Biolabs, Solugen, Medium Biosciences, ALT TEX, Birch Biosciences, Genecis Bio, Ferveret 
+Climate Adaptation
+Climate Intelligence
+As climate patterns continue to change, assumptions that rely on past data are increasingly breaking, affecting industries such as insurance, agriculture, and transportation. There is a new crop of companies that are building better predictive models, and others that are innovating on business models that can help these industries adapt and mitigate their risk. Another set of companies are launching new measurement hardware to collect data not previously available, such as satellites that monitor methane emissions and mesh sensor networks to collect moisture levels. 
+Problems & Ideas:
+Improved risk models for insurers, cities, and investors
+Improved datasets for evaluating risk via models
+Methane monitoring
+Purpose-specific climate modeling for vulnerable industries like Agriculture and Transportation
+Risk management or reduction software
+Mesh sensor networks
+YC Companies: Wyvern, Albedo, Array Labs, Our World in Data 
+Fire
+Extreme wildfire behavior has reached a breaking point caused by climate change and 100 years of poor forest management practices. Given longer, hotter, dryer fire seasons, this extreme behavior is accelerating: as one example, 18 of the 20 worst fires in California history have occurred in the last two decades. Extreme fires cause damage to landscapes, watersheds, homes, and cities with stakeholders like insurance companies, landowners, utilities, and private businesses heavily impacted. Wildfire also contributes back to climate change in a negative feedback loop: studies estimate that 18% of global CO2 emissions are caused by fire and that recent wildfires have erased two decades of emissions reductions in California.
+Most experts agree that the solution to wildfire lies in making landscapes more resilient to fire, protecting homes and cities, and enabling rapid detection and suppression when warranted. However, current efforts are largely untouched by technology and startups.
+Problems & Ideas:
+Landscape resiliency
+Software to help land & timber managers understand risk
+Robotic tools for safe fuel removal & treatment
+Application of carbon credits to fuel treatments and landscape resiliency
+New products & business models for currently wasted small-diameter timber
+Protect homes & cities
+Better data, models & risk mitigation for insurance
+Better ways to reduce or eliminate powerline ignitions
+Home protection & hardening
+New approaches to suppression
+Faster, more ubiquitous detection
+Better situational awareness and intelligence for firefighters
+Better allocation of aerial firefighting resources
+Autonomous aerial fire suppression
+Make suppression faster
+YC Companies: Gridware, Alba Orbital
+(Special thanks to Bill Clerico for authoring this section)
+Drought / Water
+Climate change is altering the water cycle: heat creates more evaporation on land resulting in drier and more arid soil, while also creating more evaporation over the oceans causing shifting patterns of intense precipitation in some areas and extreme drought in others. Warming is also causing sea levels to rise. This creates two broad categories of problems: too much water, and too little water. 
+Another major water trend is workforce turnover: as a set of water experts age out, agencies are having a difficult time filling the hole in the workforce. There is an opportunity to codify much of the knowledge and experience that is departing into software and automation.
+“Too little water” Problems & Ideas:
+Atmospheric water generation
+Groundwater monitoring, management, and remediation
+Future of desalination (though difficult for new tech to get off the ground due to heavy engineering and permitting overhangs)
+Productive uses of desalination salt byproduct
+Water sanitation and remediation of unwanted chemicals in the water supply
+Non-contact sensing of chemical composition
+Agricultural water circularity: managing runoff and reintroducing it into the top of the system
+Reduce water use in industrial processes
+Modified drought or heat-resistant crops
+“Too much water” Problems & Ideas:
+Disaster resilience in terms of preparation and recovery
+Better approaches to applying floodwater to groundwater recharge
+Stopping the impacts of rising water (e.g. where to pour the concrete for sea walls)
+Brackish groundwater impacts of rising sea levels
+Preparation and financial resilience for flooding
+YC Companies: Waterplan 
+Green Fintech
+Finance is a strong and proven lever for decarbonization and is increasingly being tapped as an important part of the strategy toward decarbonization. A $27B “green bank” was created by the Inflation Reduction Act for projects that reduce GHG emissions, and financial institutions are beginning to offer better financing options for companies that are helping to reduce carbon emissions. With increased financing available, there is a new and emerging opportunity to create purpose-built fintech models suited to green project needs.
+Ideas:
+Solutions for automating and streamlining non-venture financing of climate tech. This includes project financing, debt financing, government financing, and automating government incentive programs.
+Discovery platforms for project and debt financing
+Leverage public funds (e.g. IRA green bank mechanism) to unlock private sector funds
+Purpose-built risk underwriting models
+Alleviate cash flow needs with project and incentive awareness
+Specific “green project” needs around e.g. building electrification
+YC Companies: Plover Parametrics, Perl Street 
+Carbon Accounting & Offsets
+Reducing carbon emissions starts with measurement. Carbon accounting software measures all emissions an organization/company is emitting. Usually using the Scope 1, Scope 2 and Scope 3 standards. Companies around the world are now being required to report emissions to customers, public markets, and financial institutions because they believe that reducing carbon is future-proofing the business. 
+Measuring carbon emissions with software is the first step in order to set reduction goals each year. Carbon accounting software can surface the exact emissions from utility providers, transportation fleets, and industrial emissions and give recommendations for alternatives. For emissions that are not easy to reduce they can buy offsets or removal credits. These offsets are usually purchased through a carbon removal marketplace.
+Having a lot of carbon emissions is a financial risk to investors and lenders. As a result, the financial industry has started requiring disclosures and plans from companies before offering financing. 
+Carbon Accounting Software
+The biggest category is carbon accounting software. Counting carbon emissions in an organization has historically been done manually with spreadsheets and consultants. All this will be replaced by software and we imagine both vertical and horizontal solutions.
+Examples of vertical solutions are those that tackle specific industries or verticals like shipping, real estate, or industrials. 
+Carbon accounting software does a few things: 
+Measure a company’s carbon footprint
+Help companies reduce their carbon footprint (e.g. recommendations)
+Help companies offset carbon emissions
+Help companies report on carbon emissions to public markets and regulatory bodies
+Problems & Ideas:
+Industry-specific carbon accounting
+Software infrastructure for carbon accounting (Plaid for carbon accounting)
+Supply chain integration of carbon accounting and procurement
+YC Companies: Sinai, Unravel Carbon, CarbonChain, Aklimate, Minimum, Carbonfact, Cambio, Bend 
+Carbon Offset and Removal Marketplaces 
+In order to reach the 1.5°C degree goal decarbonization alone is not sufficient – we also need massive amounts of carbon removal. We covered some of the promising ideas for carbon removal in the science-required section. There are already many startups that finance, measure, and sell these carbon removal credits but the market is still small. 
+Historically carbon removal credits have had a bad reputation. The reason for this is that it was difficult to know if they actually had an incremental impact (additionality), whether they were long-lasting (permanence), issues with double counting, and how accurately they were measured. Startups today are expected to have great answers to these questions and customers of carbon removal credits are requiring them. 
+Problems & Ideas:
+Carbon removal marketplaces
+Financing of future carbon removal credits
+New MRV software (measurement, reporting, and verification of carbon removal credits)
+New approaches to increasing credibility of additionality claims
+YC Companies: Pachama, Pina Earth, Verdn, Abatable, Wren, Jasmine
+Tarpit Ideas
+Many founders who start working on climate change solutions have no prior experience in the space. This is often a good thing for startups, as lack of experience means not paying attention to conventional wisdom – often a requirement for innovative ideas. 
+Getting to the right ideas takes time. You want to identify a big enough opportunity/problem space where building a solution matches your team’s strengths. 
+We’ve seen founders become attracted to similar types of ideas – some of which are unintuitively difficult. That’s not to say that these ideas can’t turn into successful startups but that they are popular and are also difficult in ways that people often don’t fully understand. Here are some examples: 
+Consumer carbon accounting and removal. Carbon removal credits are complicated enough to understand for corporations and in our experience it’s even harder for consumers to appreciate the value of this and justify the green premium. 
+Carbon removal credits on the blockchain. Using blockchain technology to solve the double-counting of carbon credits is an attractive idea but in our experience it’s just a technology choice and a small piece of the product you ultimately have to build. 
+Too much focus on Direct-to-Consumer vs. B2B. In our experience consumers are motivated to decarbonize when the products are better or cheaper - for example EV’s and solar. Corporations however, are much more committed to quickly reduce emissions than consumers. As a result they are generally more knowledgeable than the average consumer about decarbonization and more willing to try new technology, and initially pay higher prices. Big corporations have a lot more capital to deploy, and their emissions are obviously massive compared to individual consumers, so a single partnership can be very scalable and high impact. 
+Consumer energy efficiency customization. Many energy efficiency ideas suffer from the need to customize products at the individual consumer level, inherently limiting cost-effective scaling. 
+Failure to “impact size” your idea. You should choose an idea that if successful have a large opportunity to reduce carbon emissions. Why? Because this is what society and corporations in the end will value. Large companies set annual carbon reduction goals in tons of CO2.
+Common Challenges
+Some ideas allow you to bootstrap into profitability vs. others require you to raise $100M before generating revenue. For these capital-intensive businesses, companies like Tesla decided to not compete with high-volume products from the start but instead tackled low volume high ASP products to start (“Build sports car, use that money to build an affordable car, use that money to build an even more affordable car,” - Elon Musk). What opportunities do you have to go after high ASP first products in your market if you fall into this category? 
+Hardware without software is hard to make defensible. As a result, we think relying on an additional software or science layer that is a core element of your product is often required to build defensibility. 
+Is there a consumer market today? Electric cars are more fun than heat pump water heaters and they build more consumer awareness as a result. How do you overcome this?
+Solving for the electric utility customer. Utility markets can be very hard to penetrate because of the need to demonstrate very high reliability over long timescales, because of risk aversion, and because of incompatibility with utility business models (shareholders make money by deploying capital). Ideas need to have a clear use case that solves for regulated industry challenges to gain traction.
+Conclusion
+We created this list in order to help share some of the climate tech opportunities we see and common patterns from prior applications. That said, please don’t feel that you need to work on one of these ideas in order to apply to Y Combinator.
+Thinking of applying? One common misconception is that you need a launched product or a lot of traction in order to get accepted. In fact, a founding team and an idea the team is excited to work on are sufficient, and anywhere between 25-50% of the companies that we accept each batch have just those two things.
+Apply here for the next YC batch. We’re excited to hear from you!
+The 100% Solution: A Plan for Solving Climate Change - Solomon Goldstein-Rose
+Electrify: An Optimist's Playbook for Our Clean Energy Future - Saul Griffith
+How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need - Bill Gates
+Speed & Scale: An Action Plan for Solving Our Climate Crisis Now - John Doerr
+Rewiring America - Saul Griffith, Sam Calisch, Laura Fraser
+A Bright future: How Some Countries Have Solved Climate Change and the Rest Can Follow - by Joshua S. Goldstein and Staffan A. Qvist
+US Inflation Reduction Act: A Tipping Point in Climate Action - Credit Suisse
+Stanford ENERGY

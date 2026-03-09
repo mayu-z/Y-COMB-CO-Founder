@@ -1,0 +1,65 @@
+Title: Y Combinator
+Author: Greg Kumparak
+URL: https://www.ycombinator.com/blog/author/greg
+
+Y Combinator
+Select a tab
+Recent Posts By Greg Kumparak
+Dissecting the past to predict the future: Tracy Young on building TigerEye
+In 2018, Tracy Young and her co-founders sold PlanGrid for $875 million. By 2021, she was ready to jump back in and do it all over again with a brand new startup. I chatted with Tracy about what drives her and some of what she's learned along the way.
+Founder StoriesAdvice
+Greg Kumparak
+Greg Kumparak
+6/12/2024
+Humanloop CEO Raza Habib shares 5 common mistakes teams make when building with LLMs
+After working with hundreds of teams to make better products with LLMs, Humanloop CEO Raza Habib shares some of the most common mistakes he's seen.
+Greg Kumparak
+Greg Kumparak
+6/4/2024
+The origins of RevenueCat
+If you build something because you need it, chances are good others need it too. In this interview, RevenueCat CEO Jacob Eiting shares how solving his own frustrations led to building a tool that helps power over 30,000 apps.
+Greg Kumparak
+Greg Kumparak
+5/30/2024
+All Posts
+Lessons on building hardware from the founders of Eight Sleep
+by Greg Kumparak5/8/2024
+The co-founders of Eight Sleep share some things they've learned about building hardware over the last 10 years
+Read More 
+Getting to know YC's newest Group Partner, David Lieb
+by Greg Kumparak4/24/2024
+Last week we shared some awesome news: David Lieb, the creator of Bump (part of the summer 2009 batch!) and Google Photos, has joined YC as a Group Partner. I sat down with David to hear more about his incredible story so far.
+Read More 
+Pivoting to a billion-dollar idea: Lessons from Clipboard Health founder Wei Deng
+by Greg Kumparak3/6/2024
+Many of the greatest companies in YC’s history pivoted along the way. Here's the story of how Clipboard Health founder Wei Deng found an idea worth over $1B.
+Read More 
+The 10-Year “Overnight” Success Story of Casetext
+by Greg Kumparak11/15/2023
+How did Casetext evolve into one of the biggest AI success stories? YC's Garry Tan talks with Casetext co-founder Jake Heller to find out
+Read More 
+Design Review: How to convert more visitors into customers
+by Greg Kumparak10/26/2023
+Getting people to visit your startup’s website is just step one. Getting them to actually sign up or buy something is a whole different challenge — and it’s one where good design is crucial. Join YC's Aaron Epstein and Pete Koomen as they share tips for turning more visitors into actual customers.
+Read More 
+Office Hours: YC’s Group Partners share advice on actually getting things done
+by Greg Kumparak10/6/2023
+For this episode of Office Hours, the Group Partners are talking about productivity — what works for the founders they help, and, perhaps more importantly, what doesn’t. 
+Read More 
+Design Review: Building a better mobile app
+by Greg Kumparak9/1/2023
+There’s a lot to think about when designing mobile apps, where seemingly small details can have a big impact. Viewers have been asking for a mobile-focused episode of Design Review — and here it is!
+Read More 
+Categories
+Admissions
+Advice
+Biotech
+Blockchain
+Essay
+Female Founders
+Founder Stories
+Interviews
+Startup School
+Work at a Startup
+YC Events
+Want to sign up for weekly updates from YC? Sign up for the newsletter

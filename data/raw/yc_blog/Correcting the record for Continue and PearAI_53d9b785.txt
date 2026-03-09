@@ -1,0 +1,20 @@
+Title: Correcting the record for Continue and PearAI
+Author: Garry Tan
+URL: https://www.ycombinator.com/blog/correcting-the-record
+
+Correcting the record for Continue and PearAI
+October 4, 2024·by Garry Tan
+YC is at our best when backing founders with an ethos of building for others, including strong open source developers like the founders of Continue and many others. 
+Earlier this week, a startup in the current batch, PearAI, was criticized online for an inappropriate approach to open source, particularly in how it approached forking Continue. Out of instinct to defend YC companies, I supported PearAI without knowing all the facts. In this case the criticism did have merit, and I worked with PearAI’s group partner and the founders to fix this situation. 
+Ty Dunn and Nate Sesti, co-founders of Continue, have had the grace to light a path forward for PearAI and all developers through their clear communication and commitment to open source. PearAI has apologized, removed the offending repositories, and is working to correct all their mistakes.
+Still, I want to personally apologize to the founders of Continue, the YC community and the open source community for not responding more thoughtfully. 
+I also want to clear up some important facts:
+Continue is not a fork of VS Code, which was misinformation reported in TechCrunch. Continue is a standalone project, built from scratch as an extension to VS Code and JetBrains, which can be easily installed by anyone in their respective marketplaces.
+Continue itself is the center of a vibrant open source community that is rallying around amplified.dev, which believes that the tools used to code with LLMs will be critical infrastructure, that an ecosystem is key to supporting all developer workflows, and that this will only work if developers work together. 
+Open source is the life blood of tech startups, and everyone in our industry owes a debt to open source builders. 
+Thank you for making what we do possible. 
+Garry Tan
+President & CEO, Y Combinator
+Author
+Garry Tan
+Garry is the President & CEO of Y Combinator. Previously, he was the co-founder & Managing Partner of Initialized Capital. Before that, he co-founded Posterous (YC S08) which was acquired by Twitter.

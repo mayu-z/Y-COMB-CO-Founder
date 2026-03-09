@@ -1,0 +1,30 @@
+Phase 2 — Embeddings & Vector Store 🧠
+Time: 2–3 days
+Goal: Convert chunks to embeddings and store them in ChromaDB
+
+Step 1 — Choose your embedding model
+Use sentence-transformers with model all-mpnet-base-v2 — it's free, runs locally, and handles long-form text better than the mini model. No API costs for embedding.
+Step 2 — Embed every chunk
+Loop through chunks.json, embed the text of each chunk, store the embedding alongside the metadata. This will take a while for thousands of chunks — run it once, save the results, never run it again unless your data changes.
+Step 3 — Set up ChromaDB
+
+Create one main collection called yc_knowledge
+Add every chunk with its embedding and full metadata
+ChromaDB stores everything locally — no external service needed
+
+Step 4 — Build your hybrid retrieval function
+This is two searches merged together:
+
+Semantic search — embed the user's query, find top 10 most similar chunks in ChromaDB
+Keyword search — simple string matching on your chunks for specific names, terms, quotes
+Merge both result lists, deduplicate, re-rank by quality tier
+Return top 5 chunks as context
+
+Step 5 — Add metadata filtering
+Before searching, detect what the question is about and pre-filter:
+
+Question mentions "apply" or "application" → filter to topic_tags: applying chunks first
+Question mentions a company name → filter to source_type: company chunks first
+Question is conceptual/philosophical → prioritize quality_tier: 1 chunks
+
+✅ Phase 2 done when you can run a question and get back 5 relevant, high-quality chunks — test with 20 different questions manually.

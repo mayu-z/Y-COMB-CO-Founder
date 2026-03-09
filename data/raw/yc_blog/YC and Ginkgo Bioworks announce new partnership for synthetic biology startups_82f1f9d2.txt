@@ -1,0 +1,15 @@
+Title: YC and Ginkgo Bioworks announce new partnership for synthetic biology startups
+Author: Jared Friedman
+URL: https://www.ycombinator.com/blog/yc-and-ginkgo-bioworks-announce-new-partnership-for-synthetic-biology-startups
+
+YC and Ginkgo Bioworks announce new partnership for synthetic biology startups
+September 16, 2019·by Jared Friedman
+Ginkgo Bioworks was the first bio company YC funded, back in summer 2014, which makes us especially delighted to announce a new partnership between YC and Ginkgo.
+Ginkgo Bioworks programs cells. They program them to produce flavors, fragrances, cannabinoids, food proteins, and more. To do that, they have built the world’s most advanced compiler and debugger of genetic code for the rapid engineering of new organisms.
+Today, Ginkgo’s core business is programming cells for large companies like Bayer and Roche. But these are multi-million dollar deals that are out of the reach of startups. Ginkgo’s new deal will make it possible for startups to access the same platform.
+Ginkgo Bioworks will offer to program cells for YC companies doing qualifying synthetic biology projects on a $0 down basis. Instead of charging, Ginkgo will get equity. Their equity ownership will be based on achieving technical milestones, so it’s essentially a risk free deal for the companies. Ginkgo will effectively be making a big in-kind R&D investment in these companies. Before engaging with YC companies, Ginkgo will need to vet the projects for technical feasibility and IP conflicts. But a broad range of projects will qualify, and I expect that the right companies can save years and millions of dollars by taking advantage of this deal.
+YC has funded many synthetic biology companies, working on products from industrial chemicals to food ingredients to cosmetics to therapeutics. In the past, companies like this had to make major investments upfront in organism engineering before they could manufacture anything. With this deal from Ginkgo, the next generation of synthetic biology companies will have the option to start by leveraging Ginkgo rather than building lab infrastructure in-house.
+Ginkgo providing startups access to their platform is a big step in the shift that we see towards the AWSification of biology. Ginkgo now joins YC companies like Culture Biosciences, Atomwise, and Excepgen that are making it possible for bio companies to use existing building blocks rather than doing everything from scratch. As this trend accelerates, it will become faster and cheaper for new bio companies to get started.
+Author
+Jared Friedman
+Jared is Managing Director, Software and Group Partner at YC. He was cofounder of Scribd, which was funded by Y Combinator in 2006 and grew to be one of the top 100 sites on the web.

@@ -1,0 +1,65 @@
+Title: Dissecting the past to predict the future: Tracy Young on building TigerEye
+Author: someone else at the company
+URL: https://www.ycombinator.com/blog/tracy-young-tigereye-interview
+
+Dissecting the past to predict the future: Tracy Young on building TigerEye
+Tracy Young is unstoppable.
+In 2018, Tracy and her co-founders sold their company PlanGrid for $875 million. By 2021, she was ready to jump back in and do it all over again with a brand new startup: TigerEye.
+TigerEye builds AI-powered planning and revenue management software for businesses, combining AI and machine learning with a company’s own historical data to help them predict their future. It’s “Moneyball but for business,” as Tracy puts it. 
+I recently sat down with Tracy to find out more about her, what drives her, and some of what she has learned along the way. We talked about:
+Why she wanted to jump back in as a founder/CEO, and what sparked the idea for TigerEye
+The YC interview that inspired her to focus on enterprise software
+Why she and her co-founder spent months “dissecting the past” before starting another company, and what they’re doing differently this time.
+The hard parts of joining a big company following an acquisition, her advice for new founders going through YC, and more!
+Find our conversation below, lightly edited for clarity and length.
+You had a massive exit with PlanGrid. You took a couple of years and then jumped right back in to do it again with TigerEye. What drives you?
+That’s a really good question.
+I think my kids drive me. I always need a project to work on; I’m a busybody that way. I like working, and I like working with really smart, talented people.
+But I also have a lot of energy and intensity, and my kids don’t need me all over them all the time. They have their own life, they don’t need founder-mom on top of them — because then I’m nitpicking every little thing. “Why are your toys out? Go pick that up!” [laugh]
+They don’t need that energy on them 24/7. So I output it into a startup.
+But more than anything, I watched my parents work incredibly hard to give my siblings and me the life we have. They were refugees of the Vietnam War. They worked seven days a week for many years; they worked two jobs a piece just to make things work for our family. It absolutely made me who I am today, and I want my kids to see that you can dream, you can work hard, and you can do whatever you want as long as you’re passionate about it.
+What came first: the idea for TigerEye or the desire to keep building [after PlanGrid]?
+The desire to keep building.
+[My co-founder] Ralph and I were actually working at YC in between PlanGrid and TigerEye — we were both Visiting Group Partners. We saw a lot of really cool technology come through during interviews, and while reading thousands of applications from all of these ambitious, talented founders.
+It was really clear to us there was so much low-hanging fruit in enterprise, but the only people who would build solutions there… let me tell you a quick story: I remember interviewing a really, really talented engineer. He must’ve been only 18 years old, and he was building.. I don’t even remember, some kind of vague thing around video. We were looking at him and asked: you can build anything! Why don’t you solve real problems for real people’s jobs?
+He looked at us and said: enterprise software is for old people. 
+Oh jeez. What was your response?
+I laughed, but it got me thinking that the only people who would build great solutions in the enterprise world are the people who saw it firsthand. 
+We had this unfair advantage of having built a startup for almost 10 years, seeing it grow the whole time, and deploying every solution under the sun to make our company scale and work.
+Then we got the privilege to be acquired into a public company, and to form a new construction business unit [within that company], where we then replaced all of our startup tools with the [big brand] winners — we were paying millions of dollars to buy the software each year, and then another several hundred thousand to deploy it and administer it.
+It was so clear to us: we could take any category [of Enterprise software] between CRMs and ERPs and there were ten good startup ideas in there, right? But the only people who would build that type of software are people who saw it fail them for years.
+For those who don’t know, can you explain what TigerEye does? What was the pitch?
+When Ralph pitched me the idea of TigerEye, he said, “Remember all of those spreadsheets we’d have people make [when building PlanGrid], and they’d never actually answer our questions? I think I can build a business simulator — and automatically generate that data through simulation theory.”
+In a past life he worked at Johns Hopkins University Applied Physics Laboratory using simulation theory and he felt strongly that it could be applied to business. That was really interesting to me.
+Can you give me examples of what TigerEye is simulating, and what it bases its simulations on?
+Something that’s interesting about, say, Salesforce, is that it’s a flat database. When a sales rep hits save on an opportunity, it overrides the history. There’s no version control.
+But that history is interesting! Especially if you have a lot of it, because now we can understand rep behavior over time. So we go into the CRM and snapshot everything every 15 minutes. We pick up every minor change that’s happening over time and use a bunch of AI, machine learning, and advanced statistics to use their historical [data] to predict their future. We’re like Moneyball but for business.
+It gets even more important at public companies, where you’re trying to figure out: where are we going to clock out this quarter, or this month? Where’s our business going to be? 
+You constantly have really smart people munging numbers on a spreadsheet to try to predict the future, and these spreadsheets don’t work.
+What was it like for you to go from running your own startup for 10 years, moving at your own pace, to being within a larger corporate environment?
+It really sucked for me. I think everyone knew this.
+Startups move at such a velocity. To get inserted into a 40+ year old public company… there’s a cultural difference. There’s definitely decision-making differences, and I think that was the hardest part. I felt like I couldn’t sneeze without asking permission from five head-of-somethings.
+Between your experiences with PlanGrid and then at a bigger company — how retrospective did you get about all of this before diving back in?
+We left Autodesk in March 2020 — and then, as you recall, went right into a worldwide lockdown. 
+I’m married to my co-founder [Ralph], so we ended up spending most of shelter-in-place and that COVID period dissecting the past. We suddenly didn’t have a job, we’d left Autodesk, we’re used to moving at such a velocity, and then we came to a complete standstill. 
+What we ended up doing is dissecting everything we felt we did wrong, and everything we did right. Everyone we thought we wanted to work with again, and everyone we for sure were not going to work with again. We mapped out the differences between those that we’d want to work with again, and those we didn’t. The first 24 or 25 people [at TigerEye] were people we’d worked with before.
+TigerEye co-founders Tracy Young and Ralph Gootee
+What determined whether or not you wanted to work with someone again?
+It was the people we thought were incredibly talented, and that we had a fun time building with. It’s as simple as that: looking back, yes, I would love to work with that person again. We had that core value in place before we even narrowed in on a product idea.
+Can you tell me a bit about what you’re doing differently as a founder this time, day-to-day?
+It’s a little bit different this time around; when I first started PlanGrid, I was in my mid-to-late 20s. I’m approaching 40 this year, and I have 3 young kids.
+Getting the luxury of doing it a second time around, I know the things that are a higher value — the things that only I can do as a CEO and founder. There are certain decisions only I can make, and there are decisions that are better off made by someone else at the company.
+"It makes people feel like they suck at their job when the CEO jumps in and does it for them."
+I think in my 20s, as a founder and a first-time CEO, I honestly didn’t know what my job was. I always jumped onto support tickets; if customers had an issue, I’d be the first one to jump in. Companies get to a point where that’s not the best use of your time. We had really great support people on the team — and it feels really bad when the CEO is jumping in to do your job! It makes people feel like they suck at their job when the CEO jumps in and does it for them.
+So this time I’m really deliberate in how I spend my time.
+What does that look like?
+These days it’s mostly product and sales. But it’s also about having really heavily protected family time, and really heavily protected work time.
+That dedicated family time… I generally don’t ask questions about founders being married to each other because it feels too personal, but since you mentioned it earlier: does that make it easier or harder to separate life and work? Easier because your partner already understands the things that are going on in your life, or harder because, in some way, work is always in the air?
+We’ve been doing this together for so long that it’s hard for me to even know what it’s like on the other side. We worked together [on PlanGrid] starting in 2011; we got married in 2013. With three kids, and now two startups — yeah, it’s hard.
+It’s funny, but we often get founders who are thinking about starting a company with their partners, and the advice we give is: don’t do it. And the reason for that is that startups are hard. And marriage is hard. And having children is hard! So it’s this combinatorial explosion of problems that could come up.
+But we’re also a good example that it can work, but we’ve done a lot of work on personal growth, and practicing patience, and practicing forgiveness to be able to do what we do. 
+Last question here, but: you have an incredibly rare perspective on YC. You went through it as a founder multiple times, you were a Visiting Group Partner... for anyone going through the incoming YC batch, or applying in the future, what would you tell them to really maximize their time?
+It’s easy to get a bit obsessive — the goal is to make as much progress as you can in three months, so that you have a great Demo Day with as much revenue and progress as you can.
+But I would encourage everyone to look at the people around them [in the batch], and the startups around them, and put in the effort to get to know them. Learn what they’re building.
+I think back to YC Winter 2012 and Summer 2022, and it’s the people that really are the best part of YC. It’s the friendships I made; the partners that I got to work with. It’s really easy to be 100% heads down and obsessive over your thing — of course, talk to customers, make something people want! — but don’t forget that you are getting an incredible opportunity to meet people who are going through the exact same journey you are.
+Find out more about TigerEye here, and find Tracy's newsletter "Predictable Growth" here.

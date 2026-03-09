@@ -1,0 +1,50 @@
+Title: YC Founder Firesides: Gusto on building for new verticals
+Author: building a great payroll experience for them
+URL: https://www.ycombinator.com/blog/yc-founder-firesides-gusto-on-building-for-new-verticals
+
+YC Founder Firesides: Gusto on building for new verticals
+Gusto (YC W12) provides growing businesses with everything to take care of their team. Today, more than 200,000 businesses use Gusto for payroll, employee benefits, talent management, and more. And with the recent addition of Gusto Embedded, developers now use Gusto’s APIs and pre-build UI flows to embed payroll, tax filing, and payments infrastructure into products. 
+Last week, Gusto announced they have dozens of new partners across verticals like laundromats, health & beauty, and construction building with Gusto Embedded. The company also announced they are making it easier for software providers to keep their payroll customers in compliance.
+YC’s Anu Hariharan sat down with Gusto co-founder and CPO Tomer London to talk about building for new customer segments and the future of embedded finance — sharing advice for startup founders and CEOs along the way. 
+Founder Firesides: Gusto's Tomer London on building for new verticals
+You can also listen on Spotify, Apple Podcasts, and Twitter.
+1:28 - Tomer describes Gusto Embedded and the complexities behind compliance.
+Gusto Embedded takes ten years of Gusto’s experience building payroll software and compliance and makes it available to any software company wanting to ship their own payroll product to the market. 
+5:00 - Why did you decide to pursue startups as the company’s first target audience? How did you think about customer segments in that first year? 
+Over the last ten years, Gusto has scaled to build for multiple customer segments – starting with startups, then SMBs, accountants, and now with Gusto Embedded Payroll, developers who are embedding payroll directly into their software. 
+When you have a grand vision, where do you start as a founder? Choose a customer segment. Make sure you choose a segment where 1) they have an important customer problem, 2) the product you are building solves that problem, and 3) you can reach your customer. 
+9:30 - Who were your competitors in the early days? 
+The old, traditional payroll solutions, which were complex. With Gusto, anyone can run payroll at any time. Gusto also focuses on employees, a critical part of the system, by building a great payroll experience for them. 
+11:30 - Why did you decide to build for SMBs after startups? 
+Look at your current customer base and learn from customers adjacent to the market you want to expand into. When you do expand into another vertical, make sure you maintain that early customer love. 
+14:45 - How did you maintain the customer love of the existing customer segment? 
+Think about your long-term vision and don’t put yourself in a corner when you want to move to the next segment. 
+17:00 - Most startups find it hard to tackle the SMB market. Why do you think this is the case? 
+Traditionally SMBs are hard to reach and use incomplete or manual solutions. Since 2000 an entire generation of business owners had to learn to trust online financial services. Today, SMBs are online and looking for solutions.
+22:25 - What is different about serving SMBs as a customer versus startups? 
+Startups come and go, and the real economics come from the big winners. Focusing on startups is a good place to start your journey, but think about how to scale with them.
+There are more small businesses than startups, and they are around for a long time – but most don’t grow to thousands of employees. You need to build a business model that works with that dynamic. 
+27:00 - Why did you pursue developers and how did you decide to service them? 
+For many verticals, it is much better to have an all-in-one platform to run your small businesses. But payroll is really hard to build yourself. Gusto Embedded helps partners deliver a more integrated solution for customers without investing the several years and tens of millions of dollars.
+29:00 - Gusto went from directly acquiring small businesses as customers to creating an embedded solution – essentially “giving up” the relationship with the customer. How did you think about that? 
+Evaluate the future of the industry and don’t ignore reality. Be the one to create that future. In this case, many payroll customers want all-in-one solutions. We can either try to meet those needs directly, or empower hundreds of partners to customize unique solutions.
+33:00 - How should founders think about who to partner with? When should founders build directly for the industry and when should they go the embedded route? 
+Think about the unique insight you have in the business you’re creating and make sure you own your destiny around that insight.
+For your customer, what does a successful product look like, and could you partner with a company to fulfill those needs.
+Your product must be high-quality. You have to put enough resources behind whatever you own. For everything else, you must ensure you bring in the right partner. It’s all about the end-to-end experience. 
+39:30 - Gusto now makes it easier for software providers to bake compliance into embedded payroll. Tomer, I think developers looking at a payroll API would assume that compliance is baked in. But there are often steps companies have to take beyond just calling APIs. Tell us if that assumption holds.
+Regulation can change every quarter and every year. This is built into the product. We protect the customer and make it easy for developers to ship something quickly that is compliant for the long term.
+One third of the companies in the U.S. get fined for mistakes on payroll. 
+43:00 - Compliance is the hardest part of payroll to build and ultimately has to be right. It took ten years of experience in compliance to launch this into Gusto Embedded Payroll. What advice do you have for founders who are building complicated, yet essential, components for an industry?
+Determine the parts of your product that are highly regulated and which areas are not. Build a culture that ensures quality-first in those highly-regulated areas, as well as a culture where people can iterate quickly in other areas. You can’t build a monolithic culture.
+Embrace cross functional work. 
+46:00 - In the early days of Gusto, what guidance did you provide to your engineers about building payroll? What areas could break and which areas could not break? 
+48:40 - Looking back, would you have done anything different? 
+Start charging what you feel is the value you provide; fix downwards versus upwards. If you’re truly adding value, customers won’t hesitate moving forward at that price.
+Have the humility to learn from the customer and how the market changes around you. 
+51:45 - How should founders be thinking about embedded finance and how does this market evolve over the next 5-10 years? 
+When you build a new software system for your customer, the more connected the system is for your customer, the better it is. Embedded products enable you to do that quickly and in high quality.
+Bring more solutions into your product that are driven by what your customer needs. Understand your customer’s day-to-day, and figure out how to build something that solves their entire flow instead of one segment.
+If you are not making money on your product, you don’t know if there's a product market fit. If you can charge and retain a customer, then there is product market fit. 
+56:30 - Outside of payroll, what are you seeing product wise offered by APIs? 
+This space is brand new and there’s a ton of opportunity to create a product that helps customers go through the end-to-end journey successfully and solves multiple pain points – instead of the customer needing ten years of background to create a high-quality solution.

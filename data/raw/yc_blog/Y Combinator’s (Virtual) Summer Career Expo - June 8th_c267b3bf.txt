@@ -1,0 +1,24 @@
+Title: Y Combinator’s (Virtual) Summer Career Expo - June 8th
+Author: Paige Omura
+URL: https://www.ycombinator.com/blog/yc-tech-expo-s22
+
+Y Combinator’s (Virtual) Summer Career Expo - June 8th
+May 4, 2022·by Paige Omura
+Y Combinator is hosting our Summer Career Expo online on Wednesday, June 8th, 4 pm PT. This is our way to introduce engineers, PMs, and designers to the latest batch of YC startups (W22) that are looking to hire.
+Meet the Startups 
+We’ve vetted these startups to make sure they’re in a good position to hire, in terms of funding, strong teams, and impactful products to work on. (We’re also including a few older startups, in case you’re open to larger 25-100 person companies!)
+At the expo, founders will give rapid-fire pitches about themselves and their companies. After those, we’ll open up an event hall for you to meet them virtually. It’s a great way to survey top YC startups all at once, instead of having to seek them out individually on your own.
+Among the 40+ startups attending this year’s event are:
+SimpleHash (W22): Organizing NFTs and digital assets by allowing web3 developers to query all NFT data from a single API
+Kable (W22): Helping API companies bring their products to market faster through usage-based billing and analytics
+Kalshi (W19): The first federally regulated exchange where you can trade on the outcomes of events
+Sieve (W22): AI infrastructure for video, enabling software developers to easily process and understand visual data
+Agave (W22): Plaid for construction, building an API to help construction companies share data between systems and parties
+If you’re considering a job change – or are just curious about what’s out there – we welcome you to apply to join us for an informative and efficient evening of networking with founders. Come meet the latest YC startups that could be the next big thing.
+Apply Now 
+Special shoutout to Welcome (W20), the company building the virtual events platform that we’re running the expo on!
+Author
+Paige Omura
+Paige is Operations & Programs Manager at YC, running programs to help YC companies hire top talent. She previously led operations at early-stage hard tech startups. 
+Companies Mentioned
+Other Posts

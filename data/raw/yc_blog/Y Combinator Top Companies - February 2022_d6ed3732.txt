@@ -1,0 +1,49 @@
+Title: Y Combinator Top Companies - February 2022
+Author: Y Combinator
+URL: https://www.ycombinator.com/blog/y-combinator-top-companies-feb-2022
+
+Y Combinator Top Companies - February 2022
+February 28, 2022·by Y Combinator
+We’re excited to share the 2022 YC Top Companies. In addition to the list of top companies, we also launched the YC Breakthrough Companies list to highlight the fast-growing companies that have received between $15M-$300M from YC.
+Both lists include private, public and exited companies valued at $150M or more and are sorted by valuation[1] or market cap as of February 2022.
+Here are some stats about this year’s list:
+More than 260 YC companies are valued at $150M+ and more than 60 companies are valued at $1B+.
+99 new companies joined the list since our last update in July 2021.
+More companies are operating remotely
+11% of the top companies are remote first.
+Three of the top ten private companies are remote first (OpenSea, Brex, Gitlab).
+20 countries are represented
+6 new countries represented: Algeria, Tunisia, Senegal, Chile, Brazil, and Singapore
+Of the companies that are new to the list, 28% are outside of the US.
+Top 10 valuation jumps since July 2021:
+Flock Safety (jumped 74 spots to #31)
+Solugen (jumped 74 spots to #51)
+Gem (jumped 69 spots to #76)
+Modern Treasury (jumped 52 spots to #48)
+Xendit (jumped 49 spots to #37)
+CaptivateIQ (jumped 35 spots to #71)
+EasyPost (jumped 34 spots to #60)
+H1 (jumped 30 spots to #98)
+Veriff (jumped 28 spots to #61)
+Promise (jumped 21 spots to #121)
+You can read more about some of the featured companies here.
+One thing to note is that this is not an exhaustive list of YC’s top companies. We allowed founders to opt out of being listed for any reason. Here's the full list of YC companies.
+Congratulations to all of the fantastic companies highlighted here. We’re delighted to be part of their stories and hope these lists help potential employees, customers and investors identify companies they’d like to work with as well.
+This list was published in late February 2022, just as the fighting in Ukraine began. We didn’t think it was an appropriate moment to be celebratory, and wanted to take time to turn our attention to the Ukrainian people and the YC community being impacted by the invasion of Ukraine.
+Why do we use valuation? We have always said that valuation is not the best way to measure a company’s value, and we consistently warn our companies not to over-optimize their fundraising for a high valuation. That said, it’s the most commonly available metric to compare companies in the startup world. Other metrics, like revenue, are often kept private. We have a number of impressive companies who would appear on the list or rank even higher if we counted other metrics (revenue, revenue/employee, etc). ↩︎
+Companies Mentioned
+CaptivateIQ(W18)
+Agile commission software to design, deploy & adapt commission plans.
+Veriff(W18)
+AI-powered identity verification solution for fraud prevention.
+H1(W20)
+Connecting stakeholders across the healthcare ecosystem.
+GitLab(W15)
+A complete DevOps platform delivered as a single application.
+Gusto(W12)
+Provides growing businesses with everything to take care of their team
+Brex(W17)
+Business accounts, corporate cards, and spend management software.
+OpenSea(W18)
+OpenSea is theOpenSea is the best place to trade everything onchain —…
+Other Posts

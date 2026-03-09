@@ -1,0 +1,22 @@
+Title: Announcing Startup School 2022
+Author: Jared Friedman
+URL: https://www.ycombinator.com/blog/announcing-startup-school-2022
+
+Announcing Startup School 2022 | Y Combinator
+May 17, 2022·by Jared Friedman
+Today, we’re opening up registration for Startup School 2022, a live, online course where YC Group Partners and successful YC founders teach you how to build a billion dollar company. It will be the first Startup School course to feature in-person meetups and talks in over a hundred cities around the world.
+The 7 week course will begin June 27, 2022. It’s free and open to everyone. You don’t need to have a startup or a startup idea yet; Startup School is the perfect place to find one. Register at startupschool.org.
+The last time we ran a live Startup School course was three years ago, in the summer of 2019 before covid. In the years since, operating YC remotely through the pandemic taught us a ton about running great remote events and connecting a distributed community.
+We’re now applying everything we’ve learned to the next Startup School. It’s a reimagined experience designed for a global community of founders, combining the best of online and in-person. This is how it will work:
+We’ll have speakers covering everything founders need to know to go from idea to startup. Most of these will be taught by current YC group partners. We’ll also have talks from some of YC’s most successful founders, including Amjad and Haya Masad from Replit and Blake Scholl from Boom who will give us a live walk-through of his supersonic jet hangar.
+For the first time, these talks will be hosted live on Zoom, so participants can ask questions and interact with the speakers. 
+We’ve launched a new track for founders who don’t have an idea yet and are just exploring doing a startup. Our last course was designed for founders who already had an idea and were actively working on a startup. But this time, we’ve split the course into two tracks: an “active founders” track and an “aspiring founders” track. We expect most of the participants to be in the aspiring founders track. Startup School is the perfect fit for that stage. 
+We’ve tightly integrated our co-founder matching site into the course. YC runs the world’s largest co-founder matching site, with over 30,000 founders and 70,000 matches made. If you’re looking for a co-founder, it’s the best place to go.
+During the course, we’ll also host many meetups and speed-dating events for people looking to meet potential cofounders. 
+For the first time, we’ll facilitate hundreds of in-person meetups and talks in dozens of cities around the world.
+Some of our most successful YC alumni will host large-scale, 100+ person meetups at their offices. Each meetup will include a talk by the founders on how they built the company, followed by a networking session where you can meet the company founders and each other.
+We’ll also be facilitating smaller self-organized meetups in cities where we don’t have an official YC alum talk.
+Here are the confirmed talks at YC alumni offices in 30 cities; we’re still adding more. Please note that access to these meetups is subject to capacity limits and dependent on local covid conditions:
+Author
+Jared Friedman
+Jared is Managing Director, Software and Group Partner at YC. He was cofounder of Scribd, which was funded by Y Combinator in 2006 and grew to be one of the top 100 sites on the web.

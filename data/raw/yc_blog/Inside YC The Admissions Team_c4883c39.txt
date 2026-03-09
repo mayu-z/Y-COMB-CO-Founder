@@ -1,0 +1,30 @@
+Title: Inside YC: The Admissions Team
+Author: Mark Thurman
+URL: https://www.ycombinator.com/blog/inside-yc-the-admissions-team
+
+Inside YC: The Admissions Team
+August 19, 2021·by Mark Thurman
+Twice a year, YC accepts applications from startups around the world. The Admissions Team is responsible for designing that process and reviewing the tens of thousands of applications we receive each year.
+How do we review that many applications? Mostly, it’s lots of people reading lots of applications! There’s no secret machine learning model that can find companies with great potential. Instead, we build lots of custom software to help our team work efficiently. Our app reading software allows us to quickly read applications, send messages to founders if we have any questions, and decide which teams we want to interview.
+History of the Admissions Team
+When YC first started, the admissions process was pretty manual. YC’s 4 founders printed out the applications, wrote comments in the margin, and passed them around the room. As the batches started to grow, Paul Graham wrote the first software to accept and process applications (it was originally part of the same code that powered Hacker News!). By 2014, YC was receiving 3,000 applications per batch, PG retired, and we moved to our current application software. Then in 2016, the Admissions Team was created and began to hire more people to review applications, analyze data, and update the application. Today, a team of 5 runs the admissions process.
+What’s unique about the Admissions Team?
+The Admissions Team is powered by human judgement, but it couldn’t work at YC’s scale without software. Sometimes, our problems can be solved by software (like automatic parsing of a founder’s responses), but sometimes it’s a human problem (how should we evaluate teams that haven’t launched yet?). This interaction between humans and software is always changing. Each admissions cycle brings more applications than the previous one and our system is always being pushed to the limit in unexpected ways.
+What are some projects we’ve recently worked on?
+Rewriting our software to video interview teams (instead of flying
+teams to California).
+Building new internal tools to allow us to do interviews more often
+(like the early interviews we’ve been running this year).
+Reviewing applications we didn’t fund but that raised money from
+other investors, to learn how to improve our application reading and
+interview process.
+Analyzing YC application data — for example, we looked at whether
+repeat applications hurt a team’s chances of being funded. (It turns
+out they don’t! Teams that re-apply and have made progress since
+their first app are much more likely to get into YC.)
+Working with the Outreach and Startup School teams to get more teams
+applying to YC.
+The thing I love about the Admissions Team is that we have a lot of autonomy to experiment and change our process. It’s also incredibly exciting to read all of these ideas which may someday change the world. If you’re interested in joining our team, we’re hiring Software Engineers to improve our software and Admissions Associates to read applications.
+Author
+Mark Thurman
+Mark is a Product Engineer on the YC Admissions team. Previously he worked on backend systems and API design for Evernote and App.net.

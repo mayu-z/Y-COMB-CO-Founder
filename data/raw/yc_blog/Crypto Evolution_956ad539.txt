@@ -1,0 +1,41 @@
+Title: Crypto Evolution
+Author: their price because their coin supply is almost identical
+URL: https://www.ycombinator.com/blog/crypto-evolution
+
+Crypto Evolution | Y Combinator
+Bitcoin has already undergone several forks. A fork defines a moment in time when a specific digital currency gets split into two different currencies. A couple months ago, a Bitcoin fork created Bitcoin Cash1 (BCH). Another fork just created Bitcoin Gold last week. Segwit 2x2 will follow next month3.
+At the instant the fork happens, every holder of the first currency also gets the second one in an equal amount. For the casual observer, these forks can be seen as a mere exploit to create money from thin air—a crypto “philosopher’s stone”. However, with proper attention, this process reveals one of the best adaptive mechanisms invented in the digital age. Forks clone the original DNA, i.e programming code, of the currency and then modify it to adapt it better to the demands of the market/community.
+Suddenly, many alternative paths can be explored, experienced and measured while preserving the core ownership, idea or belief that originated them.
+Why fork?
+Cryptocurrencies provide higher liquidity and flexibility to innovators. These incentives are driving an unprecedented rate of innovation and growth in the ecosystem.
+Forks, in short, are an evolutionary mechanism for digital networks which allows them to try out many different futures at the same time. What if Facebook could create and explore hugely different versions that shared past data and operated entirely independently from each other? This type of experimentation is A/B testing on steroids4.
+This evolution can happen at different times during the cryptocurrency’s life span. Many now famous cryptocurrencies like Litecoin, Dash or Zcash, started as a Bitcoin implementation. Unlike other forks, these cryptocurrencies didn’t preserve any existing data. They started from scratch, from what is called the genesis block of Bitcoin. Each one of them is exploring different futures from the beginning. Litecoin aims to provide faster confirmation after every transaction while ZCash and Dash are focusing on increasing privacy and anonymity.
+This evolutionary mechanism can also be utilized later to move forward when there is no unanimous consensus. The ones that happened inside the Bitcoin community are a perfect example. Firstly, there was an enormous clash between people who wanted to scale with bigger blocks (Bitcoin Cash) vs segregated witness (Bitcoin Core). Now, the side that doubled capacity via segwit is arguing about using 1MB vs 2MB base blocks. These forks, unlike the ones mentioned before, split at a much later point in time, preserving all the transaction history (and balance) up to that moment.
+Natural Selection
+Forks are a digital process for evolution. Just like in genetic programming, in every generation you choose the most adapted organisms and you merge them, combining the code of the most promising ones to create new individuals that will be the starting point of the future generation. The most successful ones, in this case the most supported and accepted, will survive while minority chains will eventually become extinct. This plays out in practice through miner support. Miners provide their computing power (hash rate) to secure the network. Miners choose to support the best/most profitable chain.
+So far, this has not been a zero-sum game–the value of the two new forks combined is higher than the original one. At the time of the fork between Bitcoin Segwit (BTC) and Bitcoin Cash (BCH), BTC was valued around $2800. After the fork, BTC didn’t decrease in value while the newly minted BCH reached values up to $900. It still has non trivial support and now it trades around $300. Value of these coins can be compared directly by their price because their coin supply is almost identical.
+Some animal species are more resilient if they split up in groups of enough organisms but they become vulnerable if spread too thin or isolated. Decentralized cryptocurrencies exhibit similar behaviors.
+There is such a thing as too many forks.
+An extreme division would naturally collapse the value of all the resulting networks. Cryptocurrencies depend on participants (miners) verifying transactions to ensure security. If the number of participants decreases drastically, all the minor chains would be vulnerable to attacks and hence, worthless. For example, if after several Bitcoin forks, 10 different chains exist with 10% of the hash rate each, every single one would be extremely vulnerable to 51% attacks5. Brand dilution and loss of consumer trust are other perils that we may explore and test in the following posts.
+Offspring & Resilience
+Another way cryptocurrencies evolve is by the generation of digital tokens via Initial Coin Offerings (ICOs). These tokens can be seen as the offspring or children of the crypto platform. For example, assets built on top of Ethereum, like Golem, Augur or OMG are part of Ethereum’s ERC20 family. These ICOs choose the best platform for their interests based on support, quickest path to fiat and network transaction output. They are a source of necessary chaos. They test the resilience of the network and push the boundaries of what these networks offer and can handle6.
+New cryptocurrencies test out new evolutionary paths as different species do. Then forks evolve some of these species and miners/community support will naturally select the most promising. These two mechanisms get compounded with the ‘breeding’ of these crypto assets or tokens. The resulting rate of evolution is astounding, and the possibilities to explore are vast.
+Many of these individual organisms will perish, but the species as a whole would prosper and evolve from it. Species then become antifragile. Cryptocurrencies are no different.
+Gaining from disorder
+“Recall that the fragile wants tranquility, the antifragile grows from disorder, and the robust doesn’t care too much.”7 Bitcoin (and Ethereum) so far have proven to be anti-fragile. Facing significant battles within their communities, forks provided a way to move forward in difficult times and increase the value of the overall crypto market. It’s also interesting to note how the price of BTC climbed up in anticipation of some of these forks despite the chaos.
+Bitcoin has been declared dead countless times8. Mt. Gox collapse, regulation doom, ETF denials or community struggles seemed to mark the end of the currency. It never did die.
+In his latest essay, Nassim defends the thesis that volatility and stress both signal stability9. These shocks contribute directly to progress, causing them to experience posttraumatic growth. Like a hydra, Bitcoin came back every time, reaching new price highs under great volatility (although the volatility has been decreasing over the years).
+Segwit 2X and Bitcoin Cash happened because of the differences in the community. Both can objectively be considered better alternatives to the previous state of the chain. Many of these individual organisms or currencies are fragile, but Bitcoin chain as a whole gets stronger. The same thing is happening with other major crypto chains like Ethereum. Life always finds a way.
+“It is not the strongest of the species that survives, nor the most intelligent; it is the one most adaptable to change.”
+Charles Darwin & Leon C. Megginson
+Thanks to Kat Manalac, Craig Cannon, Yuri Sagalov, Raul San, and Alex Shelkovnikov for reading drafts of this post.
+Notes
+1. Bitcoin Cash: https://en.wikipedia.org/wiki/Bitcoin_Cash↩
+2. Segwit 2x Announcement: https://segwit2x.github.io/segwit2x-announce.html↩
+3. List of Bitcoin Forks: https://en.wikipedia.org/wiki/List_of_bitcoin_forks↩
+4. Podcast A16z: https://a16z.com/2017/09/28/cryptocurrencies-networks-tokens/↩
+5. 51% Attacks: https://en.bitcoin.it/wiki/Majority_attack↩
+6. Ethereum Network DDOs by ICOs: https://motherboard.vice.com/en_us/article/newk7m/the-ethereum-network-is-ddos-ing-itself↩
+7. Extract from Antifragile by Nassim Taleb: https://www.amazon.com/Antifragile-Things-That-Disorder-Incerto/dp/0812979680↩
+8. List of Obituaries: https://99bitcoins.com/bitcoinobituaries/page/9/↩
+9. The Calm Before the Storm: https://www.foreignaffairs.com/articles/africa/calm-storm↩

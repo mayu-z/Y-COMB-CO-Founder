@@ -1,0 +1,22 @@
+Title: Does co-founder matching work? It did for these YC companies.
+Author: Catheryn Li
+URL: https://www.ycombinator.com/blog/does-co-founder-matching-work
+
+Does co-founder matching work? It did for these YC companies.
+November 24, 2021·by Catheryn Li
+We launched the co-founder matching platform earlier this year to help founders find their co-founders. When you sign up, you tell us about yourself and what you’re looking for, and we show you profiles that most closely match your ideal co-founder. If you message a candidate and they accept, we match the two of you.
+Co-founder matching has also seen success with brand-new companies. Two pairs of co-founders met through the platform earlier this year, worked together on trial projects, became fully committed co-founders, applied to YC, and were accepted into the Summer 2021 batch!
+Sequin (YC S21) is one of these companies. Vrinda Gupta had left her job after launching credit cards like the Chase Sapphire Reserve at Visa to work on a product to help women build credit. She spent a year working as a solo founder, and, in that time, raised a pre-seed and built an MVP. She knew she needed a technical co-founder who was mission driven, had fintech expertise, and was in it for the long haul.
+Sequin (YC S21) co-founders, Vrinda Gupta and Mark Thomas.
+That person was Mark Thomas. He had ten years of engineering experience at Paypal, cared deeply about gender equity, and spent six years as CTO of family-oriented startups. They had an instant connection and arranged to meet in person soon after. Vrinda recalls, “We met the day after we matched, and the day after, and then the day after that.”
+Together, they went through YC’s batch this summer and raised $5.7M.
+Kiwi Biosciences (YC S21) has a similar story. Anjie Liu started the company to solve her own pains with irritable bowel syndrome. She had a founding scientist to tackle R&D, but wanted a co-founder to help her build a consumer brand and commercialize the product.
+Anjie Liu and David Hachuel, co-founders of Kiwi Biosciences (YC S21).
+When Anjie saw David Hachuel’s profile on YC co-founder matching, she knew that he was “exactly what [she] was looking for.” David had previously sold a startup in the same space, and was immediately interested in her idea.
+They took a very structured approach to co-founder matching. Both founders answered all 50 questions posed in First Round’s co-founder questionnaire. They found deep alignment on “all the important things” (conflict resolution, vision for culture, etc.). When their month-long trial ended and it came time to say go or no-go, the decision was easy.
+Anjie and David worked remotely for four months and finally met in person after getting into YC. They went through YC and raised $1.5M.
+We’re ecstatic about the companies who met through our co-founder matching and we’re excited to see the platform continue to grow and support more awesome founders in the future!
+Looking for a co-founder? Check out the platform at www.ycombinator.com/cofounder-matching.
+Author
+Catheryn Li
+Catheryn (Cat) is a Product Engineer at YC focused on Startup School. Before that she was an engineer at Instagram and Facebook. Cat has a B.S. in Computer Science and Math from MIT.

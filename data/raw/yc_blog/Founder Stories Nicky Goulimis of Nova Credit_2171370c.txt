@@ -1,0 +1,44 @@
+Title: Founder Stories: Nicky Goulimis of Nova Credit
+Author: exercising empathy
+URL: https://www.ycombinator.com/blog/founder-stories-nicky-goulimis
+
+Founder Stories: Nicky Goulimis of Nova Credit
+Founder Stories are conversations with people that have been through YC.
+Nicky Goulimis is cofounder and COO of Nova Credit (YC S16).
+Discussed: Her Work Before YC, Meeting Cofounders, Getting an MBA, Being a Female Founder, and Advice for Other Founders.
+Craig: What does Nova do?
+Nicky: Nova is a cross-border credit bureau. We’ve built an API that provides credit data from overseas to lenders, telcos, tenant screeners, etc. so they can acquire immigrants as customers.
+Craig: What did you do before YC?
+Nicky: My cofounders and I all met at Stanford. Misha [Esipov] and I were getting MBAs. Loek [Janssen] was in the Institute of Computational Mathematics and Engineering doing his masters. I guess Nova is sort of a class project gone wrong! We’d all experienced the challenge we’re solving around credit access as non-Americans, but exploring this problem while in school made us realize how much bigger this problem is than we’d originally understood, and how much data is actually available that could take this problem away.
+Craig: What made you transition Nova from class project to startup?
+Nicky: I think it truly was incrementally seeing how much lenders care about this problem too, and that it isn’t just a consumer pain-point. I particularly remember one time when I was driving and kept getting missed calls from the same number. So I pulled over and it was the CEO of a Credit Union telling me that he was worried his emails were going to my junk folder and that he was very eager to work with us. A little cheesy but it felt in line with YC’s “Make something people want.”
+Craig: What did you do before Stanford?
+Nicky: I imagine no one thinks that they have a “classic founder journey”, but this was definitely not the path I’d chosen. I studied English Literature as an undergraduate, worked in consulting at Bain, and subsequently in agricultural development in East Africa.
+I came to Stanford thinking that agriculture was the world I’d go back to. It’s funny because for me in the middle of Silicon Valley doing a startup was not aspirational. I didn’t understand why my friends were always tinkering with what I thought were the most ludicrous ideas, and I felt a disconnect with the sheer grandiosity of it all.
+But then just happened to do a class project with people I deeply respect and love working with. We have amazing chemistry and found an important problem to work on. And even in the middle of loving working together, it took me a long time to re-frame my self-perception as “someone who would do a startup” and to let go of a very different personal narrative I’d built up in my head.It wasn’t who I thought I’d be.
+Craig: How are you dealing with your new identity?
+Nicky: Ha! Well I’m not sure it’s a new identity, as much as a discovery that doing startups can be awesome. I keep trying to share this epiphany with other “people like me” or less traditional founders and patronizingly push them to do startups – but then it turns out that they’re all already building amazing ventures.
+And perhaps I’m realizing that people can do startups on their own terms. I’ve resigned myself that I’m not going to become Steve Jobs overnight but I also accept some other strengths I have.
+I wish the pictures of less traditional founders were elevated more, and that we could achieve broader participation in this huge privilege
+Craig: Are there particular traits of those less traditional founders you’d highlight?
+Nicky: It’s tough answering these questions without being reductive. I hate the rhetoric that women founders “bring empathy to a team.” Maybe not. Maybe they’re terrible.
+Instead, I’d just say that having a team where this is complementarity in skillsets and the ability to disagree leads to strength. And that selecting from and attracting 100% of the population likely leads to higher quality .
+Craig: Did you feel there was any difference in being a female founder at YC?
+Nicky: I admire all that YC is doing to support female founders in the program, as well as more broadly in tech. And I felt very proud when YC barred a VC from Demo Day who had made sexually insinuative remarks towards a woman in my batch.
+But I think we’re still not there. I feel sad when I look around my batch and see only 13% women in the room or when all our speakers are white men. Every minority founder I know has some horror stories about fundraising, or sales, or hiring, or whatever interaction they have with the outside world.
+It’s a tough balance between celebrating progress, and also acknowledging failings. I am so grateful to have opportunities that my grandmother would have killed for. But we’re also in such a hurry to proclaim that “it’s a great time to be a minority founder” that we eliminate some of the opportunities to continue evaluating and progressing.
+Ultimately, that’s what impressed me most about YC. Whenever I gave YC feedback, I not only felt heard, but I also saw action come out of it. And that gives me a lot of hope.
+Craig: Do you have thoughts on how the industry could be better for female founders?
+Nicky: One thought is that so often we see diversity as the mantle for minorities to take on. But women’s inclusion is not just a women’s problem. And it’s also important to make sure power is involved. I find strength in a lot of women’s events and women’s communities, but often I see organizations do that and think “okay, we’ve checked the boxed, we’re putting all the women together”. When actually, what’s needed is for powerful men to invest in women. It sends an organizational signal, provides the access that women so often lack, and gives them an opportunity to prove themselves. What if every leader committed to spending a minimum amount of time each week coaching a minority founder or team-member?
+Beyond such initiatives for racial and gender diversity in Silicon Valley, there’s also the issue of economic diversity. How do we make entrepreneurship viable for founders who can’t afford to not pay themselves for six months? Could we let go of some of the emphasis on ramen profitability or on enormous progress before funding to make entrepreneurship more inclusive?
+Craig: On that point, are there other perception vs reality differences with YC that are apparent to you?
+Nicky: I think YC is shrouded in mystery, so I didn’t really know what to expect. But it was definitely surreal. I remember the first week when I was sitting at dinner and I look up and Sam Altman rolls in on a hoverboard. He then sits down and immediately starts talking about building new cities from scratch.
+YC is a lot less programmatic than I’d expected. I think I realized a little too late that there was the opportunity to build such a custom experience – from learning from expert partners, or building a batch community in whatever way felt right.
+I also came to realize that startups are startup-y for a lot longer than I had previously envisioned. Everyone always envies the consumer startup in the batch that has the hockey stick growth but they’re still a startup. Seeing that they’re still hustling every day was very cool.
+Craig: What was your experience in getting your MBA? And would you recommend other people do it?
+Nicky: Yes, I would. I loved my MBA and I never would have done a startup without it. It gave me a unique opportunity to explore interests and get to do Nova Credit. And I use what I learned every day – both the hard skills in thinking through business strategy, but also the soft skills for recruiting, or collaborating with teams, or approaching tough conversations.
+Craig: What advice would you give yourself when you were just out of college?
+Nicky: When I was just out of college, I struggled with reconciling my identity as a good student with the reality that I had no real skillset. I think I held myself back from doing new things because I wouldn’t be good at them. In the last few years, I’ve tried to push myself to not worry so much about my current abilities, and focus more on the learning process. Right now I’m in a position where I’m pretty dreadful at sales but I’ve got to learn it because someone’s got to do it for the company. So I’m trying to focus on enjoying that learning rather than beating myself up for not being the best yet.
+Craig: What are your favorite books?
+Nicky: I love reading fiction and I truly believe we learn the most by exercising empathy.
+Two of my favorite books are The Mill on the Floss by George Eliot because of how it explore ethics and yet resists allegory, and my grandmother Athina Cacouri’s With the Wings of Marika (sadly available only in Greek) because of its sheer energy in transporting us to an important historic moment.

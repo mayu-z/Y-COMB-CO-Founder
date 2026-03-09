@@ -1,0 +1,28 @@
+Title: Learnings of a CEO: Max Rhodes, Faire
+Author: Y Combinator
+URL: https://www.ycombinator.com/blog/learnings-of-a-ceo-max-rhodes-faire
+
+Learnings of a CEO: Max Rhodes, Faire
+Every year, 200 YC companies go through our post-accelerator programs. These programs provide founders with the resources they need to build a company all the way through IPO. One area covered extensively is how to scale as a CEO of a growth-stage company. 
+Outside of the YC community, little has been documented on best practices to be an effective CEO. We want to help founders everywhere scale and build enduring companies — and today, we’re launching a new series to do just that: Learnings of a CEO. 
+We’re kicking off this series with Max Rhodes, the co-founder and CEO of Faire, a one-stop shop for wholesale. Before Faire, Max was an early product lead at Square, where he worked on the Cash App and was a founding member of Square Capital. Max and his co-founders were part of the W17 batch and F18 Growth Program, and YC led Faire’s Series B and doubled down in their C-G rounds. Today, Faire has over 1,000 employees. 
+How has your job as a CEO changed from seed stage to Series G?
+Much of my time is spent setting the vision and strategy for Faire and driving the execution of that strategy. This often feels like driving an aircraft carrier versus a speedboat, which is how I often describe leading a seed-stage company. In the early days, we were on a six-week product cycle, decisions were centralized (often with me making those decisions), and the entire company met daily for standups to stay aligned on our goals. Today, we are on a six-month product cycle, decisions are decentralized, and we have built systems that hold people accountable without needing consistent touchpoints. 
+As a thousand-person company, the number of products and features we can build has greatly increased, and we have to map out our strategy for the next 6-12 months to keep teams aligned. Communicating the strategy to the entire company requires multiple channels and repetition. We have a strategy doc that I collaborate on with the leadership team and share with the company; updates are provided at the half-year mark. We hold all-hands, where I share what is top of mind. We also have biweekly business review meetings, which are open to anyone; we also make the notes accessible. 
+Being able to decentralize decision making starts with hiring the best people and then arming them with the right information. Outside of meetings, we use OKR templates, track the history of our milestones, and create a collective body of work (in Notion and Google Slides) to provide everyone with direction. 
+We’ve organized the company in a way that lets us hold people accountable without needing constant touchpoints. The product development strategy is broken down into focus areas that each get assigned to a team. Each team is self-sufficient and has all of the technical and go-to-market people it needs. The team works autonomously to reach a metric. Every metric ties back to a top-level company goal, ensuring that teams are solving real customer problems.
+As you've grown, what changes have you had to make to keep everyone at your company aligned?
+We’ve experimented a lot: strategy docs, all-hands, documenting our 5Ss (the five most important initiatives across the company), and OKRs. There are pros and cons with OKRs. We use them as a guidepost rather than a measuring stick, to make sure we’re consistent in our planning and getting realigned on goals. 
+As we grow, some systems break. For example, I used to hold a biweekly business review meeting with each team. This was great when the company was broken up into three teams. With more than 15 teams, it became inefficient and borderline impossible. Eventually, these teams were organized into pillars, and each pillar was held accountable with a biweekly business review. My goal is to always find a balance between how much time it takes to coordinate versus execute, while designing information flows that don’t turn into silos. 
+What's your advice to other founders on how to hire executives?
+First, clearly outline the outcomes you need the person to drive. Then, design a rigorous hiring process that evaluates whether they’ll be able to drive those outcomes and whether they share the same values as your company. We use a combination of behavioral interviews and work studies, where we see how they’ll perform at the job. We also extensively check references. 
+What is Faire’s culture? What do you do to cultivate it?
+Our culture can be described by our five values. These underpin both why we are here and how we operate as a team. We’re still in the early days of building what this company will someday become and these operating principles help everyone at Faire maintain the spirit of entrepreneurship:
+We serve the community.
+We seek the truth.
+We are owners.
+We embrace the adventure.
+We are kind.
+To create this culture, it’s all about mechanisms. It starts with hiring. If we’re able to hire people who hold the same values and bring a new lens to the work, cultivating this culture is easy. We also embed the values into our feedback cycle and reward people for living them out. We give weekly shoutouts and recognize people, as well as hold quarterly value awards.
+Advice you would give to future leaders? 
+Starting a company is hard, but it’s a lot easier if it’s something you care about, something that will impact the world. If you have a vision for how to make society better, don’t take that for granted.

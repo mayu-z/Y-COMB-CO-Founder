@@ -1,0 +1,29 @@
+Phase 4 — The "How Would YC See Your Idea" Feature 💡
+Time: 3 days
+Goal: Your killer feature — user describes startup, gets a YC-style assessment
+
+Step 1 — Build the input form
+User fills in:
+
+One sentence description of their startup
+Industry
+Target customer — B2B or B2C
+Current stage — idea, prototype, live, revenue
+Team size and background
+
+Step 2 — Find similar YC companies
+Take their description → embed it → search your company collection for the 5 most semantically similar YC companies → return them with their batch, status, and description
+Step 3 — Retrieve relevant YC wisdom
+Use their industry + stage to pull relevant chunks from PG essays and YC blog posts about that space
+Step 4 — Generate the assessment
+Send to Claude with a specific prompt structured as a YC application review:
+
+What's genuinely interesting about this idea
+What a YC partner would push back on
+Which similar YC companies succeeded and why
+One specific question a YC interviewer would ask them
+Honest assessment of fit
+
+Step 5 — Add a disclaimer
+Every assessment ends with — "This is based on patterns from public YC data. Real YC decisions depend on many factors including team, timing, and market conditions."
+✅ Phase 4 done when the feature gives genuinely useful, specific feedback that references real YC companies and thinking.

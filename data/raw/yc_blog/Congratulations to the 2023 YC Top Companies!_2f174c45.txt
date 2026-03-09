@@ -1,0 +1,37 @@
+Title: Congratulations to the 2023 YC Top Companies!
+Author: Y Combinator
+URL: https://www.ycombinator.com/blog/yc-top-companies-feb-2023
+
+Congratulations to the 2023 YC Top Companies!
+We’re excited to present the 2023 YC Top Companies!
+The startups are separated into 3 lists: YC’s top private, public, and exited. Private companies and exits are sorted by the company's valuation from their latest funding round, and all are valued at over $150M. Public companies are listed in alphabetical order.
+The Breakthrough Companies list highlights the fast-growing companies we’ve doubled down on – which means they’ve all received significant additional investment from YC in their post-Demo Day rounds. 
+Here are stats about the companies on this year’s list:
+> More than 290 private YC companies and 33 exits are valued at over $150M, over 90 are worth more than $1B, and 16 are public. 
+> 58% of the companies have HQs in the Bay Area. 27% of the companies are fully remote, and 55% list themselves as partially remote.
+> YC Top Companies have HQs in 40 countries including: United States, India, United Kingdom, Canada, Colombia, Indonesia, Mexico, Nigeria, Argentina, Brazil, Chile, France, Spain, Israel, Netherlands, Philippines, Portugal, Germany, Egypt, Ireland, South Korea, Peru, Singapore, United Arab Emirates, Australia, Bolivia, Switzerland, Algeria, Estonia, Finland, Hungary, Italy, Norway, Romania, Sweden, Senegal, Uganda, Uruguay, Venezuela, Vietnam
+> YC W16 is the most represented batch (by percentage). 23% of the companies from W16 are on the YC Top Companies list. 
+> Here’s a sector breakdown of the top companies:
+B2B Software and Services: 43%
+Financial Technology and Services: 19%
+Consumer: 13%
+Healthcare: 12%
+Industrials: 7%
+Real Estate and Construction: 3%
+Education and Government: 3%
+> 10 new companies joined the lists since August 2022:
+Private:
+Treasury Prime (YC W18) - Embedded banking software platform and marketplace
+OneSignal (YC S11) - Engage customers through personalized omni-channel messaging
+Skill-lync (YC W19) - Online engineering college for India
+TigerEye (YC S22) - Modern enterprise software for sales leaders
+Zeitview (YC W15) - Inspection software for renewable energy & sustainable infrastructure
+OnTop (YC W21) - A bank for remote workers connected to payroll
+Obie (YC S19) - Insurance and risk management for landlords
+Nabis (YC W19) - The largest licensed cannabis wholesale platform
+Public:
+Presto (YC S10) - Digital meets physical for big chain restaurants
+Exits:
+NURX (YC W16) - Medicine or testing kit, prescribed online, and delivered to your door 
+One thing to note is that this is not an exhaustive list of YC’s top companies. We allowed founders to opt out of being listed for any reason. The full list of YC companies can be found here. 
+Congrats again to the companies recognized on the 2023 YC Top Companies list!

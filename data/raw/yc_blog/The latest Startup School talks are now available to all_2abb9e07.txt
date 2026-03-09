@@ -1,0 +1,29 @@
+Title: The latest Startup School talks are now available to all
+Author: Greg Kumparak
+URL: https://www.ycombinator.com/blog/startup-school-videos
+
+The latest Startup School talks are now available to all
+May 30, 2023·by Greg Kumparak
+When you’re building a startup, you’ve got a lot to figure out.
+How do you know if an idea is a good one? Do you need a co-founder? How do you get your first customers? How much should you charge? How (and when) do you launch?
+All of these are questions that every founder asks at some point, and they’re the kinds of questions that Y Combinator’s Group Partners have helped to answer thousands of times. That’s why we built Startup School, a free online course where YC Group Partners help you answer these questions and many more while teaching you to build the foundation of a billion dollar company.
+Throughout the latest Startup School session, YC’s Group Partners hosted live talks for 10,000+ students tuned in over Zoom. Each talk focused on one of those topics that the Group Partners were asked about again and again— from how to evaluate an idea, to finding the right co-founder, to getting your MVP out into the world.
+The recordings of these talks were initially available only to Startup School students. After those students told us how helpful the videos were for them, we decided to make them available to everyone. We’ve been gradually releasing the talks over the last few months, and we’ve now released the final video from that set: How to Apply And Succeed at Y Combinator featuring Dalton Caldwell.
+When it comes to applying and interviewing for Y Combinator, there aren’t many people on the planet with more insight than Dalton. As a Group Partner and a Managing Director at YC, he’s been at the core of that process for over ten years now — reviewing applications, interviewing teams, and advising YC companies like Brex, Whatnot, and Retool on how to succeed once they got in.
+Dalton packs a ton of information into just 24 minutes, like why you should apply, the weird reasons that people talk themselves out of applying (like “I'm too early”), his tips on how to improve your application, and — because founders tend to be the type of people who like to know how things work — key insights on how YC actually reads applications. He somehow sneaks some good life advice (on “creating luck”) in there while he’s at it.
+If you're considering applying — or, crucially, if you keep talking yourself out of it — Dalton's talk is absolutely worth the watch. (And while you're here, I'll share a little kinda-sorta-secret: though applications for the Summer 2023 batch technically closed a few weeks ago, YC reviews all applications — even those that come in late. Plenty of great companies have been accepted with late applications. But don't tell anyone I told you that. Apply here.)
+Startup School 2022 Videos
+You can find the rest of the recently released Startup School videos below, or bookmark the entire playlist here. Each video is 15-30 minutes long, and each was designed to pack as much info and insight into that time as possible.
+Should You Start A Startup? with Harj Taggar
+How Startup Fundraising Works with Brad Flora
+How to Get and Evaluate Startup Ideas with Jared Friedman
+Keys To Successful Co-Founder Relationships with Catheryn Li and Divya Bhat
+How To Talk To Users with Gustaf Alströmer
+Startup Business Models and Pricing with Aaron Epstein
+How to Get Your First Customers with Gustaf Alströmer
+How to Build a "Minimum Viable Product" with Michael Seibel
+The Best Way To Launch Your Startup with Kat Mañalac
+Tips For Technical Startup Founders with Diana Hu 
+Author
+Greg Kumparak
+Greg oversees editorial content at Y Combinator. He was previously an editor at TechCrunch for nearly 15 years.

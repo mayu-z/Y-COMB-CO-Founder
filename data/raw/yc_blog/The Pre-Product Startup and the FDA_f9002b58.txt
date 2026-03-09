@@ -1,0 +1,76 @@
+Title: The Pre-Product Startup and the FDA
+Author: examining regulatory submission summaries, which are public record
+URL: https://www.ycombinator.com/blog/the-pre-product-startup-and-the-fda
+
+The Pre-Product Startup and the FDA
+A frequent question we get at YC is “when do I start thinking about the FDA?” Obviously, there is no single answer to such a complex question, but here are some basic rules of thumb for how to think about it:
+It makes sense for every founder considering a bio product to get a basic FDA education from day one. 
+Choosing the proper regulatory pathway is nuanced; research and experts can help. 
+Correctly setting up your GxP process and running studies “the FDA way” at the right time is essential.
+Navigating the FDA process effectively is absolutely key for startups. If you invest too much too early, you may unnecessarily burn cash too fast. Conversely, if you start too late, you may have to redo work, potentially slowing down your process substantially. An analogy we often share with founders is that work done before investing in the FDA process is like sketching with pencil, while committing to the FDA process is like using ink. As you can imagine, planning your sketch and practicing it in pencil, and only then committing to ink, will lead to the best results.
+In our experience, we often see pre-product startup founders pursuing two simultaneous projects:
+Running a “killer” experiment that demonstrates that their product can work.
+Figuring out the appropriate FDA regulatory pathway for their product.
+Startups run these simultaneously because they’re interdependent and because the learnings from the killer experiment often help determine the proper regulatory pathway. Imagine you’ve been iterating on a novel therapeutic in vitro. Your killer experiment might be showing a therapeutic effect by doing an in-vivo experiment in a representative animal model. By getting some sense of the therapeutic effect and its mechanism, you can compare your therapeutic to others with similar safety profiles or that treat similar populations or diseases. This comparison process can help you choose the regulatory pathway that makes the most sense for the product.
+Over the years, we’ve watched many startups do a lot of work on their “killer experiments” before deciding on their FDA regulatory pathway. These are some of the approaches we’ve seen YC companies pursue:
+In-vitro experiments at the bench, using banked cells or banked/cultured tissues.
+In-vivo experiments using animal models.
+In patient experiments under IRB with physician oversight.
+Finding a non-clinical research use for your technology that does not require FDA approval.
+Pursue research, industrial, agricultural, or veterinary applications of technologies that will eventually be used for human health.
+When startups have been developing diagnostics, we’ve also seen companies working on tests with a lab component decide to start first with the CLIA/CAP LDT process, and only then pursue FDA clearance. This can be a reasonable choice for certain classes of diagnostic tests as it allows you to start delivering diagnostic results at small scale.
+Here are some important questions to consider as you set out on your FDA journey:
+When should I start doing things the FDA way (e.g. set up GxP, Quality System etc)?
+As we described in a previous post, doing things the FDA way is vital to getting the regulatory green light you need before you can market your product. It’s time-consuming and complex, entailing setting up your quality system, documenting appropriately, and running studies according to tightly controlled protocols. But doing it the right way will expedite the regulatory process.
+There is no easy answer for exactly when to start doing things the FDA way. Ideally, though, your founders understood at a basic level when they started the company what the process may look like for your product. An early team might have already gathered some data on their product’s safety and efficacy from their killer experiments.
+Of course, the cost and time associated with your experiments is often a factor in determining the best time to start doing things the FDA way. A company developing a digital health product will usually start the process sooner than a company developing a therapeutic, because the former requires less time and energy if pivoting becomes necessary. Nevertheless, a good rule of thumb for any company to follow is that when your team feels confident that its technology could work, it’s probably the right time to begin thinking about its regulatory implications. And, it may be a good time to seek feedback from the FDA or counsel from a consultant or lawyer.
+Should I hire a consultant or a lawyer?
+Starting the FDA process can be expensive, so doing smart planning and budgeting can help your startup efficiently navigate the FDA process. If you’re an early-stage company who’s raised only a small seed round or less, seeking advice from a regulatory consultant is a good way to get started. Consultants bring a wealth of regulatory experience, but may not be expert in your domain. Ideally an early stage consultant has experience in both your diagnostic or therapeutic area and the regulatory pathway you’re most seriously considering. And of course, they understand many of the financial and regulatory dynamics companies at your stage are grappling with.
+To be sure, consultants have different specialties; some focus on therapeutics while others are experts in medical devices and manufacturing or regulated software. There are frequent discussions within the YC bio community about which consultants are good in which areas. If you can’t identify a consultant who meets all three criteria, you can sometimes use one like a lawyer–as a primary outside counsel who is your go-to FDA resource, while hiring specialists on an as-needed basis.
+However, while there are exceptions, it’s unusual to hire a regulatory-affairs attorney during your company’s early stages. On the other hand, it’s important to retain an intellectual property lawyer early on. We’ll cover that in a future post.
+Is a lawyer better than a consultant?
+Early stage startup founders often believe a lawyer who specializes in life science regulation is superior to a non-lawyer consultant. Generally, we don’t agree, but a regulatory lawyer can be an immense help when a startup finds itself expecting to challenge an FDA decision such as the agency refusing to sign off on a regulatory pathway for your product while green-lighting a competitor’s process.
+What can I hire a consultant to do?
+For many early stage bio companies, a consultant is useful for the following:
+Determining the pros and cons of different regulatory options, such as whether to pursue 510(k) or DeNovo? Or 505(b)(1) or (b)(2)?
+Whether choosing a Pre-sub or Pre-IND would be beneficial for a product like yours. The consultant can also do the filing and request the meeting with the FDA.
+Figuring out what your IND (Investigational New Drug) submission package should look like, including: Is chronic toxicity testing required? How long? Where will it be run? What will your manufacturing look like and where will you do it?
+What will your NDA (New Drug Application) require? Can you get an approval in 100 patients, or will you need a 20,000 patient safety database?
+Researching related products to understand the studies they ran, the claims they made, and what their timelines looked like.
+Determining what suppliers are often needed for your type of manufacturing, clinical research, and the like?
+Researching the statistical techniques you should use, and which bio-statisticians are experts in your area.
+Filing all your clinical and marketing approval submissions until your company hires a full-time regulatory staff.
+Deciding if your product is a candidate for special FDA programs like Breakthrough Designation or The Orphan Drug Act?
+If you’re going to hire a consultant, you must be able to share the following in order to get the best results:
+A full list of the experiments you’ve run so far.
+An explanation of the diseases or conditions your technology can best attack.
+A complete roster of competing or similar products that are already on the market.
+The regulatory pathways you believe will best apply to your product.
+As with any advisor, the more you arm your consultant with relevant and helpful data about what you want to achieve and what you’ve already done, the more valuable she can be for you.
+With this information in mind, you can start planning your next steps and building out a budget and timeline. Remember that good consultants can be incredibly expensive. We often see quotes in the $6,000 to $20,000 a month range for part-time consultants. To best manage your costs, you should have specific outcomes in mind before you hire a consultant. This will help you keep their hours under control.
+Because there are so many consultants and consulting groups, we recommend soliciting leads from your network first. Sometimes, in fields like medical devices, you can find the names of consultants by examining regulatory submission summaries, which are public record.
+Ideally, you can find a consultant who’s experienced with your specific regulatory pathway and who also understands your diagnostic or therapeutic area. But remember that medical device consultants, small molecule drug development consultants, and biologics consultants are typically different sets of people.
+By hiring a good consultant and signing a healthy consulting engagement, you’ll be more confident and educated about your regulatory options, the processes you must follow, and your criteria for success. That’s especially true if your consultant can help with aPreSub or Pre-IND process. And while your consultant may be responsible for executing the process, she will not and should not drive the process or specific outcomes. Founders often mistakenly “let the regulatory tail wag the business dog,” so to speak. A good consultant, like a good lawyer, will look to you to define your desired business outcomes and then provide counsel to meet those outcomes as best she can.
+Over time, companies typically hire multiple consultants for different functions. But in the early going, when exploring your regulatory options is so important, it’s common to retain just one. Later, though, you may want to think about hiring biostatisticians, clinical study designers, and manufacturing or supply chain consultants.
+Enzyme (YC S17) offers consulting services tailored for startups, with particular experience in medical device/diagnostic, combination product and digital health products.
+The first regulatory hire, and staffing a regulatory team
+Sometimes, startups can make their way to commercialization using only consultants for their quality and regulatory needs. But eventually this arrangement becomes suboptimal and cost-prohibitive and the startup must hire in-house quality and regulatory people. The specific timing for this evolution depends greatly on the type of products being developed. For example, it’s not uncommon for a therapeutic startup to hire a full-time regulatory specialist as one of the first ten employees. But neither is it uncommon for a digital health startup to wait until they’ve closed their Series B funding to bring on a full-time regulatory hire. Ultimately, the right time to make this transition is dictated by the work underpinning it. But something to keep in mind is that the how of making something and getting it approved is in itself valuable knowledge–and something you want to infuse your company’s DNA with before you embark on your second-generation product.
+It’s important to remember that regulatory and quality leads typically work cross-functionally, and will need to work with team members from product development to marketing regarding compliance. Many quality and regulatory professionals who work with early stage companies are able to “dual-hat”, i.e. perform both quality and regulatory functions, but many specialize and do just one or the other.
+Hiring someone with regulatory expertise is frequently difficult for first-time founders who haven’t been through the process before, and this specialization can exacerbate the hiring dynamic. Early stage companies have a wide variety of quality and regulatory needs, including maintaining the quality system, leading regulatory filings such as PreSub, Pre-IND, IND, etc., and working cross-functionally to create documentation, standard operating procedures and the like.
+That’s why it’s vital to ensure that someone is tackling your regulatory strategy and filings, and also ensuring that you have and are following a functioning QMS. Making sure you have and are operating under such a system is often considered “the FDA way.”
+What Investors Will Care About
+Given the time and expense associated with an FDA approval or clearance, investors want to understand your company’s regulatory story before considering an investment. Regarding your clearance, some of the things they’ll want to examine include:
+What’s your risk profile? Which regulatory clearance are you pursuing and how likely are you to get it? 
+What’s the timeline? Where will the company be when it is five years old?
+What’s the budget? How much money will it take to get the approval? How much more will you have to raise at the next round?
+How well do you understand your pathway and the many hurdles you will need to navigate to get approval?
+When raising money, you should be able to present clear materials that address these questions with relevant clinical data. We will cover how investors evaluate bio startups in another post.
+Conclusion
+Many of the decisions you have to make in relation to the FDA and your company’s regulatory needs will be neither simple nor easy to make. We hope this post can:
+Help founders determine their early stage hiring or consulting needs when it comes to the FDA.
+Help founders understand when the right time is to start doing things the FDA way.
+There are few clear and obvious answers to the above, but these are discussions we have often in the YC community, and as a result, we’ve developed numerous opinions on these topics by working with founders. We welcome any feedback. Reach out to us on Twitter at @reshmakhilnani and @seehafer.
+Thank you to Uri Lopatin, Surbhi Sarna, Jared Friedman, Beth Kolko, Geoffrey Lucks, Lindsay Amos for reviewing this essay.
+Related Reading:
+FDA: Orientation for Early Stage Startups.
+Shasqi (YC W15) entered human clinical trials after getting their commercial IND approved.

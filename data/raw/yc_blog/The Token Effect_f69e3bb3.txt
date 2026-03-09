@@ -1,0 +1,32 @@
+Title: The Token Effect
+Author: users is captured by the companies and their shareholders
+URL: https://www.ycombinator.com/blog/the-token-effect
+
+The Token Effect | Y Combinator
+Cryptocurrencies and tokens are becoming increasingly popular. In this post, we’ll explore the context that triggered this frenzy, the new possibilities tokens unlock, and why people are excited about its future.
+The Context
+Decades after the web started and seventeen years after the dot com crash, we have finally entered the golden age of Internet Apps. Companies like Airbnb or Uber can be described as centralized entities governing a network that allocates a scarce resource i.e homes and rides. These communities are built on strong network effects – where, according to Metcalfe’s law1, the value of the network is exponentially increased by the number of users who participate. In these cases, the accrued value produced by users is captured by the companies and their shareholders.
+On the other hand, open source and decentralized projects that power the internet like TCP/IP, Wikipedia or Unix have generated huge amounts of value but historically struggle to capture most of it. Success in open source is measured by user adoption, not by revenue. For example, internet protocols like TCP/IP or Email (SMTP) have been massively underfunded despite their use by millions of people.
+Companies heavily use these protocols while accruing the value in their own user facing layer, the end consumer application2. The downside is that the lower protocols remain massively underfunded.
+Bitcoin3 created the first “fair” peer-to-peer decentralized network. Bitcoin allows money to be transacted securely between parties without any central authority. Everyone verifies the transactions. Fairness is defined by rewarding good actors monetarily for contributing value to the network. In this case, actors are called miners. They contribute to the network by recording and securing all the transactions with cryptographic proofs.
+The Spark
+Ethereum took the Bitcoin concept one step further. It is a decentralized network of millions of computers that execute code at the same time. Efficiency is compromised in favour of security. When someone wants to send a transaction, all the nodes execute it and update the ledger. Unlike Bitcoin, where the capabilities are really restricted for security purposes, these Ethereum nodes can execute almost any program. Its code is defined in smart contracts. A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises4. One of the direct applications is the digitalization of complex financial instruments like derivatives.
+More importantly, you can use a smart contract to build your own crypto-currency or token5. Tokens allow decentralized protocols to capture the value of the network. A token is the basic economic unit in the ecosystem and should represent a scarce resource. Tokens are spent to use this resource and are earned by contributing to the network. For example, in Filecoin you earn tokens by lending your unused hard drive space. In summary, tokens coordinate efforts in the network and motivate responsible participation.
+Excitement & Gold Rush
+At the moment, an Initial Coin Offering or ICO is the main use case of Ethereum. An ICO is for a network what an IPO is for a startup, with some major differences. These ICOs provide a sizable improvement in terms of liquidity. Unlike traditional companies, you can represent the value of your assets in terms of tokens that are liquid and tradeable from day one. Besides, you can attract thousands of early adopters with skin in the game that believe and support your project from the beginning. The capital injection and initial speculation bring attention to developers, effectively bootstrapping the network.
+Unfortunately, many startups that aren’t networks are turning to ICOs to fundraise just to get quicker access to money at higher valuations. Only a few of these actually require a token to bootstrap and track the value of the network. Protocol tokens like Ethereum are examples of currencies with strong network effects. Their model simply wouldn’t work without this ‘token effect’. The token, and its ICO, is the only way the protocol can create and retain value from its utilization.
+Looking ahead
+The web took decades to mature. It went through periods of high speculation and subsequent crashes. It’s important to remember that even during those periods, great companies like Amazon or Google were founded. It is only reasonable to expect the Blockchain ecosystem to follow a similar timeline.
+Cryptocurrencies and Tokens raised a record $1.27 billion in the first half of 2017 through Initial Coin Offerings6. Most of them won’t survive but a chosen few will, laying down the foundation of a new age.
+“Blockchains give us new ways to govern networks. For banking. For voting. For search. For social media. For phone and energy grids. Blockchain-based market networks will replace existing networks. Slowly, then suddenly. In one thing, then in many things.” – Naval Ravikant
+Thanks to Cadran Cowansage, Stephanie Simon, Craig Cannon, and my friends outside YC Mariano Torrecilla and Raul San Narciso for reading the early drafts.
+Notes
+1. https://en.wikipedia.org/wiki/Metcalfe%27s_law ↩
+2. See Fat Protocols http://www.usv.com/blog/fat-protocols ↩
+3. Bitcoin Paper by Satoshi Nakamoto https://bitcoin.org/bitcoin.pdf ↩
+4. Nick Szabo Smart Contracts: Building Blocks for Digital Markets ↩
+5. ERC20 Token https://theethereum.wiki/w/index.php/ERC20_Token_Standard ↩
+6. CoinDesk ICO Tracker https://www.coindesk.com/ico-tracker/ ↩
+Author
+Ramon Recuero
+Ramon was a Hacker at YC. Before working at YC, he worked at Zynga, Moz and founded Netgamix.

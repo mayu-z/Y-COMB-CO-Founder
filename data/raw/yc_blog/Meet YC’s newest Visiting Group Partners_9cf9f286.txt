@@ -1,0 +1,21 @@
+Title: Meet YC’s newest Visiting Group Partners
+Author: Harj Taggar
+URL: https://www.ycombinator.com/blog/meet-ycs-newest-visiting-group-partners
+
+Meet YC’s newest Visiting Group Partners
+April 17, 2024·by Harj Taggar
+I am excited to announce we have three new Visiting Group Partners joining us for the S24 YC batch: Andrew Miklas, Ooshma Garg, and Jon Xu. 
+Visiting Group Partners help advise founders during the batch by sharing their own experiences and lessons learned building companies. All three of our new Visiting Group Partners have lots to share on that front, as do our two returning Visiting Group Partners — Tyler Bosmeny and Nate Smith.
+Andrew Miklas
+Andrew is the co-founder and former CTO of PagerDuty (S10), a digital operations platform used by thousands of businesses to coordinate their responses to mission-critical issues. PagerDuty was the second YC company to go public after their IPO on the NYSE in 2019. 
+As PagerDuty's founding CTO, he scaled the product & engineering team to 70+ individuals and led the team that designed the initial product and its high availability architecture. He has also been an investor in startups including Retool and CaptivateIQ. He has a BSE (Software Engineering) from the University of Waterloo and an MSc in Computer Science from the University of Toronto.
+Ooshma Garg
+Ooshma is the founder and former CEO of Gobble (W14), the easiest and fastest way to make home-cooked meals. Ooshma scaled the business from inception to $300M+ in subscription sales and ultimately to a profitable acquisition by Intelligent Brands in 2022. 
+Ooshma was named CEO of Intelligent Foods and managed 750+ employees working across multiple nationwide D2C food brands, including Gobble and Sunbasket. Ooshma has founded and built three businesses. She sold her first B2B SaaS startup in 2010, just one year after graduating with a B.S. in BioMechanical Engineering from Stanford University.
+Jon Xu
+Jon is the co-founder and former CTO of FutureAdvisor (S10), one of the first robo investment advisors that made high-quality investment management available to everyone. FutureAdvisor was acquired by BlackRock in 2015 where Jon continued to lead Product and Engineering as Managing Director in Aladdin Wealth Tech. FutureAdvisor powered robo investment services for the largest banks and broker dealers in the US and managed over $2B in client assets. 
+Prior to starting FutureAdvisor, Jon graduated from MIT with a degree in Computer Science and worked on mobile data synchronization protocols at Microsoft. 
+We’re all looking forward to Andrew, Ooshma, and Jon getting started. As YC alumni themselves, they know how special our community is and how important it is to pay it forward by guiding the next generation of YC founders.
+Author
+Harj Taggar
+Harj Taggar is a Managing Partner at YC. He was previously founder and CEO of Triplebyte (YC S15) and Auctomatic (YC W07), which was acquired by Live Current Media in 2008.

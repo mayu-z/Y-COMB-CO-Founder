@@ -1,0 +1,41 @@
+Title: YC Founder Firesides: Brex on spend and speed as a strategy
+Author: Y Combinator
+URL: https://www.ycombinator.com/blog/yc-founder-firesides-brex-on-spend-and-speed-as-a-strategy
+
+YC Founder Firesides: Brex on spend and speed as a strategy
+April 21, 2022·by Y Combinator
+Brex went through YC in Winter 2017, and now serves over 50,000 companies, and 40% of US startups.
+Last week they announced the launch of Brex Empower, a software platform that helps scaling companies manage their spend and stay financially disciplined while still moving at startup speed. 
+They built the product to solve the problems Brex itself faced as they started growing – and launched with DoorDash as one of their first customers. 
+YC’s Anu Hariharan sat down with Brex Co-CEO Henrique Dubugras to talk about the launch of Empower and Henrique’s advice for startup founders and CEOs. 
+You can listen here on Twitter Spaces. 
+12:44 - What is Brex Empower? And why did you decide to launch it now?
+40% of US-based startups use Brex, and as Brex and their customers grew, new needs started to arise. Brex wanted to build a product that would serve both Brex and their scaling customers.
+Henrique talks about how to retain a culture of trust as your company grows.
+16:55 - What scaling challenges was DoorDash having that they thought Brex Empower could help them with?
+DoorDash has 9,000 employees now and they’re constantly testing new things in different markets.
+Henrique talks about the challenge of balancing speed and operational efficiency with financial discipline. How do you balance team growth and speed?
+21:05 - Speed as a strategy at Brex
+There shouldn’t have to be a tradeoff between speed and quality or speed and financial responsibility.
+Henrique shares how Brex analyzes processes and tools that help them stay nimble. 
+24:50 - 3 features Brex Empower customers are excited about
+Automatic receipts
+Less expense approval for managers
+Better budget visibility - keeping teams accountable in real time
+28:50 - How spend is changing in the remote work world
+Brex became remote first during the pandemic.
+Henrique and Anu talk about how spend is changing for remote companies.
+32:35 - Henrique talks about the biggest challenges they faced while building Brex Empower 
+36:10 - Who is the right customer for Empower?
+Henrique shares two inflection points that indicate you’re a good customer for Brex Empower.
+37:40 - The future of Empower and Brex 
+42:00 - On Brex’s writing culture
+Audience questions
+45:37 - What was your process for reaching product market fit at Brex/when did you know you’d achieved it? 
+48:05 - What convinced you to apply to YC?
+49:45 - What happens when blockchain takes hold of the credit card space? 
+50:55 - Anu shares two early memories about the Brex team.
+53:05 - Early on, how much did you focus on rewards vs. the product/platform? 
+57:55 - How much time did you spend on customer validation?
+1:00:02 - Henrique’s super power 
+1:01:25: - What do you push other YC founders on when encouraging them to dream big?

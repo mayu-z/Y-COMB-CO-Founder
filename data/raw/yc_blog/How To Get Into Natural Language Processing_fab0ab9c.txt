@@ -1,0 +1,84 @@
+Title: How To Get Into Natural Language Processing
+Author: people of incredibly diverse backgrounds
+URL: https://www.ycombinator.com/blog/how-to-get-into-natural-language-processing
+
+How To Get Into Natural Language Processing
+We’re excited to introduce a new series we’re calling Paths. Each post will outline an emerging technology and give you clear steps on how to get started in that field.
+This series was designed with makers and aspiring entrepreneurs in mind. We talked to college students interested in engineering, business, and technology to figure out what resources would be most helpful to them. Then, we reached out to experts from academia, industry, or some combination of the two.
+We’re excited about the potential for this series to evolve, and we’d love to hear your feedback at Macro@YCombinator.com. What would you like to learn about next?
+Today, we’re going to talk about NLP.
+We don’t often think about how easy it is for humans to understand language. In everyday conversation, we convey meaning without considering how our brains translate so much unstructured data into useful information. For machines, however, understanding human speech and language is very hard.
+What is NLP?
+Natural language processing, or NLP, is a field concerned with enabling machines to understand human language.
+“The goal of this new field is to get computers to perform useful tasks involving human language, tasks like enabling human-machine communication, improving human-human communication, or simply doing useful processing of text or speech.” (Jurafsky, Manning 2011)
+Beginning as a field rooted in linguistics, NLP evolved during the mid-twentieth century due to new advances in statistical analysis and, in the last few years, has erupted again as a result of novel techniques in artificial intelligence. Today, the field has become incredibly multidisciplinary, bringing together symbolic paradigms (think pattern-matching based on a set of rules) and stochastic paradigms (which draw from statistics and probability).
+Why Should I Care?
+NLP is changing the way that we interact with our devices, and the field is evolving incredibly rapidly. It can be applied to so many different fields by people of incredibly diverse backgrounds.
+Here’s a look, by industry, into some ways that NLP is being used today:
+– Medicine – Summarized physicians’ notes for billing; Interoperability (moving differently-formatted medical records across providers)
+– Law – Improved and more relevant lookup/research for legal documents
+– Financial Industries / Banking – Actionable insights based on sentiments world news or social media
+That said, there remain so many hard problems to solve in NLP, so it’s exciting to get involved now.
+What Are Examples of NLP?
+Personal assistants (Apple/Siri, Amazon/Alexa), automated language translation (Microsoft/Skype Translator, Google/Translate), question answering (Google/Search), and text summarization are examples of NLP in real-world products.
+Why is NLP Hard?
+Language is highly ambiguous– it relies on subtle cues and contexts to convey meaning.
+Take this simple example: “I love flying planes.”
+Do I enjoy participating in the act of piloting an aircraft? Or am I expressing an appreciation for man-made vehicles engaged in movement through the air on wings?
+A single sentence can carry different meanings. After thousands of years of evolution, languages have evolved to become shorter and less explicit. For humans, this is very efficient. We have developed the ability to communicate with one another by relying on common sense, the context of our conversations, and knowledge about how the world works. The verbal message that we deliver contains as little information as possible to convey meaning.
+Today’s computers struggle immensely with resolving ambiguity. As a result, they fight the uphill battle of interpreting meaning without a full understanding of context, e.g. like common sense and culture.
+Why Now?
+A key driver for NLP’s recent rise is the Web, which introduced tremendous amounts of spoken and written material. Modern computers, with faster multi-core CPUs/GPUs, can take advantage of these large datasets with the advent of more advanced machine learning methods that have developed in the last decade. As a result, we are witness to a ripe environment for applied NLP.
+“There exists a lot of infrastructure and tools that are available that weren’t as accessible before. Think about it like the boom of frameworks and tools for web development. An analog of that is now accessible for NLP.” – Jimoh Ovbiagele, ROSS Intelligence
+A more subtle reason for recent progress in NLP is our comfort and trust in computing devices.
+“10 years ago, many people were afraid that [devices] were going to make decisions based solely on data and without a human’s perspective. Now, more than ever, people are willing to trust a 100% autonomous AI to send an email.” – Sinan Ozdemir, Kylie.ai
+I’m a Maker, And I’m Intrigued. What Can I Do?
+Certain fundamental skills will be useful for academic or applied work in NLP. As a baseline, foundations in college-level algebra and probability (e.g. random variables, distributions, topic models) will be necessary to understand frequently used methods. In addition, knowledge in linguistics (e.g. understanding of semantics, pragmatics, and symbolic representations of language) can provide useful intuition for why computational methods work in the first place.
+In addition to developing mathematical and linguistic tools, take courses that push you to…
+“… understand how to represent systems in ways that can be turned into something more automated or computational. I spent a lot of time in my undergrad looking at a bunch of mathematical models to get a sense of the important aspects of the system. It’s a way of communicating an abstract idea to myself.” – Jacob Rosen, Legit Patents
+Finally, it can be incredibly valuable to get your hands on some data (e.g. Twitter or Reddit posts) to build an intuition for resolving ambiguity in text. What does this unfiltered/unstructured text look like? Why is data formatted in this way, for this specific platform? Before modeling anything, seek to understand the data. Then, work on building your statistical models and optimizing your system’s infrastructure.
+For More Tools And Resources to Get Started, Check Out:
+– Stanford NLP Lectures by Dan Jurafsky and Chris Manning
+– HackerNews: “How Can I Get into NLP?”
+– Intro to the popular Natural Language Toolkit in Python
+– Project: Detect sentiment in movie reviews
+Do I Need a PhD to Work on NLP?
+“Having a PhD is not 100% necessary. Data science in general is such a new idea to a lot of people in the world, and the science part isn’t 100% there yet.
+Broadly speaking, we can break down roles into two categories: analysts and builders.
+Analysts have a more theoretical/statistical background. Therefore, [PhDs working in NLP] tend to approach problems from a mathematical standpoint.
+Builders work on pipelines that will handle all of the text until something is more usable to prototype.
+There is always a balance between these two mindsets, especially when building products that need to go to market.” – Sinan Ozdemir, Kylie.ai
+Okay. But What Would it Mean if I Did Get a PhD?
+“It used to be the case that many mathematicians only became famous half a century later, when someone figured out a practical use for their work. Today, academic work is being utilized much quicker, sometimes within only a few years. The rapid influx of academic work will lead to a rapid outflux of production ready software.” – Sinan Ozdemir, Kylie.ai
+In other words, there is tremendous value in pursuing deep work to push academia forward, and this kind of work is having tangible impact in real-world applications sooner and sooner. Additionally, returning to industry with the intuition of an analyst will provide a valuable perspective for shipping user-facing products.
+What Are Some of The Biggest Challenges Working in NLP?
+Many practical challenges prevent us from taking full advantage of the theoretical frameworks and computational tools that have been developed for NLP.
+To work on real problems we need representative and relevant data sets. How can we solve the most pressing healthcare problems when we can’t access secure, patient records? How can we understand social networks in response to global news without infringing Facebook’s privacy policy?
+At the moment, there are two potential workarounds:
+“1) Collaborate. Work with doctors or hospitals on localized data sets. 2) Find data sets that are close to what you want. Use Reddit’s publicly-available dataset, instead of Facebook.” -Dan Jurafsky, NLP Group @ Stanford
+Another challenge, especially in industry, is related to metrics and analytics. What is the right way to measure performance? How do we build robust feedback mechanisms to quantitatively measure the performance of an NLP system?
+Let’s consider the challenge of quantitatively evaluating a chatbot’s effectiveness:
+“We can guess all day long about how our system will be used, but the key will be observing and improving. Once we have that data, it will allow us to improve the logic for entity extraction and intent matching.” – Taylor Halliday, Mesh Studio
+Where is The Field Going?
+New advances in artificial intelligence and deep learning have completely changed the way we think about NLP. With deep learning, systems handle inputs and outputs that are purely text:
+“Consider summarization snippets on Google search results. At the moment, algorithms still use statistical models to find frequent pieces and then paste them together. With deep learning, we use complex neural networks to map text into higher-dimensional representations, and re-generate a sequence of words. All of this work has been done in the last 3-4 years.” – Dan Jurafsky, NLP Group @ Stanford
+Sounds Exciting!
+We’re at a very unique point in history where natural language interfaces are beginning to dominate the ways that we interact with our machines. With largely available datasets and open source frameworks, working on NLP problems has never been more accessible.
+Perhaps most exciting is that NLP can be tackled from so many different angles. Academic work has become increasingly relevant in real-world products. Diverse backgrounds and interdisciplinary approaches are advantages because context from other fields — linguistics, psychology… even healthcare or law— can be invaluable to solving specific problems from those fields.
+Language is perhaps the most effective and intuitive tool we have to interface with each other. With NLP, we’re working on extending this interface to machines.
+Update on 1/30/17
+Additions From the HN Community
+Watson API demo: What’s possible? – garysieling
+Advice from PhD on NLP, machine learning, and data monetization – danso
+SyntaxNet in Context: Understanding Google’s New TensorFlow NLP Model – danso
+Announcing Syntax Net: The World’s Most Accurate NLP Parser – danso
+Curated Deep Learning for NLP Resources – andrewtbham
+Notes & Refs
+Jurafsky, D., & Martin, J. H. (2009). Speech and language processing: an introduction to natural language processing, computational linguistics, and speech recognition. Upper Saddle River, NJ: Pearson Prentice Hall.
+Thanks to the following individuals for their thoughtful insights about their real-world experiences:
+– Jimoh Ovbiagele of ROSS Intelligence. ROSS is an A.I. lawyer that helps human lawyers research faster and focus on advising clients.
+– Sinan Ozdemir of Kylie.ai. Kylie is an ai that clones employee personalities to automate conversations between a company and its customers. (Previously, Data Science @ Johns Hopkins University).
+– Jacob Rosen of Legit Patents. Building patent software for inventors.
+– Taylor Halliday of Mesh Studio. Mesh Studio is a technology design/engineering shop currently building a conversational commerce platform to overhaul to all digital channels of large retailers.
+– Dan Jurafsky of the NLP Group @ Stanford University.
+Thanks Craig Cannon, Milan Doshi, Darren Handoko, Yonatan Oren, Sinan Ozdemir, John Kamalu, Kat Mañalac, Brexton Pham, Zachary Weingarten, and Evelyn Xue for reading drafts of this essay.

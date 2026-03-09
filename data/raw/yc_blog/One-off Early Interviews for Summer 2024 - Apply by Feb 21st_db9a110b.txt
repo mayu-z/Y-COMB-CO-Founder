@@ -1,0 +1,24 @@
+Title: One-off Early Interviews for Summer 2024 - Apply by Feb 21st
+Author: Feb
+URL: https://www.ycombinator.com/blog/early-interviews-summer-2024
+
+One-off Early Interviews for Summer 2024 - Apply by Feb 21st
+February 16, 2024·by Y Combinator
+We’re planning to do a special one-off round of early interviews for the next YC batch. If you want to do the next batch of YC, you should consider applying now by Feb 21 so you can get a faster decision (and earlier funding).
+The reason we’re doing these is that earlier this week, we published a brand new list of Requests for Startups to share ideas that we’d be excited to fund. A lot of people told us this had inspired them to apply to YC, so we decided to do a round of early interviews for them.
+For simplicity’s sake, we will be considering applications for all ideas, not just ones directly related to the requests for startups.
+By the way, if you think you’re too early to apply to YC, you’re likely not. Last batch, 56% of the teams we funded came in with just an idea. If you have a cofounder and an idea you’re excited about, you’ve got what you need to apply.
+To be considered for this one-off round of early interviews, you should submit an application by Wednesday, February 21 @ 8PM PT. We will run the early round of interviews in late February. 
+(P.S. For those founders who are building ML/AI startups and need GPU resources for training models, we’ve put together new deals worth over $1M+ — in addition to YC’s standard deal investment of $500,000 — that can be used to access GPU compute resources with Microsoft Azure and AWS.)
+FAQ
+Who is this for? What if my startup is not related to any RFS?
+The early deadline is open to everyone; your startup idea doesn't have to fit any of the categories mentioned in the new RFS. We expect that ideas related to our RFS’s will only ever make up a small percentage of the companies in the batch.
+If I get accepted to YC in this early decision process, when does the actual YC investment happen? Do I have to wait until the batch starts?
+If you are accepted to YC, we start the process of investing in your company immediately, the very day you are accepted. We wire the money as soon as the docs are signed, it has nothing to do with the date the batch program starts. 
+We also start doing office hours with companies as soon as they are accepted, and make all of YC’s resources available to them.
+If I don’t get selected for an early interview, what happens?
+If we don’t select you for an early interview, we will notify you in the following weeks.
+Do I need a referral code to be considered for the early round of interviews?
+Nope!
+What if I’ve already applied for S24?
+You're all set. We read all applications continuously and will pick out relevant applications for early interviews.

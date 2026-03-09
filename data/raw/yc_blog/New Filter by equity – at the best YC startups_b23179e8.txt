@@ -1,0 +1,39 @@
+Title: New: Filter by equity – at the best YC startups
+Author: Ryan Choi
+URL: https://www.ycombinator.com/blog/filter-by-equity-at-yc-startups
+
+New: Filter by equity – at the best YC startups
+August 3, 2022·by Ryan Choi
+YC's job board now lets job seekers filter by equity offered on the job description. Over 380 startups have posted roles with equity, with some early engineering roles offering 2%.
+At YC, we tell our founders to be generous with equity, and even suggest giving 10% to the first 10 employees. Early employees are taking a bigger risk by working at an early stage startup, and their upside should be significantly greater than employees at later stage or public companies. 
+Below are a few startups on the platform hiring and providing equity compensation on their job listing. See the full list of startups by creating a profile on YC's job board and find yours.
+Founding Full Stack Software Engineer at MutableAI (W22)
+About the company: We believe the future of software development is AI accelerated and we’re starting by converting prototype quality Python code into high quality production code using AI and meta programming. Our long term mission: to enable programmers to massively decrease the time to create high quality production code in all languages using AI.
+Comp & equity: $100k - $180k • 0.50% - 2.00%
+Senior Infrastructure Engineer at Terrace (S22)
+About the company: Terrace is a regulatory-compliant, all-in-one institutional-grade trading UI / terminal and infrastructure layer for DeFi (lending, staking, liquidity, borrowing, and exchange).
+Comp & equity: $130k - $165k, 0.30% - 1.50%
+Mobile Engineer at Novig (S22)
+About the company: Novig is the first high-frequency sports trading platform in the US. A commission-free P2P exchange model replaces the exploitative and unprofitable betting model of traditional sportsbooks.
+Comp & equity: $110k - $170k, 0.05% - 1.00%
+Founding Software Engineer (Product) at Rally (W22)
+About the company: Rally makes it easy for Product, Design, and UX Research teams to talk to their users. We're building the world’s best User Research CRM - a platform that automates outreach, screening, scheduling, incentives, and participant tracking, all in one place.
+Comp & equity: $100k - $150k, 0.50% - 1.50%
+Senior Software Engineer (Full Stack) at Ploomber (W22)
+About the company: We are building a cloud platform to help data scientists develop and deploy projects without a dedicated engineering team to support them. Our tools are helping data scientists have more ownership over their work and work more efficiently using interactive tools such as Jupyter.
+Comp & equity: $130k - $170k • Up to 0.50%
+Founding Engineer at Vessel (W22)
+About the company: The universal API for CRMs. Over 90% of businesses use a CRM, but many companies with integrations only support 1-2 CRMs. It takes 65 CRMs to cover 60% of the market meaning existing companies with integrations are missing out on a huge number of potential customers.
+Comp & equity: $110k - $190k • 0.50% - 1.50%
+Founding Engineer at Windmill (S22)
+About the company: Windmill (windmill.dev) is an open-source & self-hostable developer platform for multi-step automation & internal tools. We are an alternative to airplane.dev and pipedream.
+Comp & equity: $70k - $110k, 0.25% - 2.00%
+Author
+Ryan Choi
+Ryan works with YC companies to find great engineers — from 2-person startups to larger ones like Airbnb, Stripe and Instacart.
+Companies Mentioned
+Vessel(W22)
+Developer-first, native integration platform for GTM tools
+Terrace
+Institutional access layer and trading UI for defi
+Other Posts

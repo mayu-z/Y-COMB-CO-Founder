@@ -1,0 +1,23 @@
+Title: First Five Launches with Whatnot
+Author: Y Combinator
+URL: https://www.ycombinator.com/blog/first-five-launches-with-whatnot
+
+First Five Launches with Whatnot
+September 29, 2022·by Y Combinator
+Today Whatnot (W20) is a lively platform where collectors can buy, sell, go live, and geek out with other like-minded people across a wide variety of product categories. But, like every startup, the founders of Whatnot began with only an idea. YC’s Anu Hariharan sat down with the co-founder and CEO of Whatnot Grant LaFontaine to discuss their first five launches.
+The takeaways are below, and the interview can be watched on Youtube.
+(00:40) Launch #1 Takeaway
+Build the buyer side of the marketplace – even if you have to hack your way there.
+To build a great marketplace experience, both sides of the Whatnot marketplace had to be built out. Buyers would come, but only if sellers listed inventory. In the early days, the founders would list products on Whatnot that they didn’t have (i.e. fake listing), and when the item would sell, they’d purchase it on eBay.
+(04:26) Launch #2 Takeaway
+Increase your returning visitor rate through creative marketing campaigns.
+Whatnot launched with only a website and found it was not engaging enough for consumers to visit frequently. To solve this, they developed an app and a growth channel to push traffic to the app, called Whatnot Drop. Whatnot Drop was a raffle for Funko Grail, and consumers could load up on raffle tickets by sharing referral code and content assets that would draw people back to Whatnot.
+(06:17) Launch #3 Takeaway
+Work with trusted influencers in the community.
+Whatnot worked with a Funko Pop influencer who was trusted by the Funko Pop fanbase. The influencer created a Youtube video talking about their experience on Whatnot, which helped the audience trust Whatnot as a reputable marketplace for collectibles.
+(07:19) Launch #4 Takeaway
+Build the seller side of the marketplace by encouraging high sell-through rates.
+Whatnot delivered more sales to sellers by building a cross listing tool. Every seller on Whatnot could easily have their inventory cross listed to their eBay account – delivering more sales for sellers. 
+(10:26) Launch #5 Takeaway
+Experiment with new content formats to drive traffic.
+Whatnot built and launched a live shop feature – a first in the collections industry. The seller tool was built into the product, so it was simple for sellers to go live on Whatnot and talk about their products to the community.

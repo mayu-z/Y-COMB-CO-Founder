@@ -1,0 +1,20 @@
+Title: BillionToOne Goes Public — The Startup That Made Genetic Testing Universal
+Author: Jared Friedman
+Date: Thu, 06 Nov 2025 15:52:00 GMT
+URL: https://www.ycombinator.com/blog/billiontoone/
+---
+
+Today, BillionToOne goes public, becoming YC's fourth publicly traded biotech company. More importantly, they have built one of the most important genetic tests in the U.S. Today, 1 in 11 babies born in the US are tested with BillionToOne's fetal genetic test.
+When we met Oguzhan and David, they were still PhD students. Oguzhan was taking CS183C, a course we were teaching at Stanford, and they decided to apply to YC even though, in 2017, YC did not yet have a track record of funding successful biotech companies.
+Here's what they looked like in their YC application video.
+BillionToOne founders David Tsao and Oguzhan Atay (2017)
+While details of the business model have changed, the core idea for BillionToOne is the same as when they applied to YC. They believed it should be possible to create a prenatal genetic test that works by sequencing fragments of fetal DNA that naturally exist in the mother’s blood, and that this would someday be universally adopted. Before BillionToOne, most genetic abnormalities could only be detected via amniocentesis - an invasive procedure that is only used in high-risk pregnancies.
+The idea is a fusion of biotech expertise with machine learning, which is required to make sense of the noisy data from sequencing free-floating fragments.
+When they applied to YC, this was just an idea. But within 6 months, on only a very modest amount of funding, they had developed the actual test and proven its accuracy on test samples.
+The reputation of biotech companies is that they are expensive, slow, and unpredictable. Somehow, BillionToOne has violated all of those stereotypes.
+They went from starting the YC S17 batch to launching an approved, commercial genetic test in less than two years. And they did it on just a seed round's worth of capital.
+Because biotech companies are doing novel and difficult scientific research, they understandably tend to run overtime and over budget. Not BillionToOne. From the day they launched the commercial test, they've grown revenue rapidly and predictably. We watched, amazed, as they consistently exceeded their revenue targets month after month after month.
+There's a chapter in the BillionToOne story that shows a lot about the character and the execution skills of Oguzhan and David. When Covid struck, there was briefly a desperate shortage of diagnostic capacity to diagnose Covid cases. BillionToOne saw that they had the opportunity to help. In a flash, they repurposed their existing infrastructure and created one of the first FDA-cleared Covid tests. And somehow, they did all that on the side without ever missing their growth targets for their core business.
+Today, BillionToOne is not just a prenatal genetic test. The same core technology for detecting free-floating DNA also works for detecting cancer via a blood test, known as a liquid biopsy. They launched an early version of this cancer test commercially in 2023, proving their ability to execute in two markets simultaneously.
+Liquid biopsy tech is still in its infancy, though. It holds the promise of a blood test we all take regularly that will detect cancer early when it's most treatable. At scale, such a test could save millions of lives, and that is what BillionToOne is working towards.
+BillionToOne shows what can happen when you combine an original scientific idea, a highly technical founding team, and exceptional execution. We're very proud to have been the first investor in the company and to support Oguzhan and David's deeply impactful work.

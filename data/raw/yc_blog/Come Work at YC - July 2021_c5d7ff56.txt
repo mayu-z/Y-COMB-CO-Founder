@@ -1,0 +1,20 @@
+Title: Come Work at YC - July 2021
+Author: Y Combinator
+URL: https://www.ycombinator.com/blog/come-work-at-yc-july-2021
+
+Come Work at YC - July 2021
+July 20, 2021·by Y Combinator
+YC’s Admissions, Continuity and Software teams are hiring. Find out more about the open roles here.
+ADMISSIONS
+Admissions Associate: Twice a year, Y Combinator receives tens of thousands of applications from promising startups all around the world. Reviewing these applications is fundamental to our core business and we’re looking for an Admissions Associate to review those applications and help manage the overall admissions process. Learn more.
+Product Engineer: The YC admissions team uses lots of custom software to process the tens of thousands of applications we receive every year. We’re looking for a Product Engineer to help us improve that software. In the last year we’ve rewritten our software to do video interviews (instead of in person), analyzed admissions data to understand how our Early Deadline performed, and changed how we ask questions in the application. We’re planning lots more improvements and looking for someone to own projects from idea to implementation. Learn more.
+CONTINUITY
+First Data Engineer at YC: YC Continuity is hiring our first Data Engineer to help us identify promising investment opportunities using data. This is an innovative role for somebody to build YC’s data infrastructure from the ground up. Learn more.
+Research Associate: YC Continuity is seeking a Research Associate to evaluate investment opportunities, lead market research, and help our portfolio companies grow. This is a unique opportunity for somebody who loves data and startups to help us build definitive points of view to guide investment decisions. Learn more.
+Series A Program Manager: YC Continuity is seeking a Program Manager to lead the YC Series A Program. The program offers all YC founders resources to help them achieve the best possible outcomes when raising capital: year-round workshops, detailed fundraising guides & templates, and 1:1 support. This is a great role for someone who is passionate about startups and interested in learning more about them. Given the number of YC companies raising Series As every year, you’ll have an unparalleled understanding of how these financings happen and the early-stage funding ecosystem. Learn more.
+Investment Associate: YC Continuity is seeking an Associate to help analyze and invest in growth stage companies. Our primary goal is to support YC alumni companies by investing in their subsequent funding rounds. Learn more.
+SOFTWARE
+Product Engineer: As YC has gone remote in the last year, our small-but-mighty software team has been busy building the OS that runs all of YC. In the last six months alone, we’ve rewritten our entire Demo Day experience (to connect founders with potential investors), re-created the batch experience with both in-house tools and 3rd party integrations, and written software to help founders connect with one another for advice, intros, deals, networking and so much more. We have a ton more to deliver, so we’re looking to hire multiple product engineers to join the team. This is a great role for somebody who loves helping startups, is eager to talk with YC founders (our customers!), and wants to own projects from start-to-finish. Learn more.
+Author
+Y Combinator
+Y Combinator created a new model for funding early stage startups. Twice a year we invest a small amount of money ($150k) in a large number of startups (recently 200). The startups move to Silicon

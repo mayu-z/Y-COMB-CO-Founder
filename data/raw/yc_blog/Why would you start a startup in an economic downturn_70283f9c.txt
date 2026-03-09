@@ -1,0 +1,19 @@
+Title: Why would you start a startup in an economic downturn?
+Author: Stephanie Simon
+URL: https://www.ycombinator.com/blog/why-would-you-start-a-startup-in-an-economic-downturn
+
+Why would you start a startup in an economic downturn?
+February 21, 2023·by Stephanie Simon
+There will likely be a recession in 2023, and the major downsides to starting a startup are obvious: There is less money in the system so selling and fundraising are harder; investors have less money to invest and companies have less money to spend on products.
+But these are also reasons it’s an especially good time to start a startup, especially with YC.
+Cost-sensitive customers can be helpful in the early days of your company. If they pay you in this tough environment, it's a stronger signal. There’s a higher likelihood you’re building something they really want.
+And though our new standard deal of $500,000 gives you some slack, you will likely have to develop very smart habits around spending because fundraising is harder. Learning how to stay alive is arguably the most important skill you can have as a founder.
+I don’t think it’s a coincidence that two of the top YC companies, Airbnb and Stripe, were started in the depths of the last recession (2009).* They learned how important it is to build something people want and not assume investors will be there to save them early on.
+None of this is new. It’s common knowledge, especially in the tech community, that many successful startups were created during recessions (just search “startups + recession” and you’ll find a bunch of articles), which may be one reason we’ve seen high numbers of applications from founders leaving their big tech company jobs, especially in the last couple of months.
+If running a startup is like commanding an army, then YC is elite basic training. You’ll learn how to navigate the challenges (or realize you’re not up for it) when your company is small and with the support of advisors and YC batchmates. You’ll build a solid foundation of learning how to build something people want and staying alive. 
+The YC training prepares you by default for succeeding through recessions. And it’s easier to internalize that training today when the macroenvironment supports it. The alternative is learning it on the battlefield when the stakes are way higher — when you’ve already raised money and have employees who depend on you. 
+As YC founder Paul Graham wrote, “Bad shit is coming. It always is in a startup.” If you’re interested in starting a startup, we’re entering a counterintuitively good time to do it. It won’t be easy, but if you get through the early days, you’ll be better prepared than most. And if the challenge excites you, you probably have the right personality for it.
+*Their products were also tailored to a cost-sensitive environment. Stripe made it easier for brick-and-mortar businesses to cut costs by selling online and Airbnb created a new income stream for hosts and lower-priced accommodations for travelers.
+Author
+Stephanie Simon
+Stephanie Simon is the Head of Admissions at Y Combinator. Prior to YC, she was a software engineer at Earnest and co-founded Murmur, a venture-backed local search startup.

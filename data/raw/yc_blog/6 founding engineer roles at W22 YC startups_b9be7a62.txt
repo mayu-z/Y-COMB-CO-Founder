@@ -1,0 +1,40 @@
+Title: 6 founding engineer roles at W22 YC startups
+Author: Ryan Choi
+URL: https://www.ycombinator.com/blog/founding-engineer-roles-at-yc-startups
+
+6 founding engineer roles at W22 YC startups
+July 12, 2022·by Ryan Choi
+The YC job board has always been the best way to find early roles at funded and vetted YC startups. This is especially true after a startup graduates from YC, raises an early round and starts to hire their founding team. 
+Below are a few of the most recent YC startups (Winter '22 batch) hiring for founding engineers, with compensation in the $160-180K range and equity around 1.5-2.0%. 
+To keep up with the newest YC startups hiring on the platform, create a profile on YC's job board and find yours.
+1.) Founding Frontend Engineer at PropelAuth (W22)
+About the company: PropelAuth provides the right level of authentication for all stages of a company. New startups can use our hosted pre-built UIs which provide the simplest possible integration right out of the box.
+What stands out: Solo founder with eng and leadership experience from Palantir and SafeGraph. Deep experience in ML/NLP tech and product-led development. CMU grad.
+Comp & equity: $130k - $160k, 0.50% - 2.00%
+2.) Founding Software Engineer (Product) at Rally (W22)
+About the role: We're building the world’s best User Research CRM - a platform that automates outreach, screening, scheduling, incentives, and participant tracking, all in one place.
+What stands out: Work directly with the founder/CTO and own large portions of the product. Founders previously worked at Facebook and Hubspot. 
+Comp & equity: $100k - $150k, 0.50% - 1.50%
+3.) Founding Full Stack Software Engineer at MutableAI (W22)
+About the company: Our long term mission: to enable programmers to massively decrease the time to create high quality production code in all languages using AI.
+What stands out: Solo founder was PhD candidate in physics-turned-software engineer. Previously worked at Google and Apple. 
+Comp & equity: $100k - $180k, 0.50% - 2.00%
+4.) Founding Engineer at Vessel (W22)
+About the company: The universal API for CRMs.
+What stands out: Fragmentation in the CRM space, with 65+ CRMs only covering 60% of the market. Great for anyone interested in API development.
+Comp & equity: $110k - $190k, 0.50% - 1.50%
+5.) Founding Engineer at Windmill (S22)
+About the company: Windmill (windmill.dev) is an open-source & self-hostable developer platform for multi-step automation & internal tools.
+About the role: As a developer, be a user of your own product and contribute to product ideas and development.
+Comp & equity: $70k - $110k, 0.25% - 2.00%
+6.) Founding Software Engineer at Permitflow (W22)
+About the company: PermitFlow is TurboTax for construction permitting. We are on a mission to streamline and simplify construction permitting in the United States, unlocking more value in the $1.6 trillion construction market. 
+What stands out: Regulatory & operational-driven industry being tackled with software. Has early customers and already generating revenue. 
+Comp & equity: $140k - $180k, 0.50% - 2.00%
+Author
+Ryan Choi
+Ryan works with YC companies to find great engineers — from 2-person startups to larger ones like Airbnb, Stripe and Instacart.
+Companies Mentioned
+Vessel(W22)
+Developer-first, native integration platform for GTM tools
+Other Posts

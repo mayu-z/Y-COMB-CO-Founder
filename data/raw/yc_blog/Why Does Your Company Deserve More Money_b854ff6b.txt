@@ -1,0 +1,19 @@
+Title: Why Does Your Company Deserve More Money?
+Author: Michael Seibel
+URL: https://www.ycombinator.com/blog/why-does-your-company-deserve-more-money
+
+Why Does Your Company Deserve More Money?
+July 9, 2018·by Michael Seibel
+The hardest conversation I have to have with a founder is when they’ve spent their 1-2 million dollar angel round but haven’t found product market fit. Unfortunately, I have to ask them a very unforgiving question: why does your company deserve more money?
+Raising millions of dollars from great investors does not equal product market fit. Most YC companies raise money after demo day based on investors seeing potential in the founders and product. Their hope is that by the next time the founders need to raise money, they’ll have found product market fit.
+If you don’t have product market fit and ramp up spending on people/office/equipment/etc, you’ll be on track to lose all leverage in later funding rounds or, even more likely, you’ll kill your company. I know because we nearly killed Justin.tv this way (the full Justin.tv story: part 1 & part 2).
+In early 2010 we had 50 employees and 8 months of runway. We had users (30m monthly actives) and revenue ($4-6m revenue run rate) but weren’t growing so I tried to fundraise and buy ourselves more time. I failed. Honestly I thought that investors were going to save us even with our bloated headcount and slow growth. This is a common sentiment among founders burning through a seed round. They think they’ve proven enough by building a product and getting some users and firmly believe that with another funding round they can take their company “to the next level”.
+After 4 months of failed pitches (in a process we organized poorly) the only option we had left was to cut expenses and break even (here is how to organize a good process). We let a lot of good people go and doubled down on generating the advertising dollars we needed to stay alive. Within 2 months we went from burning $250k a month to making $100k a month and we ended the year at $8m in revenue and $1m in profit (Suhail, co-founder of Mixpanel, describes that tactic in a great tweet). We even took all of our employees to Hawaii to celebrate 🙂
+With the pressure of fundraising off of our backs we had time to take stock of what we had built and figure out the next step forward. Justin Kan and I were particularly interested in creating an “Instagram for video”. This later became Socialcam and exited for $60m in 2012. Emmett Shear and Kevin Lin were particularly interested in the small community of gamers who were streaming on Justin.tv and ran an experiment in which we focused on making a product that was really great for them. You know that experiment today as Twitch.tv which exited for $1B in 2014.
+After you raise a seed round and before you get a fancy office and hire a dozen people, you must see your company as it really is. Do you have product market fit or not? If not, save as much money as you can, spend more time with your customers, and build a product they need.
+If you have 12-15 months of runway and aren’t seeing retention plus growth, here’s what I’d recommend. Get lean – do you really need to staff up before you actually have usage? Stop thinking that spending a lot of money and hiring a lot of employees will create growth. That is true post product market fit but not true pre.
+Don’t limp into a Series A fundraise. You need to be able show that you have taken the early investment money and used it sensibly to create a product that people love. You need to have sustained growth to raise a Series A – understand that and you’ll be better off than most startups.
+Thanks to Kirsty Nathoo and Craig Cannon for reading drafts of this.
+Author
+Michael Seibel
+Michael Seibel is a Group Partner and Managing Director, Early Stage at YC. He was the cofounder and CEO Justin.tv and Socialcam. Socialcam sold to Autodesk in 2012 and Justin.tv became Twitch.

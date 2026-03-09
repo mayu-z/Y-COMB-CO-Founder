@@ -1,0 +1,21 @@
+Title: Hard Tech Companies, Then and Now
+Author: how companies like that could get started at YC. How could
+URL: https://www.ycombinator.com/blog/hard-tech-companies-then-and-now
+
+Hard Tech Companies, Then and Now
+Last month, Boom became the first independent company to develop a supersonic jet. Here’s Boom’s XB-1 jet taking its maiden flight:
+It was a historic moment for humanity. It was also an emotional moment for us at YC because we’ve been hoping this day would come since Blake was in the W16 batch, walking around with a plastic model of the plane he hoped to build.
+Most people know YC for funding software companies. But some of our most successful companies are the ones doing incredible things in the real world — the hard tech companies. They’re 3D printing rockets, launching satellites into space, engineering organisms, and developing fusion energy.
+People are often puzzled by how companies like that could get started at YC. How could 3 months and $500K be sufficient to get something that ambitious off the ground?
+Well, it turns out it is. There’s always a way to peel off a first step. That first step gives investors confidence that you might be able to do this, which lets you fund the second step and so on for as many steps as you need.
+In this latest episode of Lightcone, Garry, Diana, Harj and I talk about a number of YC’s hard tech companies and just how far they’ve come since Day 1. Below are just some of them - we cover these, and more, in the episode above.
+Boom Supersonic: Bringing supersonic passenger flights back to humanity. At left, the scale model they had before Demo Day; at right, their prototype jet taking its first flight in March of 2024.
+Relativity Space: 3D printed rockets. For Demo Day in the Winter 2016 batch, they managed to print a rocket engine — a small one, but one that could be fired up and produce thrust. In March of 2023, they launched the world’s first 3D printed rocket into space.
+Cruise: When Cruise applied to YC in 2014, Kyle Vogt’s goal of making a self-driving car seemed impossible for a startup. It would take billions of dollars — more than any startup can raise — and Google was already way ahead. By Demo Day, Cruise had a basic car able to drive itself down highways. In 2016, Cruise was acquired by GM for around $1B. GM then did in fact invest billions of dollars into the project, and Kyle brought it all the way to the streets of San Francisco. After knowing the full history, getting to ride to work in a Cruise car was a surreal experience.
+Astranis: Building smaller, cheaper telecommunications satellites. They set out to build a functional prototype in time for Demo Day W16 — they pulled it off. By 2018, they had prototypes in space. Now they’ve got a massive satellite-building factory right across the street from YC’s SF HQ, and have multiple satellites in orbit.
+Remora: Retrofitting semi-trucks to capture the CO2 emissions that would otherwise be released into the atmosphere. One of our favorite stories about this one: the founders met after one of them came across the other’s PhD dissertation (“Mobile carbon capture from heavy-duty vehicles”) and convinced them to start a company.
+Seabound: Also capturing carbon emissions, but for cargo ships. During the batch they were able to get ship owners — many of whom are facing increasingly strict emissions regulations — to sign key LOIs; shortly thereafter, they ran their first pilot program on an actual ship.
+Solugen: Producing chemicals like hydrogen peroxide with a new process that’s based on synthetic biology. When they applied to YC, they’d managed to produce one small beaker of hydrogen peroxide just to prove they could. By Demo Day, they were making gallons in a garage. Now they produce it in industrial quantities from a full-scale plant in Houston.
+Author
+Jared Friedman
+Jared is Managing Director, Software and Group Partner at YC. He was cofounder of Scribd, which was funded by Y Combinator in 2006 and grew to be one of the top 100 sites on the web.

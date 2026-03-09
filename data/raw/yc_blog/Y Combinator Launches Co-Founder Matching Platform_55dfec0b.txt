@@ -1,0 +1,15 @@
+Title: Y Combinator Launches Co-Founder Matching Platform
+Author: Catheryn Li
+URL: https://www.ycombinator.com/blog/co-founder-matching
+
+Y Combinator Launches Co-Founder Matching Platform
+July 6, 2021·by Catheryn Li
+We’re excited to announce Y Combinator’s co-founder matching platform is now available for everyone through Startup School, our free online program and community for founders. Anyone actively looking for a co-founder can sign up at ycombinator.com/cofounder-matching. The platform has been in beta for the past few months, as we’ve experimented with the process within the Startup School community. To date, we’ve made 9,000 matches across 4,500 founders.
+Finding the right co-founder is an incredibly important step in the startup journey. At YC, we have endless anecdotes that show building a company with a co-founder greatly helps with productivity and morale. This is supported by our data: while we do fund solo founders, only four of the top 100 YC companies came to YC without a co-founder.
+But finding a co-founder who is compatible with you — and ready to take that leap when you are — can be very difficult. Within the Startup School community, 20% of active founders report that they’re seeking a co-founder, and 25% of aspiring founders cite not having a co-founder as a blocker to starting their company full-time. Many of our users have tried many avenues for a long time, with little success.
+We built our co-founder matching platform to tackle this problem. When you sign up, you tell us a number of things about yourself and your preferences for a co-founder (e.g. interests, location, skills). We then show you profiles of candidates that most closely match your ideal co-founder. When you find a candidate that piques your interest, you can send them a message, and if they accept, we match the two of you. The platform is optimized for rapid review to maximize the chances you find the right fit.
+If that sounds a bit like online dating, that’s no coincidence. Like a romantic partner, a co-founder is someone you’ll depend on and spend a great deal of time with, hopefully for many years. You probably shouldn’t marry someone after just one date, and similarly, it’ll take more than one video call to decide whether to co-found a company with someone. We encourage matched co-founders to meet and, when appropriate, work together on a time-boxed trial project with clear expectations and goals in order to vet co-founder compatibility. One interesting commonality our founders can usually count on sharing — having all gone through Startup School — is alignment on the YC playbook on how to run a startup.
+We have seen some early signs of success: two companies who met through the platform earlier this year were accepted into the YC Summer 2021 batch! We’re really excited for them, and we hope to see more success stories as we continue to experiment and iterate on our solution to a big problem.
+Author
+Catheryn Li
+Catheryn (Cat) is a Product Engineer at YC focused on Startup School. Before that she was an engineer at Instagram and Facebook. Cat has a B.S. in Computer Science and Math from MIT.

@@ -1,0 +1,17 @@
+Title: YC World
+Author: Ramon Recuero
+URL: https://www.ycombinator.com/blog/yc-world
+
+YC World | Y Combinator
+September 11, 2017·by Ramon Recuero
+We put together a map that shows where YC companies are from. It’s based on the location of the founders before applying for YC.
+As a founder and previous YC applicant, I know how daunting the application process can be, especially, when you are far away from San Francisco. I’m originally from Madrid and I experienced this feeling first-hand. Being able to reach out to YC founders from your country and hear about their experience can really make a difference. Unfortunately, this information wasn’t readily available at the time. Now that I work for YC, I wanted to help build this. You can click on your country (or nearby ones) to find alumni.
+You can check it out at:
+http://world.ycombinator.com
+One of our goals at YC is to be sure we give equal consideration to every application. Only 53 countries are represented so far. We want this number to increase batch by batch. For example, we’ve funded 6 Nigerian companies, all within the last three years. The number of alumni from other countries like India or France has been growing steadily over the last few years.
+If you are in an unrepresented country, we encourage you to apply and if you are accepted, start the YC alumni network in your country.
+We believe the global startup ecosystem can support a lot more startups. We would love to see even more people starting companies and we will continue to increase our outreach efforts. As more people from different backgrounds apply, more startups will be funded, a wider range of problems will be addressed and the positive impact will be felt around the world.
+Thanks to Kat Manalac, Jared Friedman, Michael Seibel, Tom Sparks, Kyle Corbitt, Dalton Caldwell, and Craig Cannon for providing feedback on YC World and this post.
+Author
+Ramon Recuero
+Ramon was a Hacker at YC. Before working at YC, he worked at Zynga, Moz and founded Netgamix.

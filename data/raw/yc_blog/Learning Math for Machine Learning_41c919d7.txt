@@ -1,0 +1,83 @@
+Title: Learning Math for Machine Learning
+Author: the gradient of ReLU
+URL: https://www.ycombinator.com/blog/learning-math-for-machine-learning
+
+Learning Math for Machine Learning
+Vincent Chen is a student at Stanford University studying Computer Science. He is also a Research Assistant at the Stanford AI Lab.
+It’s not entirely clear what level of mathematics is necessary to get started in machine learning, especially for those who didn’t study math or statistics in school.
+In this piece, my goal is to suggest the mathematical background necessary to build products or conduct academic research in machine learning. These suggestions are derived from conversations with machine learning engineers, researchers, and educators, as well as my own experiences in both machine learning research and industry roles.
+To frame the math prerequisites, I first propose different mindsets and strategies for approaching your math education outside of traditional classroom settings. Then, I outline the specific backgrounds necessary for different kinds of machine learning work, as these subjects range from high school-level statistics and calculus to the latest developments in probabilistic graphical models (PGMs). By the end of the post, my hope is that you’ll have a sense of the math education you’ll need to be effective in your machine learning work, whatever that may be!
+To preface the piece, I acknowledge that learning styles/frameworks/resources are unique to a learner’s personal needs/goals— your opinions would be appreciated in the discussion on HN!
+A Note on Math Anxiety
+It turns out that a lot of people — including engineers — are scared of math. To begin, I want to address the myth of “being good at math.”
+The truth is, people who are good at math have lots of practice doing math. As a result, they’re comfortable being stuck while doing math. A student’s mindset, as opposed to innate ability, is the primary predictor of one’s ability to learn math (as shown by recent studies).
+To be clear, it will take time and effort to achieve this state of comfort, but it’s certainly not something you’re born with. The rest of this post will help you figure out what level of mathematical foundation you need and outline strategies for building it.
+Getting Started
+As soft prerequisites, we assume basic comfortability with linear algebra/matrix calculus (so you don’t get stuck on notation) and introductory probability. We also encourage basic programming competency, which we support as a tool to learn math in context. Afterwards, you can fine-tune your focus based on the kind of work you’re excited about.
+How to Learn Math Outside of School I believe the best way to learn math is as a full-time job (i.e. as a student). Outside of that environment, it’s likely that you won’t have the structure, (positive) peer pressure, and resources available in the academic classroom.
+To learn math outside of school, I’d recommend study groups or lunch and learn seminars as great resources for committed study. In research labs, this might come in the form of a reading group. Structure-wise, your group might walk through textbook chapters and discuss lectures on a regular basis while dedicating a Slack channel to asynchronous Q&A.
+Culture plays a large role here — this kind of “additional” study should be encouraged and incentivized by management so that it doesn’t feel like it takes away from day-to-day deliverables. In fact, investing in peer-driven learning environments can make your long-term work more effective, despite short-term costs in time.
+Math and Code
+Math and code are highly intertwined in machine learning workflows. Code is often built directly from mathematical intuition, and it even shares the syntax of mathematical notation. In fact, modern data science frameworks (e.g. NumPy) make it intuitive and efficient to translate mathematical operations (e.g. matrix/vector products) to readable code.
+I encourage you to embrace code as a way to solidify your learning. Both math and code depend on precision in understanding and notation. For instance, practicing the manual implementation of loss functions or optimization algorithms can be a great way to truly understanding the underlying concepts.
+As an example of learning math through code, let’s consider a practical example: implementing backpropagation for the ReLU activation in your neural network (yes, even if Tensorflow/PyTorch can do this for you!). As a brief primer, backpropagation is a technique that relies on the chain rule from calculus to efficiently compute gradients. To utilize the chain rule in this setting, we multiply upstream derivatives by the gradient of ReLU.
+To begin, we visualize the ReLU activation, defined:
+To compute the gradient (intuitively, the slope), you might visualize a piecewise function, denoted by the indicator function as follows:
+NumPy lends us helpful, intuitive syntax here— our activation function (blue curve) is interpretable in code, where x is our input and relu is our output:
+relu = np.maximum(x, 0) 
+The gradient (red curve) follows, where grad describes the upstream gradient:
+grad[x < 0] = 0 
+Without first deriving the gradient yourself, this line of code might not be self-explanatory. In our line of code, set set all values in the upstream gradient (grad) to 0 for all elements that satisfy the condition, [h<0]. Mathematically, this is effectively equivalent to the piecewise-representation of ReLU’s gradient, which squashes all values less than 0 to 0 when multiplying by an upstream gradient!
+As we see here, walking through our basic understanding of calculus gives us a clear way to think through the code. The full example of this neural network implementation can be found here.
+Math for Building Machine Learning Products
+To inform this section, I spoke to machine learning engineers to figure out where math was most helpful in debugging their systems. The following are examples of questions that engineers found themselves answering with mathematical insights. If you haven’t seen them, no worries— the hope is that this section will provide some context into specific kinds of questions you might find yourself answering!
+What clustering method should I use to visualize my high-dimensional customer data?
+○ Approach: PCA vs. tSNE 
+How should I calibrate a threshold (e.g. confidence-level 0.9 vs. 0.8?) for “blocking” fraudulent user transactions?
+○ Approach: Probability calibration 
+What’s the best way to characterize the bias of my satellite data to specific regions of the world (Silicon Valley vs. Alaska)?
+○ Approach: Open research question. Perhaps, aim for demographic parity?
+Generally, statistics and linear algebra can be employed in some way for each of these questions. However, to arrive at satisfactory answers often requires a domain-specific approach. If that’s the case, how do you narrow down the kind of math you need to learn?
+Define Your System
+There is no shortage of resources (e.g. scikit-learn for data analysis, keras for deep learning) that will help you jump into writing code to model your systems. In doing so, try to answer the following questions about the pipeline you need to build:
+What are the inputs/outputs of your system? 
+How should you prepare your data to fit your system? 
+How can you construct features or curate data to help your model generalize? 
+How do you define a reasonable objective for your problem?
+You’d be surprised — defining your system can be hard! Afterwards, the engineering required for pipeline-building is also non-trivial. In other words, building machine learning products requires significant amounts of heavy lifting that don’t require a deep mathematical background.
+Resources
+• Best Practices for ML Engineering by Martin Zinkevich, Research Scientist at Google
+Learning Math as You Need It
+Diving headfirst into a machine learning workflow, you might find that there are some steps that you get stuck at, especially while debugging. When you’re stuck, do you know what to look up? How reasonable are your weights? Why isn’t your model converging with a particular loss definition? What’s the right way to measure success? At this point, it may be helpful to make assumptions about the data, constrain your optimization differently, or try different algorithms.
+Often, you’ll find that there’s mathematical intuition baked into the modeling/debugging process (e.g. selecting loss functions or evaluation metrics) that could be instrumental to making informed, engineering decisions. These are your opportunities to learn!
+Rachel Thomas from Fast.ai is a proponent of this “on-demand” method — while educating students, she found that it was more important for her deep learning students to get far enough to become excited about the material. Afterwards, their math education involved filling in the holes, on-demand.
+Resources
+• Course: Computational Linear Algebra by fast.ai
+• YouTube: 3blue1brown: Essence of Linear Algebra and Calculus
+• Textbook: Linear Algebra Done Right by Axler
+• Textbook: Elements of Statistical Learning by Tibshirani et al.
+• Course: Stanford’s CS229 (Machine Learning) Course Notes
+Math for Machine Learning Research
+I now want to characterize the type of mathematical mindset that is useful for research-oriented work in machine learning. The cynical view of machine learning research points to plug-and-play systems where more compute is thrown at models to squeeze out higher performance. In some circles, researchers remain skeptical that empirical methods lacking in mathematical rigor (e.g. certain deep learning methods) can carry us to the holy grail of human-level intelligence.
+It’s concerning that the research world might be building on existing systems and assumptions that don’t extend our fundamental understanding of the field. Researchers need to contribute primitives— new, foundational building blocks that can be used to derive entirely new insights and approaches to goals in the field. For instance, this might mean rethinking building blocks like Convolutional Neural Networks for image classification, as Geoff Hinton, “the Godfather of Deep Learning,” does in his recent Capsule Networks paper.
+To make the next leaps in machine learning, we need to ask fundamental questions. This requires a deep mathematical maturity, which Michael Nielsen, author of the Deep Learning book, described to me as “playful exploration.” This process involves thousands of hours of being “stuck”, asking questions, and flipping problems over in pursuit of new perspectives. “Playful exploration” allows scientists to ask deep, insightful questions, beyond the combination of straightforward ideas/architectures.
+To state the obvious— in ML research, it is still impossible to learn everything! To properly engage in “playful exploration” requires that you follow your interest, rather than worrying about the hottest new result.
+ML research is an incredibly rich field of study with pressing problems in fairness, interpretability, and accessibility. As true across all scientific disciplines, fundamental thinking is not an on-demand process— it takes patience to be able to think with the breadth of high-level mathematical frameworks required for critical problem solving.
+Resources
+• Blog: Do SWEs need mathematics? by Keith Devlin
+• Reddit Thread: Confessions of an AI Researcher
+• Blog: How to Read Mathematics by Shai Simonson and Fernando Gouvea
+• Papers: NIPS and ICML recent conference papers
+• Essay: A Mathematician’s Lament by Paul Lockhart1
+Democratizing Machine Learning Research
+I hope that I haven’t painted “research math” as too esoteric, because the ideas formulated using math should be presented in intuitive forms! Sadly, many machine learning papers are still rife with complex and inconsistent terminology, leaving key intuition difficult to discern. As a student, you can do yourself and the field a great service by attempting to translate dense papers into consumable chunks of intuition, via blog posts, tweets, etc. You might even take examples from distill.pub as an example of a publication focused on offering clear explanations of machine learning research. In other words, take the demystification of technical ideas as a means towards “playful exploration”— your learning (and machine learning Twitter) will thank you for it!
+Takeaways
+In conclusion, I hope that I’ve provided a starting point for you to think about your math education for machine learning.
+Different problems require different levels of intuition, and I would encourage you to figure out what your objectives are in the first place. 
+If you’re hoping to build products, seek peers and study groups through problems and motivate your learning by diving into the end-goal. 
+In the research world, broad mathematical foundations can give you the tools to push the field forward by contributing new, fundamental building blocks. 
+In general, math (especially in research paper form) can be intimidating, but getting stuck is a huge part of the learning process. 
+Good luck!
+Notes
+1. A rather pointed criticism about math education that details “playful exploration.” But I suspect that Lockhart would disagree with the thesis of this post — that math should be used for anything but fun!.↩
+Thanks to Ambika Acharya, Janice Lan, Winnie Lin, Michael Nielsen, Rachel Thomas, Lisa Wang, for taking the time to chat about math in engineering, education, and research roles, and thanks to Remi Cadene, Craig Cannon, Adithya Ganesh, Janice Lan, Addison Leong, Ranjay Krishna, and Paroma Varma, for feedback on drafts.

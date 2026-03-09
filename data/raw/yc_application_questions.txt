@@ -1,0 +1,65 @@
+YC Application Questions
+========================
+
+These are the standard Y Combinator application questions that founders must answer
+when applying to a YC batch. They are publicly known and widely discussed.
+
+COMPANY
+-------
+
+1. Company name:
+2. Company URL, if any:
+3. If you have a demo, what's the URL?
+4. Describe what your company does in 50 characters or less.
+5. What is your company going to make? Please describe your product and what it does or will do.
+6. Where do you live now, and where would the company be based after YC?
+
+FOUNDERS
+--------
+
+7. Founders: Please enter the url of a 1 minute unlisted YouTube video introducing the founder(s).
+8. Please tell us about an interesting project, preferably outside of class or work, that two or more of you created together.
+9. How long have the founders known one another and how did you meet? Have any of the founders not met in person?
+
+PROGRESS
+--------
+
+10. How far along are you? Do you have a beta, a+
+ prototype, or just an idea?
+11. How long have each of you been working on this? How much of that has been full-time?
+12. Are people using your product?
+13. Do you have revenue? If so, how much and what is your monthly growth rate?
+14. If you are applying with the same idea as a previous batch, did anything change? If you applied with a different idea, why did you pivot and what did you learn from the last idea?
+15. If you have already participated or committed to participate in an ideaincubator, "deck day", or "demo day" event, please tell us about it.
+
+IDEA
+----
+
+16. Why did you pick this idea to work on? Do you have domain expertise in this area? How do you know people need what you're making?
+17. What's new about what you're making? What substitutes do people resort to because it doesn't exist yet (or they don't know about it)?
+18. Who are your competitors, and who might become competitors? Who do you fear most?
+19. What do you understand about your business that other companies in it just don't get?
+
+EQUITY
+------
+
+20. Have you incorporated, or formed any legal entity (like an LLC) yet?
+21. Have you taken any investment yet?
+22. If you have not formed the company yet, describe the planned equity ownership breakdown among the founders, employees and any other proposed stockholders.
+
+LEGAL
+-----
+
+23. Are any of the founders covered by noncompetes or intellectual property agreements that overlap with your project? If so, please explain.
+24. Who writes code, or does other technical work on your product? Was any of it done by a non-founder? Please explain.
+
+OTHERS
+------
+
+25. Is there anything else we should know about your company?
+26. If you had any other ideas you considered applying with, please list them — one may be something we've been waiting to fund.
+
+CURIOUS
+-------
+
+27. Please tell us something surprising or amusing that one of you has discovered.
