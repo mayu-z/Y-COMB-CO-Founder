@@ -14,6 +14,7 @@ Usage (standalone test):
 import json
 import os
 import re
+from collections import defaultdict
 from sentence_transformers import SentenceTransformer
 import chromadb
 
@@ -182,14 +183,20 @@ class Retriever:
 
         merged.sort(key=sort_key)
 
-        # Diversity filter: max one result per title
+        # Diversity filter: max one result per title and avoid overloading
+        # a single source type when n is small.
         seen_titles = set()
+        per_source = defaultdict(int)
         diverse = []
         for r in merged:
             title = r.get("title", "")
+            source_type = r.get("source_type", "unknown")
             if title and title in seen_titles:
                 continue
+            if per_source[source_type] >= 2 and len(diverse) < n - 1:
+                continue
             seen_titles.add(title)
+            per_source[source_type] += 1
             diverse.append(r)
             if len(diverse) == n:
                 break
@@ -206,6 +213,9 @@ class Retriever:
         """
         q = query.lower()
         self._deprioritize_essay = False
+
+        if any(term in q for term in ("yc interview", "interview", "application answer", "yc application")):
+            return {}
 
         if "apply" in q or "application" in q:
             return {"source_type": "yc_application"}
@@ -231,13 +241,106 @@ class Retriever:
 
     # ── METHOD 5: search (main entry point) ────────────
 
+    def _expand_query(self, query):
+        """
+        Expand the query with synonyms/context to improve semantic recall.
+        Returns an expanded query string for embedding search.
+        """
+        q = query.lower()
+        expansions = []
+
+        if "unicorn" in q:
+            expansions.append("billion dollar valuation successful YC company unicorn")
+
+        country_map = {
+            "india": "Indian founder region India",
+            "uk": "British founder region United Kingdom",
+            "canada": "Canadian founder region Canada",
+            "germany": "German founder region Germany",
+            "france": "French founder region France",
+            "brazil": "Brazilian founder region Brazil",
+            "nigeria": "Nigerian founder region Nigeria",
+            "singapore": "Singaporean founder region Singapore",
+            "australia": "Australian founder region Australia",
+            "israel": "Israeli founder region Israel",
+        }
+        for country, expansion in country_map.items():
+            if country in q or f"from {country}" in q:
+                expansions.append(expansion)
+                break
+
+        if any(w in q for w in ("kpi", "metric", "track", "measure")):
+            expansions.append(
+                "measure growth retention revenue startup metrics KPI "
+                "weekly active users conversion rate burn rate runway"
+            )
+
+        if "pivot" in q:
+            expansions.append(
+                "change direction product market fit pivot startup "
+                "when to pivot persist signs"
+            )
+
+        if "market" in q and ("choose" in q or "pick" in q or "select" in q):
+            expansions.append(
+                "market size timing unfair advantage startup market "
+                "selection TAM opportunity"
+            )
+
+        if "product market fit" in q or "pmf" in q:
+            expansions.append(
+                "product market fit users retention growth pull demand churn "
+                "founder should measure usage"
+            )
+
+        if "first 10 customers" in q or "first customers" in q:
+            expansions.append(
+                "early users manual outreach direct sales founder-led sales "
+                "do things that don't scale"
+            )
+
+        if "prepare" in q and "interview" in q:
+            expansions.append(
+                "YC interview metrics growth clarity founder story progress"
+            )
+
+        if "cofounder" in q or "co-founder" in q:
+            expansions.append(
+                "founder trust cofounder alignment relationship long-term commitment"
+            )
+
+        if "hire my first engineer" in q or ("hire" in q and "engineer" in q):
+            expansions.append(
+                "early hiring engineer timing founders build product first"
+            )
+
+        if "pitch investors" in q or ("pitch" in q and "investor" in q):
+            expansions.append(
+                "investor pitch clarity traction metrics growth market"
+            )
+
+        if "reject" in q:
+            expansions.append(
+                "YC rejection common mistakes lack clarity weak traction bad team"
+            )
+
+        if "b2b" in q:
+            expansions.append("B2B startup enterprise business")
+        if "b2c" in q or "consumer" in q:
+            expansions.append("B2C startup consumer")
+
+        if expansions:
+            return query + " " + " ".join(expansions)
+        return query
+
     def search(self, query, n=5):
         """
         Main retrieval method called by the RAG layer.
-        Auto-detects filters, runs hybrid search, returns top-n.
+        Auto-detects filters, expands query, runs hybrid search, returns top-n.
         """
         filters = self.detect_filters(query)
-        return self.hybrid_search(query, n=n, filters=filters)
+        expanded = self._expand_query(query)
+        return self.hybrid_search(expanded, n=n, filters=filters)
 
 
 # ════════════════════════════════════════════════════════

@@ -1,0 +1,368 @@
+{
+  "ragas_core_metrics": {
+    "faithfulness": 0.834,
+    "answer_relevancy": 0.5135,
+    "context_precision": 0.1853,
+    "context_recall": 0.5735
+  },
+  "latency_metrics": {
+    "min": 0.0,
+    "max": 6.5111,
+    "p50": 2.3892,
+    "p75": 3.1294,
+    "p95": 4.6963,
+    "p99": 6.5111,
+    "avg": 2.4008,
+    "std_dev": 1.3673,
+    "slow_queries_over_30s": 0
+  },
+  "custom_metrics": {
+    "out_of_scope_accuracy": {
+      "correct": 5,
+      "total": 5,
+      "score": 1.0
+    },
+    "source_diversity": 0.6,
+    "chunk_utilization": 0.4686
+  },
+  "category_breakdown": {
+    "advice": 0.4472,
+    "company": 0.549,
+    "strategy": 0.523,
+    "deep_knowledge": 0.5443
+  },
+  "weakest_questions": [
+    {
+      "score": 0.0,
+      "question": "How do I think about startup distribution?"
+    },
+    {
+      "score": 0.0833,
+      "question": "What mistakes make YC reject startups?"
+    },
+    {
+      "score": 0.125,
+      "question": "What makes a good YC application?"
+    },
+    {
+      "score": 0.1667,
+      "question": "How do I price my product?"
+    },
+    {
+      "score": 0.1875,
+      "question": "What is product market fit?"
+    }
+  ],
+  "strongest_questions": [
+    {
+      "score": 0.9674,
+      "question": "How do I grow my startup?"
+    },
+    {
+      "score": 0.9073,
+      "question": "How do I pivot my startup?"
+    },
+    {
+      "score": 0.901,
+      "question": "What YC companies are from India?"
+    },
+    {
+      "score": 0.897,
+      "question": "How do I avoid building the wrong product?"
+    },
+    {
+      "score": 0.8894,
+      "question": "How should early founders spend their time?"
+    }
+  ],
+  "overall": {
+    "total_questions": 40,
+    "production_ready": false,
+    "overall_quality": 0.5266
+  },
+  "per_question_scores": [
+    {
+      "question": "How do I get into YC?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.635,
+      "context_precision": 0.0,
+      "context_recall": 0.75,
+      "avg_score": 0.5962
+    },
+    {
+      "question": "What is product market fit?",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.1875
+    },
+    {
+      "question": "When should I raise funding?",
+      "faithfulness": 0.9231,
+      "answer_relevancy": 0.6807,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.651
+    },
+    {
+      "question": "How do I talk to users?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7308,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.6827
+    },
+    {
+      "question": "What makes a good YC application?",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.125
+    },
+    {
+      "question": "How do I find a startup idea?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.6227,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.4057
+    },
+    {
+      "question": "What do YC partners look for?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5734,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.6433
+    },
+    {
+      "question": "How should I think about hiring?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.3457,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.3364
+    },
+    {
+      "question": "How do I price my product?",
+      "faithfulness": 0.6667,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.1667
+    },
+    {
+      "question": "What is default alive?",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.7092,
+      "context_precision": 0.2,
+      "context_recall": 1.0,
+      "avg_score": 0.6773
+    },
+    {
+      "question": "Best fintech YC companies?",
+      "faithfulness": 0.9,
+      "answer_relevancy": 0.262,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.5405
+    },
+    {
+      "question": "Best SaaS YC companies?",
+      "faithfulness": 0.9412,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.2353
+    },
+    {
+      "question": "Best AI YC companies?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7266,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.6816
+    },
+    {
+      "question": "Best healthcare YC companies?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7641,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.691
+    },
+    {
+      "question": "Best B2B YC companies?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5027,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.3757
+    },
+    {
+      "question": "Which YC companies became unicorns?",
+      "faithfulness": 0.6667,
+      "answer_relevancy": 0.5634,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.5575
+    },
+    {
+      "question": "What YC companies are from India?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.9041,
+      "context_precision": 0.7,
+      "context_recall": 1.0,
+      "avg_score": 0.901
+    },
+    {
+      "question": "Best developer tools YC companies?",
+      "faithfulness": 0.875,
+      "answer_relevancy": 0.7627,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.4094
+    },
+    {
+      "question": "How do I do things that don't scale?",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.4236,
+      "context_precision": 0.3333,
+      "context_recall": 0.0,
+      "avg_score": 0.1892
+    },
+    {
+      "question": "How do I grow my startup?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8696,
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "avg_score": 0.9674
+    },
+    {
+      "question": "How do I pivot my startup?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.879,
+      "context_precision": 1.0,
+      "context_recall": 0.75,
+      "avg_score": 0.9073
+    },
+    {
+      "question": "How should early founders spend their time?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.691,
+      "context_precision": 0.8667,
+      "context_recall": 1.0,
+      "avg_score": 0.8894
+    },
+    {
+      "question": "How important is founder market fit?",
+      "faithfulness": 0.6667,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.4167
+    },
+    {
+      "question": "How do startups get their first 10 customers?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.25
+    },
+    {
+      "question": "What mistakes make YC reject startups?",
+      "faithfulness": 0.3333,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.0833
+    },
+    {
+      "question": "How do I validate startup demand?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5187,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.6297
+    },
+    {
+      "question": "How do I avoid building the wrong product?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.5878,
+      "context_precision": 1.0,
+      "context_recall": 1.0,
+      "avg_score": 0.897
+    },
+    {
+      "question": "How do I think about startup distribution?",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.0
+    },
+    {
+      "question": "What is a good team size for YC?",
+      "faithfulness": 0.3333,
+      "answer_relevancy": 0.5461,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.2198
+    },
+    {
+      "question": "Should founders learn to code?",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.25
+    },
+    {
+      "question": "How do I choose a startup market?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8627,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.7157
+    },
+    {
+      "question": "What should I track as startup KPIs?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8606,
+      "context_precision": 0.0,
+      "context_recall": 1.0,
+      "avg_score": 0.7151
+    },
+    {
+      "question": "How do I know if my startup should pivot?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8063,
+      "context_precision": 0.7,
+      "context_recall": 1.0,
+      "avg_score": 0.8766
+    },
+    {
+      "question": "What is the best way to pitch investors?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.7544,
+      "context_precision": 0.5,
+      "context_recall": 0.0,
+      "avg_score": 0.5636
+    },
+    {
+      "question": "How to write a strong YC application answer?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8769,
+      "context_precision": 0.0,
+      "context_recall": 0.0,
+      "avg_score": 0.4692
+    }
+  ],
+  "timed_out_questions": [
+    "How do I think about startup distribution?"
+  ]
+}

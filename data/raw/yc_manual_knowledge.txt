@@ -1,0 +1,60 @@
+STARTUP METRICS AND KPIS:
+The single most important thing Y Combinator teaches founders about metrics is this: pick one primary metric and obsess over it. Paul Graham calls this the "one number" — the single KPI that best reflects whether your startup is actually working. For most startups, this is either weekly active users (WAU), weekly revenue, or week-over-week growth rate. Everything else is secondary.
+
+The core startup KPIs every YC founder should track are:
+
+Weekly Active Users (WAU): The number of unique users who engage with your product in a given week. This is the clearest signal of whether people actually want what you're building. If WAU is flat or declining, you don't have product-market fit yet. YC partners like Gustaf Alströmer emphasize that DAU/WAU ratio (sometimes called "stickiness") tells you how habitual your product is — a ratio above 0.5 is strong.
+
+Month-over-Month Growth Rate: YC's benchmark is 5-7% week-over-week growth during the batch, which compounds to roughly 15-25% month-over-month. Consistent growth is more important than spiky growth. Michael Seibel often says: "If you're growing 10% week over week, you're doing great. If you're growing 1%, something is broken."
+
+Net Revenue Retention (NRR): For B2B SaaS startups, NRR measures how much revenue you keep and expand from existing customers. An NRR above 100% means your existing customers are spending more over time — this is the hallmark of product-market fit in B2B. Top YC SaaS companies like Stripe and Brex achieve NRR above 130%.
+
+Customer Acquisition Cost (CAC): How much you spend to acquire one customer. Early-stage startups should aim for near-zero CAC by doing things that don't scale — manual outreach, founder-led sales, community building. If you need paid ads to get your first 100 users, you probably don't have a product people actually want.
+
+Lifetime Value (LTV): The total revenue you expect from a customer over their entire relationship with your product. The LTV:CAC ratio should be at least 3:1 for a sustainable business. If your LTV is $100 and your CAC is $50, you have a 2:1 ratio — not terrible but not great.
+
+Burn Rate and Runway: How much cash you spend per month and how many months of cash you have left. Paul Graham coined the term "default alive" — if your current growth rate and current expenses would eventually lead to profitability before you run out of money, you're default alive. If not, you need to either grow faster or cut spending.
+
+Conversion Rate: The percentage of visitors or trial users who become paying customers. Track your conversion funnel from top to bottom: visit → signup → activation → retention → revenue. Find where the biggest drop-off is and fix that first.
+
+YC recommends tracking one primary metric that reflects real engagement. Don't get distracted by vanity metrics like total signups, page views, or social media followers. The number that matters is the one that tells you whether users are getting real value from your product and coming back.
+
+WHEN TO PIVOT VS PERSIST:
+One of the hardest decisions a founder faces is knowing when to pivot versus when to persist. YC has seen hundreds of startups go through this decision, and the pattern is surprisingly consistent. The key insight from YC partners is that pivoting is not failure — some of YC's biggest successes came from pivots. Brex started as a VR company. Slack started as a gaming company. The founders who succeed are the ones who pivot quickly when the data is clear, not the ones who stubbornly persist hoping things will change.
+
+Signs you should pivot:
+
+Users don't come back after first use. If your retention curve flatlines near zero after day 7, users are trying your product and deciding it's not worth returning to. No amount of marketing fixes a product people don't want. YC partner Dalton Caldwell says: "If you have to convince people to use your product, you don't have product-market fit."
+
+You're forcing product-market fit. If every conversation with users requires heavy explanation of why they need your product, or if you're constantly adding features hoping one will stick, you're forcing it. Real PMF feels like pull — users seek you out, tell their friends, and get angry when the product goes down.
+
+Growth is flat after 6+ months of effort. If you've been iterating for six months and growth hasn't inflected upward, the market is telling you something. YC's rule of thumb: if you can't get to 5% week-over-week growth within a few months of focused effort, the idea probably needs to change fundamentally.
+
+Your best users are not the users you expected. Sometimes you build a product for enterprise and individuals love it, or vice versa. Pay attention to who your most engaged users actually are — they might be telling you what your real product should be.
+
+The market is shrinking or timing is wrong. If the market you're targeting is getting smaller, regulation is killing it, or the technology isn't ready yet, persistence won't help. Timing is one of the biggest factors in startup success.
+
+Signs you should persist:
+
+Users love it but acquisition is hard. If your retention is strong and users who find you become passionate advocates, your problem is distribution, not product. Distribution problems are solvable — you can try new channels, partnerships, or content strategies. A loved product with bad distribution is much better than a well-distributed product nobody loves.
+
+Early retention is strong. If users who activate properly have strong day-30 and day-60 retention, you have something real. The challenge may be activation, onboarding, or reaching the right audience — all fixable problems.
+
+You're in a large market with clear demand. If the problem is real and big, and you just haven't found the right angle yet, it's worth trying different approaches to the same core problem before abandoning it entirely.
+
+The pivot framework YC recommends: talk to your 5 most engaged users and your 5 most churned users. The engaged users tell you what's working. The churned users tell you what's broken. If the churned users have a consistent complaint that's fixable, persist. If even your best users are lukewarm, pivot.
+
+HOW TO CHOOSE A STARTUP MARKET:
+Choosing the right market is one of the most consequential decisions a founder makes. YC's perspective, shaped by funding thousands of startups, is that market selection matters more than most founders realize — but not in the way conventional wisdom suggests.
+
+Market size matters, but timing matters more. A massive market that isn't changing is hard to break into — incumbents have all the advantages. A small market that's growing explosively is where startups thrive. Airbnb started in a "small" market (renting air mattresses) that turned out to be the beginning of a massive shift in how people travel. DoorDash entered food delivery when most VCs thought the market was too small and the unit economics would never work. The key question isn't "how big is this market today?" but "how big could this market be in 10 years, and what's changing right now that makes it possible?"
+
+Look for markets that are changing fast. YC partner Jared Friedman emphasizes that startups win when something fundamental changes — new technology, new regulation, new behavior, or new infrastructure. The iPhone created the mobile app market. COVID created the remote work market. AI is creating entirely new categories right now. If you can identify a change that's just beginning, you can ride the wave before incumbents react.
+
+Find markets where you have an unfair advantage. Paul Graham writes about "schlep blindness" — the tendency to avoid hard, unglamorous problems. The best startup markets are often ones that look unattractive to most founders. If you have deep domain expertise from a previous job, personal experience with a painful problem, or technical skills that give you a unique angle, you have an unfair advantage. The founders of Stripe understood online payments because they'd tried to accept payments for their previous projects and found it impossibly hard. That personal frustration, combined with technical ability, was their unfair advantage.
+
+Avoid markets where you'd need to be perfect on day one. Some markets — like healthcare, finance, or aviation — have zero tolerance for errors and massive regulatory barriers. These can be great markets (Stripe proved fintech works), but only if you have the expertise and patience to navigate them. For first-time founders, YC often recommends starting with markets where you can launch a rough v1, learn fast, and iterate — then expand into regulated markets once you have traction.
+
+Talk to potential customers before building anything. The single best way to validate a market is to talk to 30-50 potential customers and ask them about their problems — not your solution. If the same problem comes up repeatedly and people are actively spending money or time trying to solve it with bad alternatives, you've found a real market. If you have to explain why the problem matters, the market might not be ready.
+
+The best YC companies tend to start with a narrow, specific market and expand. Facebook started with Harvard students. Stripe started with developers who needed a simple API. Airbnb started with conference attendees. Pick a small group you can dominate, prove the model works, then expand outward. YC calls this "do things that don't scale" — start narrow, serve those users incredibly well, and the market will grow with you.

@@ -1,0 +1,61 @@
+==================================================
+YC CO-FOUNDER RAG — PROFESSIONAL BENCHMARK
+==================================================
+
+RAGAS CORE METRICS (industry standard)
+----------------------------------------
+Faithfulness:        0.83  (target > 0.80)
+Answer Relevancy:    0.51  (target > 0.75)
+Context Precision:   0.19  (target > 0.70)
+Context Recall:      0.57  (target > 0.70)
+
+LATENCY METRICS
+----------------------------------------
+Min:      0.00s
+P50:      2.39s
+P75:      3.13s
+P95:      4.70s
+P99:      6.51s
+Max:      6.51s
+Avg:      2.40s
+Std Dev:  1.37s
+Slow queries (>30s): 0
+
+CUSTOM METRICS
+----------------------------------------
+Out of Scope Accuracy:  1.00 (5/5 correct)
+Source Diversity:        0.60
+Chunk Utilization:       0.47
+
+QUESTION TYPE BREAKDOWN
+----------------------------------------
+Advice questions:    avg score 0.45
+Company questions:   avg score 0.55
+Strategy questions:  avg score 0.52
+Deep knowledge:      avg score 0.54
+Out of scope:        accuracy  1.00
+
+WEAKEST QUESTIONS (bottom 5):
+  1. [0.00] How do I think about startup distribution?
+  2. [0.08] What mistakes make YC reject startups?
+  3. [0.12] What makes a good YC application?
+  4. [0.17] How do I price my product?
+  5. [0.19] What is product market fit?
+
+STRONGEST QUESTIONS (top 5):
+  1. [0.97] How do I grow my startup?
+  2. [0.91] How do I pivot my startup?
+  3. [0.90] What YC companies are from India?
+  4. [0.90] How do I avoid building the wrong product?
+  5. [0.89] How should early founders spend their time?
+
+TIMED OUT QUESTIONS (1 excluded from averages):
+----------------------------------------
+  - How do I think about startup distribution?
+
+OVERALL VERDICT
+----------------------------------------
+Total questions tested: 40
+Production ready:       NO
+Overall quality:        0.53 / 1.00
+==================================================

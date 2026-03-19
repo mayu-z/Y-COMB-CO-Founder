@@ -1,0 +1,602 @@
+[
+  {
+    "question": "How do I get into YC?",
+    "expected_topics": ["apply", "idea", "founders"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": ["weather", "sports"]
+  },
+  {
+    "question": "What is product market fit?",
+    "expected_topics": ["users", "retention", "growth"],
+    "expected_sources": ["pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "When should I raise funding?",
+    "expected_topics": ["investors", "revenue", "traction"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I talk to users?",
+    "expected_topics": ["feedback", "customers", "problems"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What makes a good YC application?",
+    "expected_topics": ["clear", "idea", "founders", "apply"],
+    "expected_sources": ["startup_school", "yc_application"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best fintech YC companies?",
+    "expected_topics": ["Groww", "Razorpay", "fintech"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I find a startup idea?",
+    "expected_topics": ["problem", "users", "market"],
+    "expected_sources": ["pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What do YC partners look for?",
+    "expected_topics": ["founders", "idea", "growth"],
+    "expected_sources": ["startup_school", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should I think about hiring?",
+    "expected_topics": ["team", "hiring", "culture"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What is a good startup pitch?",
+    "expected_topics": ["clear", "problem", "solution"],
+    "expected_sources": ["startup_school", "pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I price my product?",
+    "expected_topics": ["pricing", "value", "customers"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What is default alive?",
+    "expected_topics": ["revenue", "expenses", "survival"],
+    "expected_sources": ["pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best SaaS YC companies?",
+    "expected_topics": ["SaaS", "B2B", "software"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I do things that dont scale?",
+    "expected_topics": ["manual", "users", "early"],
+    "expected_sources": ["pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What is a good team size for YC?",
+    "expected_topics": ["founders", "team", "small"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I grow my startup?",
+    "expected_topics": ["growth", "users", "retention"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What industries does YC fund most?",
+    "expected_topics": ["fintech", "saas", "healthcare"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I pivot my startup?",
+    "expected_topics": ["pivot", "market", "users"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What is the weather today?",
+    "expected_topics": ["out of scope"],
+    "expected_sources": [],
+    "should_not_contain": ["Paul Graham", "YC partner"]
+  },
+  {
+    "question": "Who won the football match?",
+    "expected_topics": ["out of scope"],
+    "expected_sources": [],
+    "should_not_contain": ["Paul Graham", "startup"]
+  },
+  {
+    "question": "How should I prepare for the YC interview?",
+    "expected_topics": ["clear", "metrics", "founders"],
+    "expected_sources": ["startup_school", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What does YC think about cofounders?",
+    "expected_topics": ["cofounders", "trust", "founders"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How can I improve startup retention?",
+    "expected_topics": ["retention", "users", "cohort"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Should founders learn to code?",
+    "expected_topics": ["build", "founders", "product"],
+    "expected_sources": ["pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I choose a startup market?",
+    "expected_topics": ["market", "users", "problem"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best AI YC companies?",
+    "expected_topics": ["AI", "companies", "startup"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should early founders spend their time?",
+    "expected_topics": ["focus", "priority", "users"],
+    "expected_sources": ["startup_school", "pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How important is founder-market fit?",
+    "expected_topics": ["founder", "domain", "market"],
+    "expected_sources": ["yc_blog", "pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do startups get their first 10 customers?",
+    "expected_topics": ["customers", "manual", "early"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What mistakes make YC reject startups?",
+    "expected_topics": ["clarity", "founders", "traction"],
+    "expected_sources": ["startup_school", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "When should I hire my first engineer?",
+    "expected_topics": ["hiring", "team", "product"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I validate startup demand?",
+    "expected_topics": ["users", "demand", "problem"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How to write a strong YC application answer?",
+    "expected_topics": ["clear", "specific", "apply"],
+    "expected_sources": ["yc_application", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best healthcare YC companies?",
+    "expected_topics": ["healthcare", "companies", "startup"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What should I track as startup KPIs?",
+    "expected_topics": ["metrics", "growth", "retention"],
+    "expected_sources": ["startup_school", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I avoid building the wrong product?",
+    "expected_topics": ["users", "feedback", "problem"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I think about startup distribution?",
+    "expected_topics": ["distribution", "growth", "customers"],
+    "expected_sources": ["yc_blog", "pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What is the best way to pitch investors?",
+    "expected_topics": ["pitch", "traction", "clear"],
+    "expected_sources": ["yc_blog", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I know if my startup should pivot or persist?",
+    "expected_topics": ["pivot", "users", "traction"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What are today stock market prices?",
+    "expected_topics": ["out of scope"],
+    "expected_sources": [],
+    "should_not_contain": ["Paul Graham", "YC partner"]
+  },
+  {
+    "question": "How should a solo founder approach YC?",
+    "expected_topics": ["founder", "team", "traction"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What should I include in the first 30 seconds of a startup pitch?",
+    "expected_topics": ["pitch", "clear", "problem"],
+    "expected_sources": ["startup_school", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do YC founders validate B2B demand before building?",
+    "expected_topics": ["users", "demand", "problem"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What is a good way to structure founder updates to investors?",
+    "expected_topics": ["investors", "metrics", "growth"],
+    "expected_sources": ["yc_blog", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I decide between B2B and B2C for my idea?",
+    "expected_topics": ["market", "customers", "product"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best developer tools YC companies?",
+    "expected_topics": ["software", "companies", "startup"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should founders split equity early on?",
+    "expected_topics": ["founders", "team", "trust"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How much traction should I have before a YC interview?",
+    "expected_topics": ["traction", "metrics", "growth"],
+    "expected_sources": ["startup_school", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What does YC advice say about founder focus and distractions?",
+    "expected_topics": ["focus", "priority", "users"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I write concise YC application answers?",
+    "expected_topics": ["clear", "specific", "apply"],
+    "expected_sources": ["yc_app_questions", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Which YC companies are strong in climate tech?",
+    "expected_topics": ["companies", "startup", "industry"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should startups set weekly goals in the earliest stage?",
+    "expected_topics": ["metrics", "focus", "growth"],
+    "expected_sources": ["startup_school", "pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "When should I stop adding features and focus on retention?",
+    "expected_topics": ["retention", "users", "product"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do YC partners evaluate founder velocity?",
+    "expected_topics": ["founders", "growth", "metrics"],
+    "expected_sources": ["yc_blog", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What are common mistakes in early startup hiring?",
+    "expected_topics": ["hiring", "team", "culture"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How can founders improve conversion from trial to paid?",
+    "expected_topics": ["customers", "retention", "revenue"],
+    "expected_sources": ["yc_blog", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best YC companies in cybersecurity?",
+    "expected_topics": ["companies", "software", "startup"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do founders avoid building for themselves only?",
+    "expected_topics": ["users", "feedback", "problem"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should I choose startup KPIs for pre-revenue stage?",
+    "expected_topics": ["metrics", "growth", "users"],
+    "expected_sources": ["startup_school", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What does YC recommend about sales in technical founder teams?",
+    "expected_topics": ["customers", "founders", "growth"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I improve onboarding for first-time users?",
+    "expected_topics": ["users", "retention", "product"],
+    "expected_sources": ["yc_blog", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What are good indicators to pivot versus persist?",
+    "expected_topics": ["pivot", "traction", "users"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should I explain market size in a YC application?",
+    "expected_topics": ["market", "clear", "apply"],
+    "expected_sources": ["yc_app_questions", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best YC companies in logistics?",
+    "expected_topics": ["companies", "startup", "industry"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do startups reach product market fit faster?",
+    "expected_topics": ["users", "retention", "growth"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should technical founders think about distribution?",
+    "expected_topics": ["distribution", "customers", "growth"],
+    "expected_sources": ["yc_blog", "pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What should I do in the first week after YC interview rejection?",
+    "expected_topics": ["rejection", "founders", "growth"],
+    "expected_sources": ["yc_blog", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I avoid vanity metrics in early-stage startups?",
+    "expected_topics": ["metrics", "traction", "growth"],
+    "expected_sources": ["startup_school", "pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best YC companies in edtech?",
+    "expected_topics": ["companies", "startup", "industry"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How can I write better one-line startup descriptions?",
+    "expected_topics": ["clear", "problem", "customers"],
+    "expected_sources": ["yc_app_questions", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What does YC say about launching before the product is perfect?",
+    "expected_topics": ["launch", "users", "product"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I decide what to build this week?",
+    "expected_topics": ["priority", "users", "product"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should founders communicate progress to YC partners?",
+    "expected_topics": ["metrics", "growth", "founders"],
+    "expected_sources": ["yc_blog", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best YC B2C companies?",
+    "expected_topics": ["companies", "consumer", "startup"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I run effective user interviews for my startup?",
+    "expected_topics": ["users", "feedback", "problem"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What should founders optimize for before fundraising?",
+    "expected_topics": ["investors", "traction", "revenue"],
+    "expected_sources": ["yc_blog", "pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do startups improve activation and retention together?",
+    "expected_topics": ["retention", "users", "growth"],
+    "expected_sources": ["yc_blog", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best YC companies in biotech?",
+    "expected_topics": ["companies", "startup", "industry"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I answer why now in a YC application?",
+    "expected_topics": ["clear", "market", "apply"],
+    "expected_sources": ["yc_app_questions", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should I benchmark early startup growth rates?",
+    "expected_topics": ["growth", "metrics", "users"],
+    "expected_sources": ["startup_school", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What are signs that my startup idea is too broad?",
+    "expected_topics": ["problem", "focus", "users"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I know if my pricing is too low?",
+    "expected_topics": ["pricing", "value", "revenue"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best YC companies in commerce?",
+    "expected_topics": ["companies", "startup", "industry"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should founders handle cofounder conflict early?",
+    "expected_topics": ["cofounders", "trust", "team"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How can I tighten my startup narrative for investors?",
+    "expected_topics": ["pitch", "clear", "traction"],
+    "expected_sources": ["yc_blog", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I prioritize between growth and reliability?",
+    "expected_topics": ["growth", "product", "users"],
+    "expected_sources": ["yc_blog", "pg_essay"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best YC companies in marketplaces?",
+    "expected_topics": ["companies", "startup", "industry"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should I answer what have you learned from users in YC apps?",
+    "expected_topics": ["users", "feedback", "apply"],
+    "expected_sources": ["yc_app_questions", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I set startup milestones for the next 3 months?",
+    "expected_topics": ["metrics", "growth", "focus"],
+    "expected_sources": ["startup_school", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What are practical ways to talk to unhappy users?",
+    "expected_topics": ["users", "feedback", "retention"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I decide if my startup should stay small or scale fast?",
+    "expected_topics": ["growth", "scale", "revenue"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Best YC companies in healthcare AI?",
+    "expected_topics": ["companies", "healthcare", "AI"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I explain competition in a YC application?",
+    "expected_topics": ["market", "clear", "apply"],
+    "expected_sources": ["yc_app_questions", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How should I avoid overbuilding before user demand?",
+    "expected_topics": ["users", "demand", "product"],
+    "expected_sources": ["pg_essay", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "What are key retention metrics for consumer apps?",
+    "expected_topics": ["retention", "metrics", "users"],
+    "expected_sources": ["yc_blog", "startup_school"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do founders improve speed of product iteration?",
+    "expected_topics": ["product", "growth", "users"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Which YC companies are known for strong distribution?",
+    "expected_topics": ["companies", "distribution", "growth"],
+    "expected_sources": ["company", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "How do I handle a shrinking startup runway?",
+    "expected_topics": ["revenue", "expenses", "survival"],
+    "expected_sources": ["pg_essay", "yc_blog"],
+    "should_not_contain": []
+  },
+  {
+    "question": "Summarize the latest Premier League table.",
+    "expected_topics": ["out of scope"],
+    "expected_sources": [],
+    "should_not_contain": ["startup", "Paul Graham"]
+  },
+  {
+    "question": "What are today's gold prices in India?",
+    "expected_topics": ["out of scope"],
+    "expected_sources": [],
+    "should_not_contain": ["YC partner", "startup"]
+  }
+]

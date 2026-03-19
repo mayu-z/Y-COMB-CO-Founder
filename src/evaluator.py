@@ -26,10 +26,10 @@ Usage (standalone test):
 import os
 import sys
 import re
-from groq import Groq
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 import chromadb
+from openai import OpenAI
 
 # ── Paths ──────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -43,7 +43,9 @@ load_dotenv(os.path.join(BASE_DIR, ".env"))
 VECTORSTORE_DIR = os.path.join(BASE_DIR, "data", "vectorstore")
 COLLECTION_NAME = "yc_knowledge"
 MODEL_NAME = "all-mpnet-base-v2"
-LLM_MODEL = "llama-3.3-70b-versatile"
+LLM_MODEL = os.getenv("KIMI_K2_MODEL", "moonshotai/kimi-k2-instruct")
+API_KEY = os.getenv("KIMI_K2_API_KEY", "").strip()
+BASE_URL = os.getenv("KIMI_K2_BASE_URL", "https://integrate.api.nvidia.com/v1").strip()
 MAX_TOKENS = 1500
 
 DISCLAIMER = (
@@ -114,16 +116,16 @@ class StartupEvaluator:
     """YC-style startup assessment engine."""
 
     def __init__(self):
-        api_key = os.getenv("GROQ_API_KEY")
-        if not api_key:
-            raise EnvironmentError(
-                "GROQ_API_KEY not found. Add it to .env in the project root."
-            )
-        self.client = Groq(api_key=api_key)
         self.model = SentenceTransformer(MODEL_NAME)
         self.chroma = chromadb.PersistentClient(path=VECTORSTORE_DIR)
         self.collection = self.chroma.get_collection(name=COLLECTION_NAME)
         self.retriever = Retriever()
+        if not API_KEY:
+            raise RuntimeError(
+                "Missing KIMI_K2_API_KEY in .env. "
+                "Set it before running generation."
+            )
+        self.client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 
     # ── METHOD 1: find_similar_companies ───────────────
 
@@ -252,14 +254,15 @@ class StartupEvaluator:
 
         response = self.client.chat.completions.create(
             model=LLM_MODEL,
-            max_tokens=MAX_TOKENS,
             messages=[
                 {"role": "system", "content": EVAL_SYSTEM_PROMPT},
                 {"role": "user", "content": user_message},
             ],
+            max_tokens=MAX_TOKENS,
+            temperature=0.2,
         )
 
-        assessment = response.choices[0].message.content
+        assessment = response.choices[0].message.content or ""
 
         sources = [
             {

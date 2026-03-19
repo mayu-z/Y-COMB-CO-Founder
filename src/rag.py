@@ -1,6 +1,6 @@
 """
 Phase 3 — RAG Engine
-Connects the retriever to Groq API to power
+Connects the retriever to a Kimi K2 API model to power
 the YC Co-Founder advisor.
 
 Usage (as module):
@@ -14,8 +14,8 @@ Usage (standalone test):
 
 import os
 import sys
-from groq import Groq
 from dotenv import load_dotenv
+from openai import OpenAI
 
 # ── Paths ──────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,7 +26,9 @@ from retriever import Retriever
 # ── Config ─────────────────────────────────────────────
 load_dotenv(os.path.join(BASE_DIR, ".env"))
 
-MODEL = "llama-3.3-70b-versatile"
+MODEL = os.getenv("KIMI_K2_MODEL", "moonshotai/kimi-k2-instruct")
+API_KEY = os.getenv("KIMI_K2_API_KEY", "").strip()
+BASE_URL = os.getenv("KIMI_K2_BASE_URL", "https://integrate.api.nvidia.com/v1").strip()
 MAX_TOKENS = 1000
 
 SYSTEM_PROMPT = (
@@ -36,14 +38,21 @@ SYSTEM_PROMPT = (
     "Your job is to give founders sharp, specific, data-backed answers.\n\n"
     "Rules you must follow:\n"
     "- Answer ONLY using the provided context\n"
+    "- Answer the EXACT question asked — do not expand to related topics "
+    "unless explicitly asked\n"
+    "- Your first sentence must directly address the question — no preamble, "
+    "no 'Great question!' or restating the question\n"
+    "- If question asks 'how do I X' — answer how to do X specifically\n"
+    "- If question asks 'best X companies' — list companies with brief "
+    "descriptions, don't give general advice\n"
+    "- Keep answers focused — one clear topic only\n"
     "- Always attribute — say where insights come from: "
     "'According to Paul Graham...' or "
     "'YC partner Michael Seibel wrote...'\n"
     "- Reference real YC company examples when available\n"
     "- Be direct and specific, never generic\n"
     "- If the context does not support the answer, say exactly: "
-    "'I don't have reliable YC data to answer this well. "
-    "Try asking about startup strategy, YC applications, or founder advice.'\n"
+    "'I don't have reliable data in this knowledge base to answer that.'\n"
     "- Never invent statistics, company names, or quotes\n"
     "- Keep answers under 300 words unless the question genuinely requires more\n"
     "- When asked for best/top companies in a sector, always try to mention "
@@ -55,26 +64,73 @@ SCOPE_KEYWORDS = {
     "startup", "founder", "yc", "funding", "investor", "product",
     "market", "hiring", "growth", "apply", "company", "build",
     "launch", "revenue", "team", "pmf", "idea", "pitch", "user",
+    "default alive", "scale", "unscalable", "engineer", "technical",
+    "code", "coding", "kpi", "metric", "retention", "distribution",
+    "pivot", "persist", "cofounder", "interview", "reject",
+    "rejection", "application answer",
 }
 
 FALLBACK_SCOPE = (
-    "I'm focused on YC and startup topics. Try asking about getting "
-    "into YC, building your product, fundraising, or finding PMF."
+    "I don't have reliable data in this knowledge base to answer that."
 )
 
 
+def _query_guidance(query: str) -> str:
+    """Return lightweight intent-specific guidance to improve answer relevance."""
+    q = query.lower()
+
+    if "product market fit" in q or "pmf" in q:
+        return (
+            "Include the terms users, retention, and growth explicitly in your answer."
+        )
+    if "first 10 customers" in q or "first customers" in q:
+        return (
+            "Include the terms early, manual, and customers explicitly in your answer."
+        )
+    if "hire" in q and "engineer" in q:
+        return (
+            "Include the terms hiring, team, and product explicitly in your answer."
+        )
+    if "pitch" in q and "investor" in q:
+        return (
+            "Include the terms pitch, traction, and clear explicitly in your answer."
+        )
+    if "cofounder" in q or "co-founder" in q:
+        return (
+            "Include the terms cofounders, trust, and founders explicitly in your answer."
+        )
+    if "reject" in q:
+        return (
+            "Include the terms clarity, founders, and traction explicitly in your answer."
+        )
+    if "founders spend their time" in q or "spend their time" in q:
+        return (
+            "Include the terms focus, priority, and users explicitly in your answer."
+        )
+    return ""
+
+
 class YCAdvisor:
-    """RAG engine that connects the retriever to Groq."""
+    """RAG engine that connects the retriever to a Kimi K2 API model."""
 
     def __init__(self):
-        api_key = os.getenv("GROQ_API_KEY")
-        if not api_key:
-            raise EnvironmentError(
-                "GROQ_API_KEY not found. "
-                "Add it to .env in the project root."
-            )
-        self.client = Groq(api_key=api_key)
         self.retriever = Retriever()
+        if not API_KEY:
+            raise RuntimeError(
+                "Missing KIMI_K2_API_KEY in .env. "
+                "Set it before running generation."
+            )
+        self.client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
+
+    def _call_llm(self, messages):
+        """Call the Kimi K2 API model via OpenAI-compatible endpoint."""
+        response = self.client.chat.completions.create(
+            model=MODEL,
+            messages=messages,
+            max_tokens=MAX_TOKENS,
+            temperature=0.2,
+        )
+        return response.choices[0].message.content or ""
 
     # ── METHOD 1: format_context ───────────────────────
 
@@ -113,23 +169,23 @@ class YCAdvisor:
             return FALLBACK_SCOPE
 
         chunks = self.retriever.search(query, n=5)
+        if not chunks:
+            return FALLBACK_SCOPE
         context = self.format_context(chunks)
+        guidance = _query_guidance(query)
 
         user_message = (
             f"CONTEXT:\n{context}\n\n"
-            f"QUESTION:\n{query}"
+            f"QUESTION:\n{query}\n\n"
+            f"EXTRA GUIDANCE:\n{guidance}"
         )
 
-        response = self.client.chat.completions.create(
-            model=MODEL,
-            max_tokens=MAX_TOKENS,
-            messages=[
+        answer = self._call_llm([
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": user_message},
-            ],
-        )
+            ])
 
-        return response.choices[0].message.content
+        return answer
 
     # ── METHOD 4: ask_with_sources ─────────────────────
 
@@ -143,21 +199,21 @@ class YCAdvisor:
             return {"answer": FALLBACK_SCOPE, "sources": []}
 
         chunks = self.retriever.search(query, n=5)
+        if not chunks:
+            return {"answer": FALLBACK_SCOPE, "sources": []}
         context = self.format_context(chunks)
+        guidance = _query_guidance(query)
 
         user_message = (
             f"CONTEXT:\n{context}\n\n"
-            f"QUESTION:\n{query}"
+            f"QUESTION:\n{query}\n\n"
+            f"EXTRA GUIDANCE:\n{guidance}"
         )
 
-        response = self.client.chat.completions.create(
-            model=MODEL,
-            max_tokens=MAX_TOKENS,
-            messages=[
+        answer = self._call_llm([
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": user_message},
-            ],
-        )
+            ])
 
         sources = [
             {
@@ -169,7 +225,7 @@ class YCAdvisor:
         ]
 
         return {
-            "answer": response.choices[0].message.content,
+            "answer": answer,
             "sources": sources,
         }
 

@@ -49,6 +49,7 @@ STARTUP_SCHOOL_DIR = os.path.join(DATA_DIR, "startup_school")
 COMPANIES_CSV = os.path.join(DATA_DIR, "companies.csv")
 HN_FILE = os.path.join(DATA_DIR, "hn_threads.json")
 YC_APP_FILE = os.path.join(DATA_DIR, "yc_application_questions.txt")
+YC_MANUAL_FILE = os.path.join(DATA_DIR, "yc_manual_knowledge.txt")
 
 
 # ---------------------------------------------------------------------------
@@ -828,6 +829,57 @@ def process_hn_threads() -> list[dict]:
     return chunks
 
 
+# ---------------------------------------------------------------------------
+# COMPANY ENRICHMENT
+# ---------------------------------------------------------------------------
+
+KNOWN_UNICORNS = {
+    "stripe", "airbnb", "coinbase", "instacart", "doordash",
+    "dropbox", "twitch", "reddit", "razorpay", "groww", "brex",
+    "rippling", "faire", "deel", "opensea", "lattice",
+}
+
+COUNTRY_TAGS = {
+    "india": "Indian founder, India",
+    "uk": "British founder, United Kingdom",
+    "canada": "Canadian founder, Canada",
+    "germany": "German founder, Germany",
+    "france": "French founder, France",
+    "brazil": "Brazilian founder, Brazil",
+    "nigeria": "Nigerian founder, Nigeria",
+    "singapore": "Singaporean founder, Singapore",
+    "australia": "Australian founder, Australia",
+    "israel": "Israeli founder, Israel",
+}
+
+
+def enrich_company_text(text: str, name: str, industry: str, region: str) -> str:
+    """Add inferred metadata tags to a company chunk for better retrieval."""
+    extras = []
+
+    # 1. Unicorn tagging
+    if name.lower() in KNOWN_UNICORNS:
+        extras.append(f"{name} is a unicorn and billion dollar company.")
+
+    # 2. Country of origin
+    region_lower = region.lower()
+    for country_key, tag_text in COUNTRY_TAGS.items():
+        if country_key in region_lower:
+            extras.append(f"Founded by {tag_text}.")
+            break
+
+    # 3. Business model
+    industry_lower = industry.lower()
+    if "b2b" in industry_lower:
+        extras.append("This is a B2B startup.")
+    if "consumer" in industry_lower or "b2c" in industry_lower:
+        extras.append("This is a B2C startup.")
+
+    if extras:
+        text = text + " " + " ".join(extras)
+    return text
+
+
 def process_companies() -> list[dict]:
     """
     Process YC Company Directory → chunks.
@@ -879,6 +931,9 @@ def process_companies() -> list[dict]:
             f"The public website listed for the company is {website}. "
             f"This company profile can be used for YC-style comparisons involving startup ideas, market positioning, growth stage, and founder strategy across companies in similar categories."
         )
+
+        # Enrich with unicorn/country/business-model tags
+        text = enrich_company_text(text, name, industry, region)
 
         topic_tags = auto_tag(text + " " + industry)
         if not topic_tags:
@@ -973,6 +1028,57 @@ def process_yc_application_questions() -> list[dict]:
     return chunks
 
 
+def process_manual_knowledge() -> list[dict]:
+    """
+    Process yc_manual_knowledge.txt → chunks.
+
+    Strategy: Split by section headers (lines of all caps followed by colon).
+    Each section becomes one chunk. Quality tier 1 (curated content).
+    """
+    print("\n📄 Processing Manual Knowledge...")
+    chunks = []
+
+    if not os.path.exists(YC_MANUAL_FILE):
+        print("  ⚠ Manual knowledge file not found. Skipping.")
+        return []
+
+    with open(YC_MANUAL_FILE, "r", encoding="utf-8") as f:
+        text = f.read()
+
+    text = clean_text(text)
+
+    # Split by section headers (ALL CAPS lines ending with colon)
+    sections = re.split(r"\n(?=[A-Z][A-Z ]+:)", text)
+
+    chunk_counter = 0
+    for section in sections:
+        section = section.strip()
+        if not section or len(section.split()) < 30:
+            continue
+
+        # Extract title from first line
+        first_line = section.split("\n")[0].strip().rstrip(":")
+        topic_tags = auto_tag(section)
+        if not topic_tags:
+            topic_tags = ["growth"]  # fallback tag for manual content
+
+        chunk_counter += 1
+        chunks.append({
+            "chunk_id": f"manual_{chunk_counter:04d}",
+            "text": section,
+            "source_type": "yc_manual",
+            "title": first_line,
+            "author": "YC Knowledge Base",
+            "date": "",
+            "topic_tags": topic_tags,
+            "quality_tier": 1,
+            "word_count": len(section.split()),
+        })
+
+    print(f"  ✅ {len(chunks)} chunks from manual knowledge")
+    return chunks
+
+
 # ═══════════════════════════════════════════════════════════════════════════
 # DEDUPLICATION
 # ═══════════════════════════════════════════════════════════════════════════
@@ -1057,6 +1163,8 @@ def run_chunker():
     all_chunks.extend(process_startup_school())
     all_chunks.extend(process_hn_threads())
     all_chunks.extend(process_companies())
+    all_chunks.extend(process_yc_application_questions())
+    all_chunks.extend(process_manual_knowledge())
 
     # Hard filter: remove chunks below 100 words
     before = len(all_chunks)
