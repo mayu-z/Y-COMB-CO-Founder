@@ -1,4 +1,4 @@
-# YC Co-Founder
+# YC-Co-Founder
 
 YC Co-Founder is a Retrieval-Augmented Generation (RAG) startup advisor built on Y Combinator knowledge.
 
@@ -213,7 +213,7 @@ Fix:
 ## Tech Stack
 
 - Python 3.12
-- Kimi K2 (OpenAI-compatible API)
+- Kimi K2 (OpenAI-compatible API from nvidia)
 - sentence-transformers (all-mpnet-base-v2)
 - ChromaDB
 - Streamlit
