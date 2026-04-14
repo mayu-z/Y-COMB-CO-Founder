@@ -26,6 +26,7 @@ Usage (standalone test):
 import os
 import sys
 import re
+from typing import Any
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 import chromadb
@@ -47,6 +48,7 @@ LLM_MODEL = os.getenv("KIMI_K2_MODEL", "moonshotai/kimi-k2-instruct")
 API_KEY = os.getenv("KIMI_K2_API_KEY", "").strip()
 BASE_URL = os.getenv("KIMI_K2_BASE_URL", "https://integrate.api.nvidia.com/v1").strip()
 MAX_TOKENS = 1500
+EXIT_COMMANDS = {"quit", "exit", "q"}
 
 DISCLAIMER = (
     "⚠️  This is based on patterns from public YC data. Real YC decisions "
@@ -82,7 +84,7 @@ EVAL_SYSTEM_PROMPT = (
 )
 
 
-def _parse_company_text(text):
+def _parse_company_text(text: str) -> dict[str, str]:
     """Extract structured fields from a company chunk's text."""
     info = {
         "name": "",
@@ -129,7 +131,7 @@ class StartupEvaluator:
 
     # ── METHOD 1: find_similar_companies ───────────────
 
-    def find_similar_companies(self, startup_description, n=5):
+    def find_similar_companies(self, startup_description: str, n: int = 5) -> list[dict[str, Any]]:
         """
         Embed the user's description and find the most similar
         YC companies in ChromaDB (source_type == 'company').
@@ -163,7 +165,7 @@ class StartupEvaluator:
 
     # ── METHOD 2: find_relevant_wisdom ─────────────────
 
-    def find_relevant_wisdom(self, industry, stage):
+    def find_relevant_wisdom(self, industry: str, stage: str) -> list[dict[str, Any]]:
         """
         Pull relevant PG essays / YC blog chunks for the
         user's industry and stage.
@@ -173,7 +175,12 @@ class StartupEvaluator:
 
     # ── METHOD 3: build_context ────────────────────────
 
-    def build_context(self, startup_info, companies, wisdom_chunks):
+    def build_context(
+        self,
+        startup_info: dict[str, Any],
+        companies: list[dict[str, Any]],
+        wisdom_chunks: list[dict[str, Any]],
+    ) -> str:
         """
         Assemble the full context block sent to the LLM.
         """
@@ -218,8 +225,15 @@ class StartupEvaluator:
 
     # ── METHOD 4: evaluate ─────────────────────────────
 
-    def evaluate(self, description, industry, target_customer,
-                 stage, team_size, team_background):
+    def evaluate(
+        self,
+        description: str,
+        industry: str,
+        target_customer: str,
+        stage: str,
+        team_size: int,
+        team_background: str,
+    ) -> dict[str, Any]:
         """
         Full YC-style assessment.  Returns a dict with:
           - assessment: the LLM's structured response
@@ -343,10 +357,16 @@ def run_tests():
     print(f"{'=' * 60}")
 
 
-if __name__ == "__main__":
-    import sys as _sys
+def _parse_team_size(raw_value: str) -> int:
+    """Parse user-entered team size and default to 1 for invalid input."""
+    try:
+        return int(raw_value)
+    except ValueError:
+        return 1
 
-    if len(_sys.argv) > 1 and _sys.argv[1] == "--test":
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "--test":
         run_tests()
     else:
         # Interactive mode
@@ -358,7 +378,7 @@ if __name__ == "__main__":
         while True:
             print("─" * 50)
             desc = input("Startup description (1 sentence): ").strip()
-            if desc.lower() in ["quit", "exit", "q"]:
+            if desc.lower() in EXIT_COMMANDS:
                 print("Good luck with your startup!")
                 break
             if not desc:
@@ -369,11 +389,7 @@ if __name__ == "__main__":
             stage = input("Stage (idea / prototype / live / revenue): ").strip()
             team_size = input("Team size: ").strip()
             background = input("Team background: ").strip()
-
-            try:
-                team_size = int(team_size)
-            except ValueError:
-                team_size = 1
+            team_size = _parse_team_size(team_size)
 
             print("\n⏳ Evaluating your startup...\n")
 
