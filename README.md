@@ -222,3 +222,5 @@ Fix:
 ## License
 
 Educational project using public YC-related data sources.
+
+clone it and try it.
