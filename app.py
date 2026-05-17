@@ -613,8 +613,8 @@ with tab_ask:
         query = st.session_state.ask_query
 
     if should_run:
-        st.session_state.ask_query = query.strip()
         clean_query = query.strip()
+        st.session_state.ask_query = ""
         with st.spinner("Searching YC knowledge base…"):
             try:
                 advisor = load_advisor()

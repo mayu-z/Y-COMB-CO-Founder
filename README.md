@@ -191,6 +191,19 @@ python -m pip install -r requirements.txt
 python src/benchmark.py --max-questions 100 --no-progress
 ```
 
+### Error code 410: model reached end of life
+
+Cause:
+- The configured `KIMI_K2_MODEL` no longer exists on the provider side.
+
+Fix:
+
+```env
+KIMI_K2_MODEL=<current-openai-compatible-model-name>
+```
+
+If you only want the UI to open for browsing and local inspection, you can still launch Streamlit, but any question or benchmark run that needs the model will fail until the model name is updated.
+
 ### streamlit run src/app.py fails
 
 Cause:
