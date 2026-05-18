@@ -30,6 +30,7 @@ MODEL = os.getenv("KIMI_K2_MODEL", "moonshotai/kimi-k2-instruct")
 API_KEY = os.getenv("KIMI_K2_API_KEY", "").strip()
 BASE_URL = os.getenv("KIMI_K2_BASE_URL", "https://integrate.api.nvidia.com/v1").strip()
 MAX_TOKENS = 1000
+REQUEST_TIMEOUT_SECONDS = 60.0
 
 SYSTEM_PROMPT = (
     "You are YC Co-Founder, an AI advisor built on real Y Combinator "
@@ -120,7 +121,11 @@ class YCAdvisor:
                 "Missing KIMI_K2_API_KEY in .env. "
                 "Set it before running generation."
             )
-        self.client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
+        self.client = OpenAI(
+            api_key=API_KEY,
+            base_url=BASE_URL,
+            timeout=REQUEST_TIMEOUT_SECONDS,
+        )
 
     def _call_llm(self, messages):
         """Call the Kimi K2 API model via OpenAI-compatible endpoint."""
@@ -129,6 +134,7 @@ class YCAdvisor:
             messages=messages,
             max_tokens=MAX_TOKENS,
             temperature=0.2,
+            timeout=REQUEST_TIMEOUT_SECONDS,
         )
         return response.choices[0].message.content or ""
 

@@ -48,6 +48,7 @@ LLM_MODEL = os.getenv("KIMI_K2_MODEL", "moonshotai/kimi-k2-instruct")
 API_KEY = os.getenv("KIMI_K2_API_KEY", "").strip()
 BASE_URL = os.getenv("KIMI_K2_BASE_URL", "https://integrate.api.nvidia.com/v1").strip()
 MAX_TOKENS = 1500
+REQUEST_TIMEOUT_SECONDS = 60.0
 EXIT_COMMANDS = {"quit", "exit", "q"}
 
 DISCLAIMER = (
@@ -127,7 +128,22 @@ class StartupEvaluator:
                 "Missing KIMI_K2_API_KEY in .env. "
                 "Set it before running generation."
             )
-        self.client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
+        self.client = OpenAI(
+            api_key=API_KEY,
+            base_url=BASE_URL,
+            timeout=REQUEST_TIMEOUT_SECONDS,
+        )
+
+    def _call_llm(self, messages):
+        """Call the configured LLM with a bounded timeout."""
+        response = self.client.chat.completions.create(
+            model=LLM_MODEL,
+            messages=messages,
+            max_tokens=MAX_TOKENS,
+            temperature=0.2,
+            timeout=REQUEST_TIMEOUT_SECONDS,
+        )
+        return response.choices[0].message.content or ""
 
     # ── METHOD 1: find_similar_companies ───────────────
 
@@ -266,17 +282,10 @@ class StartupEvaluator:
             f"of this startup."
         )
 
-        response = self.client.chat.completions.create(
-            model=LLM_MODEL,
-            messages=[
-                {"role": "system", "content": EVAL_SYSTEM_PROMPT},
-                {"role": "user", "content": user_message},
-            ],
-            max_tokens=MAX_TOKENS,
-            temperature=0.2,
-        )
-
-        assessment = response.choices[0].message.content or ""
+        assessment = self._call_llm([
+            {"role": "system", "content": EVAL_SYSTEM_PROMPT},
+            {"role": "user", "content": user_message},
+        ])
 
         sources = [
             {
