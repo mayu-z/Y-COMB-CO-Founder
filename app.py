@@ -8,10 +8,15 @@ import os
 import json
 import re
 import html
+from io import BytesIO
 
 sys.path.insert(0, "src")
 
 import streamlit as st
+from reportlab.lib import colors
+from reportlab.lib.pagesizes import letter
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 
 from benchmark import (
     QUESTIONS_PATH,
@@ -353,6 +358,171 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
+STARTUP_MEMORY_PATH = os.path.join("data", "startup_memory.json")
+
+
+def _load_startup_memory() -> dict | None:
+    if os.path.exists(STARTUP_MEMORY_PATH):
+        try:
+            with open(STARTUP_MEMORY_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except (OSError, json.JSONDecodeError):
+            return None
+    return None
+
+
+def _save_startup_memory(profile: dict) -> None:
+    os.makedirs(os.path.dirname(STARTUP_MEMORY_PATH), exist_ok=True)
+    with open(STARTUP_MEMORY_PATH, "w", encoding="utf-8") as f:
+        json.dump(profile, f, indent=2, ensure_ascii=False)
+
+
+def _clear_startup_memory() -> None:
+    if os.path.exists(STARTUP_MEMORY_PATH):
+        try:
+            os.remove(STARTUP_MEMORY_PATH)
+        except OSError:
+            pass
+    st.session_state.startup_profile = None
+
+
+def _market_size_score(market_size: str) -> int:
+    return {
+        "<$1B": 4,
+        "$1–10B": 7,
+        "$10B+": 10,
+        "Unknown": 5,
+    }.get(market_size, 5)
+
+
+def _traction_score(traction: str) -> int:
+    return {
+        "No users yet": 2,
+        "Waitlist": 5,
+        "Active users": 7,
+        "Revenue": 10,
+    }.get(traction, 5)
+
+
+def _problem_clarity_score(problem: str) -> int:
+    length = len(problem.strip())
+    if length >= 160:
+        return 9
+    if length >= 100:
+        return 8
+    if length >= 60:
+        return 6
+    if length >= 20:
+        return 4
+    return 2
+
+
+def _team_strength_score(team_size: int) -> int:
+    base = 5
+    if team_size > 1:
+        base += 2
+    return min(base, 10)
+
+
+def _timing_score(why_now: str) -> int:
+    base = 5
+    if len(why_now.strip()) > 100:
+        base += 1
+    return min(base, 10)
+
+
+def _build_pdf_report(
+    startup_profile: dict,
+    avg_similarity: float,
+    assessment: str,
+    similar_companies: list[dict],
+) -> bytes:
+    buffer = BytesIO()
+    doc = SimpleDocTemplate(buffer, pagesize=letter, title="YC Readiness Report")
+    styles = getSampleStyleSheet()
+    story = []
+
+    story.append(Paragraph("YC Readiness Report", styles["Title"]))
+    story.append(Spacer(1, 12))
+
+    summary_rows = [
+        ["One-liner", startup_profile.get("one_liner", "")],
+        ["Market size", startup_profile.get("market_size", "")],
+        ["Traction", startup_profile.get("traction", "")],
+        ["Team size", str(startup_profile.get("team_size", ""))],
+    ]
+    summary_table = Table(summary_rows, colWidths=[120, 380])
+    summary_table.setStyle(
+        TableStyle(
+            [
+                ("BACKGROUND", (0, 0), (-1, 0), colors.whitesmoke),
+                ("GRID", (0, 0), (-1, -1), 0.5, colors.grey),
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ]
+        )
+    )
+    story.append(Paragraph("Startup Profile Summary", styles["Heading2"]))
+    story.append(summary_table)
+    story.append(Spacer(1, 12))
+
+    yc_fit_score = int(avg_similarity * 100)
+    story.append(Paragraph(f"YC Fit Score: {yc_fit_score}%", styles["Heading2"]))
+    story.append(Spacer(1, 12))
+
+    scoring_rows = [
+        ["Dimension", "Score (out of 10)"],
+        ["Problem Clarity", str(_problem_clarity_score(startup_profile.get("problem", "")))],
+        ["Market Size", str(_market_size_score(startup_profile.get("market_size", "")))],
+        ["Traction", str(_traction_score(startup_profile.get("traction", "")))],
+        ["Team Strength", str(_team_strength_score(startup_profile.get("team_size", 1)))],
+        ["Timing", str(_timing_score(startup_profile.get("why_now", "")))],
+    ]
+    scoring_table = Table(scoring_rows, colWidths=[200, 200])
+    scoring_table.setStyle(
+        TableStyle(
+            [
+                ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
+                ("GRID", (0, 0), (-1, -1), 0.5, colors.grey),
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ]
+        )
+    )
+    story.append(Paragraph("Scoring", styles["Heading2"]))
+    story.append(scoring_table)
+    story.append(Spacer(1, 12))
+
+    story.append(Paragraph("Assessment", styles["Heading2"]))
+    story.append(Paragraph(assessment.replace("\n", "<br/>") or "", styles["BodyText"]))
+    story.append(Spacer(1, 12))
+
+    story.append(Paragraph("Similar YC Companies", styles["Heading2"]))
+    similar_rows = [["Name", "Batch", "Match%"]]
+    for comp in similar_companies:
+        sim = comp.get("similarity")
+        match = f"{int(sim * 100)}%" if sim is not None else ""
+        similar_rows.append([comp.get("name", ""), comp.get("batch", ""), match])
+    similar_table = Table(similar_rows, colWidths=[250, 120, 80])
+    similar_table.setStyle(
+        TableStyle(
+            [
+                ("BACKGROUND", (0, 0), (-1, 0), colors.lightgrey),
+                ("GRID", (0, 0), (-1, -1), 0.5, colors.grey),
+                ("VALIGN", (0, 0), (-1, -1), "TOP"),
+            ]
+        )
+    )
+    story.append(similar_table)
+    story.append(Spacer(1, 18))
+
+    story.append(Paragraph("Generated by YC Co-Founder — Educational Project", styles["Italic"]))
+
+    doc.build(story)
+    return buffer.getvalue()
+
+
+if "startup_profile" not in st.session_state:
+    st.session_state.startup_profile = _load_startup_memory()
+
 # ── Custom sidebar toggle button (JS-powered) ─────────
 import streamlit.components.v1 as components
 components.html(
@@ -519,6 +689,20 @@ with st.sidebar:
         """,
         unsafe_allow_html=True,
     )
+
+    startup_profile = st.session_state.get("startup_profile")
+    if startup_profile:
+        st.markdown("<br>", unsafe_allow_html=True)
+        st.markdown("<div class='section-card'>", unsafe_allow_html=True)
+        st.markdown("<div class='field-label'>Your Startup</div>", unsafe_allow_html=True)
+        st.markdown(
+            f"**{html.escape(startup_profile.get('one_liner', ''))}**  \n"
+            f"Traction: {html.escape(startup_profile.get('traction', ''))}",
+        )
+        st.markdown("</div>", unsafe_allow_html=True)
+
+        if st.button("Clear Memory", use_container_width=True):
+            _clear_startup_memory()
 
 
 # ── Tabs ───────────────────────────────────────────────
@@ -697,39 +881,96 @@ with tab_eval:
     left, right = st.columns([1, 1.4], gap="large")
 
     with left:
-        st.markdown("<div class='field-label'>Describe your startup in one sentence</div>", unsafe_allow_html=True)
-        desc = st.text_area(
-            "Describe your startup in one sentence",
-            height=80,
+        profile_defaults = st.session_state.startup_profile or {}
+
+        st.markdown("<div class='field-label'>Your startup in one sentence</div>", unsafe_allow_html=True)
+        one_liner = st.text_input(
+            "Your startup in one sentence",
+            value=profile_defaults.get("one_liner", ""),
             placeholder="AI tool that automates legal contract review for small law firms",
             label_visibility="collapsed",
         )
-        st.markdown("<div class='field-label'>Industry</div>", unsafe_allow_html=True)
-        industry = st.selectbox(
-            "Industry",
-            ["Fintech", "SaaS", "Healthcare", "EdTech", "Consumer",
-             "Crypto", "DevTools", "Marketplace", "AI/ML", "Other"],
+        st.markdown("<div class='field-label'>Problem you're solving</div>", unsafe_allow_html=True)
+        problem = st.text_area(
+            "Problem you're solving",
+            value=profile_defaults.get("problem", ""),
+            height=90,
             label_visibility="collapsed",
         )
-        st.markdown("<div class='field-label'>Target Customer</div>", unsafe_allow_html=True)
-        target = st.radio(
-            "Target Customer",
-            ["B2B", "B2C"],
-            horizontal=True,
+
+        market_size_options = ["<$1B", "$1–10B", "$10B+", "Unknown"]
+        market_size_value = profile_defaults.get("market_size", "Unknown")
+        market_size_index = market_size_options.index(market_size_value) if market_size_value in market_size_options else 3
+        st.markdown("<div class='field-label'>Market size</div>", unsafe_allow_html=True)
+        market_size = st.selectbox(
+            "Market size",
+            market_size_options,
+            index=market_size_index,
             label_visibility="collapsed",
         )
-        st.markdown("<div class='field-label'>Stage</div>", unsafe_allow_html=True)
-        stage = st.selectbox(
-            "Stage",
-            ["Idea", "Prototype", "Live", "Revenue"],
+
+        traction_options = ["No users yet", "Waitlist", "Active users", "Revenue"]
+        traction_value = profile_defaults.get("traction", "No users yet")
+        traction_index = traction_options.index(traction_value) if traction_value in traction_options else 0
+        st.markdown("<div class='field-label'>Traction</div>", unsafe_allow_html=True)
+        traction = st.radio(
+            "Traction",
+            traction_options,
+            index=traction_index,
             label_visibility="collapsed",
         )
+
         st.markdown("<div class='field-label'>Team Size</div>", unsafe_allow_html=True)
-        team_size = st.number_input("Team Size", min_value=1, max_value=10, value=2)
+        team_size = st.number_input(
+            "Team Size",
+            min_value=1,
+            max_value=10,
+            value=int(profile_defaults.get("team_size", 2) or 2),
+        )
+
         st.markdown("<div class='field-label'>Founder Background</div>", unsafe_allow_html=True)
         background = st.text_input(
             "Founder Background",
+            value=profile_defaults.get("background", ""),
             placeholder="Brief background — ex-Google, Stanford CS, domain expert etc.",
+            label_visibility="collapsed",
+        )
+
+        working_how_long_options = ["< 1 month", "1–6 months", "6–12 months", "1+ year"]
+        working_how_long_value = profile_defaults.get("working_how_long", "1–6 months")
+        working_how_long_index = working_how_long_options.index(working_how_long_value) if working_how_long_value in working_how_long_options else 1
+        st.markdown("<div class='field-label'>How long have you been working on this?</div>", unsafe_allow_html=True)
+        working_how_long = st.selectbox(
+            "How long have you been working on this?",
+            working_how_long_options,
+            index=working_how_long_index,
+            label_visibility="collapsed",
+        )
+
+        st.markdown("<div class='field-label'>Why is now the right time?</div>", unsafe_allow_html=True)
+        why_now = st.text_area(
+            "Why is now the right time?",
+            value=profile_defaults.get("why_now", ""),
+            height=90,
+            label_visibility="collapsed",
+        )
+
+        st.markdown("<div class='field-label'>What could kill this?</div>", unsafe_allow_html=True)
+        biggest_risk = st.text_area(
+            "What could kill this?",
+            value=profile_defaults.get("biggest_risk", ""),
+            height=90,
+            label_visibility="collapsed",
+        )
+
+        yc_batch_options = ["W25", "S25", "W26", "S26", "Not applying yet"]
+        yc_batch_value = profile_defaults.get("yc_batch", "Not applying yet")
+        yc_batch_index = yc_batch_options.index(yc_batch_value) if yc_batch_value in yc_batch_options else 4
+        st.markdown("<div class='field-label'>YC batch</div>", unsafe_allow_html=True)
+        yc_batch = st.selectbox(
+            "YC batch",
+            yc_batch_options,
+            index=yc_batch_index,
             label_visibility="collapsed",
         )
 
@@ -739,23 +980,40 @@ with tab_eval:
             use_container_width=True,
         )
 
+    startup_profile = {
+        "one_liner": one_liner,
+        "problem": problem,
+        "market_size": market_size,
+        "traction": traction,
+        "team_size": team_size,
+        "background": background,
+        "working_how_long": working_how_long,
+        "why_now": why_now,
+        "biggest_risk": biggest_risk,
+        "yc_batch": yc_batch,
+    }
+
     if eval_clicked:
-        if not desc.strip():
-            st.warning("Please describe your startup first.")
+        if not one_liner.strip() or not problem.strip():
+            st.warning("Please complete the one-liner and problem fields first.")
         else:
             with right:
                 with st.spinner("Analyzing against 1,494 YC companies…"):
                     try:
                         evaluator = load_evaluator()
+                        description_parts = [one_liner.strip(), problem.strip(), background.strip()]
+                        description = "\n".join([p for p in description_parts if p])
                         result = evaluator.evaluate(
-                            description=desc.strip(),
-                            industry=industry.lower(),
-                            target_customer=target,
-                            stage=stage.lower(),
+                            description=description,
+                            industry="other",
+                            target_customer="B2B",
+                            stage="idea",
                             team_size=team_size,
                             team_background=background or "not specified",
                         )
                         st.session_state.eval_result = result
+                        st.session_state.startup_profile = startup_profile
+                        _save_startup_memory(startup_profile)
                     except Exception as e:
                         st.error(f"Something went wrong: {e}")
                         st.session_state.eval_result = None
@@ -798,6 +1056,22 @@ with tab_eval:
 
             st.markdown("<br>", unsafe_allow_html=True)
             st.caption(result["disclaimer"])
+
+            profile_for_report = st.session_state.get("startup_profile") or {}
+            if profile_for_report:
+                pdf_bytes = _build_pdf_report(
+                    startup_profile=profile_for_report,
+                    avg_similarity=avg_similarity,
+                    assessment=result.get("assessment", ""),
+                    similar_companies=result.get("similar_companies", []),
+                )
+                st.download_button(
+                    "Download PDF Report",
+                    data=pdf_bytes,
+                    file_name="yc_readiness_report.pdf",
+                    mime="application/pdf",
+                    use_container_width=True,
+                )
 
 
 # ════════════════════════════════════════════════════════
