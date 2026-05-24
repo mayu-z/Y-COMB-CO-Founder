@@ -44,9 +44,10 @@ load_dotenv(os.path.join(BASE_DIR, ".env"))
 VECTORSTORE_DIR = os.path.join(BASE_DIR, "data", "vectorstore")
 COLLECTION_NAME = "yc_knowledge"
 MODEL_NAME = "all-mpnet-base-v2"
-LLM_MODEL = os.getenv("KIMI_K2_MODEL", "moonshotai/kimi-k2-instruct")
-API_KEY = os.getenv("KIMI_K2_API_KEY", "").strip()
-BASE_URL = os.getenv("KIMI_K2_BASE_URL", "https://integrate.api.nvidia.com/v1").strip()
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "").strip()
+LLM_MODEL = os.getenv("OPENROUTER_MODEL", "openrouter/auto").strip()
+BASE_URL = "https://openrouter.ai/api/v1"
+API_KEY = OPENROUTER_API_KEY
 MAX_TOKENS = 1500
 REQUEST_TIMEOUT_SECONDS = 60.0
 EXIT_COMMANDS = {"quit", "exit", "q"}
@@ -125,7 +126,7 @@ class StartupEvaluator:
         self.retriever = Retriever()
         if not API_KEY:
             raise RuntimeError(
-                "Missing KIMI_K2_API_KEY in .env. "
+                "Missing OPENROUTER_API_KEY in .env. "
                 "Set it before running generation."
             )
         self.client = OpenAI(

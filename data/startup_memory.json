@@ -1,0 +1,12 @@
+{
+  "one_liner": "AI tool that automates legal contract review for small law firms in under 5 minutes.",
+  "problem": "Small and mid-sized law firms spend hours manually reviewing contracts for risks, compliance issues, missing clauses, and negotiation points. Existing enterprise legal AI tools are expensive and too complex for smaller firms, causing lawyers to waste billable hours on repetitive work.",
+  "market_size": "Unknown",
+  "traction": "Revenue",
+  "team_size": 6,
+  "background": "BCA student with DevOps and AI experience, building automation tools and exploring legal AI workflows. Strong technical background in cloud, backend systems, and AI integration.",
+  "working_how_long": "1+ year",
+  "why_now": "Recent advances in LLMs and AI reasoning make accurate contract analysis affordable for smaller firms for the first time. Law firms are actively looking to reduce manual work and increase efficiency without hiring more associates.",
+  "biggest_risk": "Poor accuracy in legal analysis, regulatory concerns around AI-generated legal advice, and competition from larger legal-tech companies with deeper integrations and funding.",
+  "yc_batch": "Not applying yet"
+}
