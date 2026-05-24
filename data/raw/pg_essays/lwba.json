@@ -1,0 +1,13 @@
+{
+  "id": "lwba",
+  "source": "pg_essays",
+  "type": "essay",
+  "title": "Lisp for Web-Based Applications",
+  "url": "https://paulgraham.com/lwba.html",
+  "content": "After a link to\nBeating the Averages\nwas posted on slashdot, \nsome readers wanted to hear in more detail \nabout the specific technical advantages we got from using\nLisp in Viaweb.  For those who are interested,\nhere are some excerpts from a talk I gave in April 2001 at\nBBN Labs in Cambridge, MA.\nBBN Talk Excerpts (ASCII)",
+  "metadata": {
+    "priority": false,
+    "word_count": 58,
+    "scraped_at": "2026-05-24T11:30:33.557911"
+  }
+}

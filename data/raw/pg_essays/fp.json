@@ -1,0 +1,13 @@
+{
+  "id": "fp",
+  "source": "pg_essays",
+  "type": "essay",
+  "title": "Fashionable Problems",
+  "url": "https://paulgraham.com/fp.html",
+  "content": "December 2019\nI've seen the same pattern in many different fields: even though\nlots of people have worked hard in the field, only a small fraction\nof the space of possibilities has been explored, because they've\nall worked on similar things.\nEven the smartest, most imaginative people are surprisingly\nconservative when deciding what to work on. People who would never\ndream of being fashionable in any other way get sucked into working\non fashionable problems.\nIf you want to try working on unfashionable problems, one of the\nbest places to look is in fields that people think have already been\nfully explored: essays, Lisp, venture funding  you may notice a\npattern here. If you can find a new approach into a big but apparently\nplayed out field, the value of whatever you discover will be\nmultiplied\nby its enormous surface area.\nThe best protection against getting drawn into working on the same\nthings as everyone else may be to\ngenuinely \nlove\nwhat you're doing.\nThen you'll continue to work on it even if you make the same mistake\nas other people and think that it's too marginal to matter.\nJapanese Translation\nArabic Translation\nFrench Translation",
+  "metadata": {
+    "priority": false,
+    "word_count": 196,
+    "scraped_at": "2026-05-24T11:21:33.116644"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "altair",
+  "source": "pg_essays",
+  "type": "essay",
+  "title": "What Microsoft Is this the Altair Basic of?",
+  "url": "https://paulgraham.com/altair.html",
+  "content": "February 2015\nOne of the most valuable exercises you can try if you want to\nunderstand startups is to look at the most successful companies and\nexplain why they were not as lame as they seemed when they first\nlaunched.  Because they practically all seemed lame at first. Not\njust small, lame.  Not just the first step up a big mountain.  More\nlike the first step into a swamp.\nA Basic interpreter for the Altair?  How could that ever grow into\na giant company?  People sleeping on airbeds in strangers' apartments?\nA web site for college students to stalk one another?  A wimpy\nlittle single-board computer for hobbyists that used a TV as a\nmonitor?  A new search engine, when there were already about 10,\nand they were all trying to de-emphasize search?  These ideas didn't\njust seem small.  They seemed wrong.  They were the kind of ideas\nyou could not merely ignore, but ridicule.\nOften the founders themselves didn't know why their ideas were\npromising.  They were attracted to these ideas by instinct, because\nthey were\nliving in the future\nand\nthey sensed that something was missing.  But they could not have\nput into words exactly how their ugly ducklings were going to grow\ninto big, beautiful swans.\nMost people's first impulse when they hear about a lame-sounding\nnew startup idea is to make fun of it.  Even a lot of people who\nshould know better.\nWhen I encounter a startup with a lame-sounding idea, I ask \"What\nMicrosoft is this the Altair Basic of?\"  Now it's a puzzle, and the\nburden is on me to solve it.  Sometimes I can't think of an answer,\nespecially when the idea is a made-up one.  But it's remarkable how\noften there does turn out to be an answer.  Often it's one the\nfounders themselves hadn't seen yet.\nIntriguingly, there are sometimes multiple answers.  I talked to a\nstartup a few days ago that could grow into 3 distinct Microsofts.\nThey'd probably vary in size by orders of magnitude.  But you can\nnever predict how big a Microsoft is going to be, so in cases like\nthat I encourage founders to follow whichever path is most immediately\nexciting to them.  Their instincts got them this far. Why stop now?",
+  "metadata": {
+    "priority": false,
+    "word_count": 377,
+    "scraped_at": "2026-05-24T11:22:25.646815"
+  }
+}

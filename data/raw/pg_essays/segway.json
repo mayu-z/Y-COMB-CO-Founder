@@ -1,0 +1,13 @@
+{
+  "id": "segway",
+  "source": "pg_essays",
+  "type": "essay",
+  "title": "The Trouble with the Segway",
+  "url": "https://paulgraham.com/segway.html",
+  "content": "July 2009\nThe Segway hasn't delivered on its initial promise, to put it mildly.\nThere are several reasons why, but one is that people don't want\nto be seen riding them. Someone riding a Segway looks like a dork.\nMy friend Trevor Blackwell built\nhis own Segway\n, \nwhich we called\nthe Segwell. He also built a one-wheeled version,\nthe Eunicycle\n,\nwhich looks exactly like a regular unicycle till you realize the\nrider isn't pedaling.  He has ridden them both to downtown Mountain\nView to get coffee.  When he rides the Eunicycle, people smile at\nhim.  But when he rides the Segwell, they shout abuse from their\ncars: \"Too lazy to walk, ya fuckin homo?\"\nWhy do Segways provoke this reaction?  The reason you look like a\ndork riding a Segway is that you look\nsmug\n.  You don't seem to\nbe working hard enough.\nSomeone riding a motorcycle isn't working any harder. But because\nhe's sitting astride it, he seems to be making an effort.  When\nyou're riding a Segway you're just standing there.  And someone who's\nbeing whisked along while seeming to do no work — someone in a sedan\nchair, for example — can't help but look smug.\nTry this thought experiment and it becomes clear: imagine something\nthat worked like the Segway, but that you rode with one foot in\nfront of the other, like a skateboard.  That wouldn't seem nearly\nas uncool.\nSo there may be a way to capture more of the market Segway hoped\nto reach: make a version that doesn't look so easy for the rider.\nIt would also be helpful if the styling was in the tradition of\nskateboards or bicycles rather than medical devices.\nCuriously enough, what got Segway into this problem was that the\ncompany was itself a kind of Segway.  It was too easy for them;\nthey were too successful raising money.  If they'd had to grow the\ncompany gradually, by iterating through several versions they sold\nto real users, they'd have learned pretty quickly that people looked\nstupid riding them. Instead they had enough to work in secret.  They\nhad focus groups aplenty, I'm sure, but they didn't have the people\nyelling insults out of cars.  So they never realized they were\nzooming confidently down a blind alley.",
+  "metadata": {
+    "priority": false,
+    "word_count": 382,
+    "scraped_at": "2026-05-24T11:24:49.590012"
+  }
+}

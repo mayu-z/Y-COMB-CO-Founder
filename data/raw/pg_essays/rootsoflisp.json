@@ -1,0 +1,13 @@
+{
+  "id": "rootsoflisp",
+  "source": "pg_essays",
+  "type": "essay",
+  "title": "The Roots of Lisp",
+  "url": "https://paulgraham.com/rootsoflisp.html",
+  "content": "May 2001\n(I wrote this article to help myself understand exactly\nwhat McCarthy discovered.  You don't need to know this stuff\nto program in Lisp, but it should be helpful to \nanyone who wants to\nunderstand the essence of Lisp  both in the sense of its\norigins and its semantic core.  The fact that it has such a core\nis one of Lisp's distinguishing features, and the reason why,\nunlike other languages, Lisp has dialects.)\nIn 1960,\nJohn \nMcCarthy\npublished a remarkable paper in\nwhich he did for programming something like what Euclid did for\ngeometry. He showed how, given a handful of simple\noperators and a notation for functions, you can\nbuild a whole programming language.\nHe called this language Lisp, for \"List Processing,\"\nbecause one of his key ideas was to use a simple\ndata structure called a\nlist\nfor both\ncode and data.\nIt's worth understanding what McCarthy discovered, not\njust as a landmark in the history of computers, but as\na model for what programming is tending to become in\nour own time.  It seems to me that there have been\ntwo really clean, consistent models of programming so\nfar: the C model and the Lisp model.\nThese two seem points of high ground, with swampy lowlands\nbetween them.  As computers have grown more powerful,\nthe new languages being developed have been\nmoving\nsteadily\ntoward the Lisp model.  A popular recipe\nfor new programming languages in the past 20 years \nhas been to take the C model of computing and add to\nit, piecemeal, parts taken from the Lisp model,\nlike runtime typing and garbage collection.\nIn this article I'm going to try to explain in the\nsimplest possible terms what McCarthy discovered.\nThe point is not just to learn about an interesting\ntheoretical result someone figured out forty years ago,\nbut to show where languages are heading.\nThe unusual thing about Lisp  in fact, the defining\nquality of Lisp  is that it can be written in\nitself.  To understand what McCarthy meant by this,\nwe're going to retrace his steps, with his mathematical\nnotation translated into running Common Lisp code.\nComplete Article (Postscript)\nWhat Made Lisp Different\nThe Code\nChinese Translation\nJapanese Translation\nPortuguese Translation\nKorean Translation",
+  "metadata": {
+    "priority": false,
+    "word_count": 375,
+    "scraped_at": "2026-05-24T11:30:17.962200"
+  }
+}

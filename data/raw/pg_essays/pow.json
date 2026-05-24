@@ -1,0 +1,13 @@
+{
+  "id": "pow",
+  "source": "pg_essays",
+  "type": "essay",
+  "title": "Charisma / Power",
+  "url": "https://paulgraham.com/pow.html",
+  "content": "January 2017\nPeople who are powerful but uncharismatic will tend to be disliked.\nTheir power makes them a target for criticism that they don't have\nthe charisma to disarm. That was Hillary Clinton's problem. It also\ntends to be a problem for any CEO who is more of a builder than a\nschmoozer. And yet the builder-type CEO is (like Hillary) probably\nthe best person for the job.\nI don't think there is any solution to this problem. It's human\nnature. The best we can do is to recognize that it's happening, and\nto understand that being a magnet for criticism is sometimes a sign\nnot that someone is the wrong person for a job, but that they're\nthe right one.",
+  "metadata": {
+    "priority": false,
+    "word_count": 121,
+    "scraped_at": "2026-05-24T11:21:48.232037"
+  }
+}

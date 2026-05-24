@@ -1,0 +1,13 @@
+{
+  "id": "disc",
+  "source": "pg_essays",
+  "type": "essay",
+  "title": "The Risk of Discovery",
+  "url": "https://paulgraham.com/disc.html",
+  "content": "January 2017\nBecause biographies of famous scientists tend to \nedit out their mistakes, we underestimate the \ndegree of risk they were willing to take.\nAnd because anything a famous scientist did that\nwasn't a mistake has probably now become the\nconventional wisdom, those choices don't\nseem risky either.\nBiographies of Newton, for example, understandably focus\nmore on physics than alchemy or theology.\nThe impression we get is that his unerring judgment\nled him straight to truths no one else had noticed.\nHow to explain all the time he spent on alchemy\nand theology?  Well, smart people are often kind of\ncrazy.\nBut maybe there is a simpler explanation. Maybe\nthe smartness and the craziness were not as separate\nas we think. Physics seems to us a promising thing\nto work on, and alchemy and theology obvious wastes\nof time. But that's because we know how things\nturned out. In Newton's day the three problems \nseemed roughly equally promising. No one knew yet\nwhat the payoff would be for inventing what we\nnow call physics; if they had, more people would \nhave been working on it. And alchemy and theology\nwere still then in the category Marc Andreessen would \ndescribe as \"huge, if true.\"\nNewton made three bets. One of them worked. But \nthey were all risky.\nJapanese Translation",
+  "metadata": {
+    "priority": false,
+    "word_count": 218,
+    "scraped_at": "2026-05-24T11:21:51.395110"
+  }
+}

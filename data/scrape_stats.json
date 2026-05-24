@@ -1,0 +1,37 @@
+{
+  "run_at": "2026-05-24T11:31:37.056408",
+  "elapsed_seconds": 781.3,
+  "total_saved": 230,
+  "by_source": {
+    "youtube": {
+      "attempted": 62,
+      "saved": 0,
+      "skipped": 0,
+      "failed": 62
+    },
+    "yc_library": {
+      "attempted": 0,
+      "saved": 0,
+      "skipped": 0,
+      "failed": 0
+    },
+    "pg_essays": {
+      "attempted": 235,
+      "saved": 230,
+      "skipped": 3,
+      "failed": 2
+    },
+    "hn": {
+      "attempted": 0,
+      "saved": 0,
+      "skipped": 0,
+      "failed": 0
+    },
+    "founder_posts": {
+      "attempted": 3,
+      "saved": 0,
+      "skipped": 0,
+      "failed": 3
+    }
+  }
+}

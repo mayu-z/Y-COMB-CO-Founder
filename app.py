@@ -180,13 +180,38 @@ st.markdown(
         .stTextArea > div > div > textarea,
         .stSelectbox [data-baseweb="select"] > div,
         .stNumberInput input {
-            background: #ffffff;
+            background: #F5F0E8 !important;
             color: #000000 !important;
             -webkit-text-fill-color: #000000 !important;
             border: none !important;
             border-radius: 4px;
             outline: none !important;
             box-shadow: none !important;
+        }
+
+        .stSelectbox [data-baseweb="select"] > div,
+        .stSelectbox [data-baseweb="select"] input,
+        .stSelectbox [data-baseweb="select"] svg {
+            color: #1a1a1a !important;
+            fill: #1a1a1a !important;
+        }
+
+        div[data-baseweb="popover"],
+        div[data-baseweb="popover"] [role="listbox"],
+        div[data-baseweb="menu"],
+        div[data-baseweb="menu"] ul {
+            background: #F5F0E8 !important;
+        }
+
+        div[data-baseweb="popover"] [role="option"] {
+            background: #F5F0E8 !important;
+            color: #1a1a1a !important;
+        }
+
+        div[data-baseweb="popover"] [role="option"][aria-selected="true"],
+        div[data-baseweb="popover"] [role="option"]:hover {
+            background: #EDE8DC !important;
+            color: #1a1a1a !important;
         }
 
         .stTextInput > div > div > input::placeholder,

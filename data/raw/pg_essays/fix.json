@@ -1,0 +1,13 @@
+{
+  "id": "fix",
+  "source": "pg_essays",
+  "type": "essay",
+  "title": "What Languages Fix",
+  "url": "https://paulgraham.com/fix.html",
+  "content": "Kevin Kelleher suggested an interesting way to compare programming\nlanguages: to describe each in terms of the problem it\nfixes.  The surprising thing is how many, and how well, languages can be\ndescribed this way.\nAlgol:\nAssembly language is too low-level.\nPascal:\nAlgol doesn't have enough data types.\nModula:\nPascal is too wimpy for systems programming.\nSimula:\nAlgol isn't good enough at simulations.\nSmalltalk:\nNot everything in Simula is an object.\nFortran:\nAssembly language is too low-level.\nCobol:\nFortran is scary.\nPL/1:\nFortran doesn't have enough data types.\nAda:\nEvery existing language is missing something.\nBasic:\nFortran is scary.\nAPL:\nFortran isn't good enough at manipulating arrays.\nJ:\nAPL requires its own character set.\nC:\nAssembly language is too low-level.\nC++:\nC is too low-level.\nJava:\nC++ is a kludge.  And Microsoft is going to crush us.\nC#:\nJava is controlled by Sun.\nLisp:\nTuring Machines are an awkward way to describe computation.\nScheme:\nMacLisp is a kludge.\nT:\nScheme has no libraries.\nCommon Lisp:\nThere are too many dialects of Lisp.\nDylan:\nScheme has no libraries, and Lisp syntax is scary.\nPerl:\nShell scripts/awk/sed are not enough like programming languages.\nPython:\nPerl is a kludge.\nRuby:\nPerl is a kludge, and Lisp syntax is scary.\nProlog:\nProgramming is not enough like logic.\nJapanese Translation\nFrench Translation\nPortuguese Translation",
+  "metadata": {
+    "priority": false,
+    "word_count": 219,
+    "scraped_at": "2026-05-24T11:30:02.555616"
+  }
+}

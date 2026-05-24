@@ -1,0 +1,13 @@
+{
+  "id": "twitter",
+  "source": "pg_essays",
+  "type": "essay",
+  "title": "Why Twitter is a Big Deal",
+  "url": "https://paulgraham.com/twitter.html",
+  "content": "April 2009\nOm Malik\nis the most recent of many people\nto ask why Twitter is such a big deal.\nThe reason is that it's a new messaging \nprotocol, where you don't specify the recipients.\nNew protocols are rare.  Or more precisely, new\nprotocols that take off are.\nThere are only a handful of commonly used ones: TCP/IP \n(the Internet), SMTP (email), HTTP (the web), and so on.  So any\nnew protocol is a big deal.  But Twitter is a protocol owned\nby a private company.  That's even rarer.\nCuriously, the fact that the founders of Twitter \nhave been slow to monetize it may in the long run\nprove to be an advantage.  Because they haven't tried\nto control it too much, Twitter feels to everyone like\nprevious protocols.  One forgets it's owned by a\nprivate company.  That must have made it easier for\nTwitter to spread.",
+  "metadata": {
+    "priority": false,
+    "word_count": 147,
+    "scraped_at": "2026-05-24T11:25:02.129925"
+  }
+}
