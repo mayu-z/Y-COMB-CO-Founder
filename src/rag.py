@@ -15,7 +15,7 @@ Usage (standalone test):
 import os
 import sys
 from dotenv import load_dotenv
-from openai import OpenAI
+from groq import Groq
 
 # ── Paths ──────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -26,10 +26,12 @@ from retriever import Retriever
 # ── Config ─────────────────────────────────────────────
 load_dotenv(os.path.join(BASE_DIR, ".env"))
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "").strip()
-MODEL = os.getenv("OPENROUTER_MODEL", "openrouter/auto").strip()
-BASE_URL = "https://openrouter.ai/api/v1"
-API_KEY = OPENROUTER_API_KEY
+GROQ_API_KEYS = [
+    key.strip()
+    for key in os.getenv("GROQ_API_KEYS", "").split(",")
+    if key.strip()
+]
+GROQ_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant").strip()
 MAX_TOKENS = 1000
 REQUEST_TIMEOUT_SECONDS = 60.0
 
@@ -117,25 +119,27 @@ class YCAdvisor:
 
     def __init__(self):
         self.retriever = Retriever()
-        if not API_KEY:
+        if not GROQ_API_KEYS:
             raise RuntimeError(
-                "Missing OPENROUTER_API_KEY in .env. "
+                "Missing GROQ_API_KEYS in .env. "
                 "Set it before running generation."
             )
-        self.client = OpenAI(
-            api_key=API_KEY,
-            base_url=BASE_URL,
-            timeout=REQUEST_TIMEOUT_SECONDS,
-        )
+        self._groq_keys = GROQ_API_KEYS
+        self._groq_index = 0
+
+    def _next_key(self) -> str:
+        key = self._groq_keys[self._groq_index]
+        self._groq_index = (self._groq_index + 1) % len(self._groq_keys)
+        return key
 
     def _call_llm(self, messages):
         """Call the Kimi K2 API model via OpenAI-compatible endpoint."""
-        response = self.client.chat.completions.create(
-            model=MODEL,
+        client = Groq(api_key=self._next_key())
+        response = client.chat.completions.create(
+            model=GROQ_MODEL,
             messages=messages,
             max_tokens=MAX_TOKENS,
             temperature=0.2,
-            timeout=REQUEST_TIMEOUT_SECONDS,
         )
         return response.choices[0].message.content or ""
 

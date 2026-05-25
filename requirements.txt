@@ -8,3 +8,4 @@ opentelemetry-api>=1.28.0
 opentelemetry-sdk>=1.28.0
 opentelemetry-exporter-otlp>=1.28.0
 reportlab>=4.0.0
+groq>=0.10.0
