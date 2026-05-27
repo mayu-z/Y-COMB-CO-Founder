@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+.btn-yc {
+  background: #FF6600;
+  color: white;
+  border: none;
+  border-radius: 0;
+  padding: 12px 32px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-yc:hover {
+  background: #CC5200;
+}
+
+.btn-outline {
+  background: white;
+  color: #111;
+  border: 1px solid #111;
+  border-radius: 0;
+  padding: 12px 32px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.btn-outline:hover {
+  color: #FF6600;
+  border-color: #FF6600;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #FF6600;
+  box-shadow: 0 0 0 1px #FF6600;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.dot-1 {
+  animation: pulse-dot 1.2s ease-in-out infinite;
+}
+
+.dot-2 {
+  animation: pulse-dot 1.2s ease-in-out 0.2s infinite;
+}
+
+.dot-3 {
+  animation: pulse-dot 1.2s ease-in-out 0.4s infinite;
+}
+
+.marquee {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-track {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 24s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.table-row-alt:nth-child(even) {
+  background: #fafafa;
+}

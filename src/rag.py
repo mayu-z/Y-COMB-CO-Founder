@@ -12,7 +12,9 @@ Usage (standalone test):
     python src/rag.py
 """
 
+import json
 import os
+import re
 import sys
 from dotenv import load_dotenv
 from groq import Groq
@@ -20,6 +22,7 @@ from groq import Groq
 # ── Paths ──────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BASE_DIR, "src"))
+CHUNKS_PATH = os.path.join(BASE_DIR, "data", "processed", "chunks.json")
 
 from retriever import Retriever
 
@@ -119,6 +122,7 @@ class YCAdvisor:
 
     def __init__(self):
         self.retriever = Retriever()
+        self._companies_cache = None
         if not GROQ_API_KEYS:
             raise RuntimeError(
                 "Missing GROQ_API_KEYS in .env. "
@@ -142,6 +146,81 @@ class YCAdvisor:
             temperature=0.2,
         )
         return response.choices[0].message.content or ""
+
+    @staticmethod
+    def _parse_company_text(text: str) -> dict:
+        info = {
+            "batch": "",
+            "status": "",
+            "industry": "",
+            "description": "",
+        }
+
+        m = re.search(r"from batch (\S+)", text)
+        info["batch"] = m.group(1) if m else ""
+
+        m = re.search(r"currently marked as (\w+)", text)
+        info["status"] = m.group(1) if m else ""
+
+        m = re.search(r"operates in (.+?) and is associated", text)
+        info["industry"] = m.group(1) if m else ""
+
+        m = re.search(r"one-line company description is: (.+?)\.", text)
+        info["description"] = m.group(1) if m else ""
+
+        return info
+
+    def _load_companies(self):
+        if self._companies_cache is not None:
+            return self._companies_cache
+
+        with open(CHUNKS_PATH, "r", encoding="utf-8") as handle:
+            chunks = json.load(handle)
+
+        rows = []
+        for chunk in chunks:
+            if chunk.get("source_type") != "company":
+                continue
+            info = self._parse_company_text(chunk.get("text", ""))
+            tags = chunk.get("topic_tags", [])
+            if isinstance(tags, str):
+                tags = [t.strip() for t in tags.split(",") if t.strip()]
+
+            industry = info.get("industry", "")
+            industries = [i.strip() for i in industry.split(",") if i.strip()]
+
+            rows.append({
+                "name": chunk.get("title", ""),
+                "batch": info.get("batch", ""),
+                "status": info.get("status", ""),
+                "industry": industry,
+                "description": info.get("description", ""),
+                "industries": industries,
+                "tags": tags,
+            })
+
+        self._companies_cache = rows
+        return rows
+
+    def search_companies(self, search: str = "", batch: str = "", limit: int = 50):
+        companies = self._load_companies()
+        query = (search or "").strip().lower()
+        batch_filter = (batch or "").strip().lower()
+
+        filtered = []
+        for company in companies:
+            if batch_filter and company.get("batch", "").lower() != batch_filter:
+                continue
+            if query:
+                haystack = " ".join([
+                    company.get("name", ""),
+                    company.get("description", ""),
+                ]).lower()
+                if query not in haystack:
+                    continue
+            filtered.append(company)
+
+        return filtered[: max(1, int(limit))]
 
     # ── METHOD 1: format_context ───────────────────────
 
