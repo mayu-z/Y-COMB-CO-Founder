@@ -3,7 +3,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        yc: "#FF6600",
+        yc: "#FAF5F2",
         "yc-dark": "#CC5200",
       },
       fontFamily: {
