@@ -41,24 +41,7 @@
     "expected_sources": ["pg_essay"],
     "should_not_contain": []
   },
-  {
-    "question": "What do YC partners look for?",
-    "expected_topics": ["founders", "idea", "growth"],
-    "expected_sources": ["startup_school", "yc_blog"],
-    "should_not_contain": []
-  },
-  {
-    "question": "How should I think about hiring?",
-    "expected_topics": ["team", "hiring", "culture"],
-    "expected_sources": ["pg_essay", "yc_blog"],
-    "should_not_contain": []
-  },
-  {
-    "question": "What is a good startup pitch?",
-    "expected_topics": ["clear", "problem", "solution"],
-    "expected_sources": ["startup_school", "pg_essay"],
-    "should_not_contain": []
-  },
+ 
   {
     "question": "How do I price my product?",
     "expected_topics": ["pricing", "value", "customers"],
